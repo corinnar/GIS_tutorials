@@ -26,16 +26,13 @@ Res (English) <https://www.unep-wcmc.org/system/comfy/cms/files/files/000/001/85
 **To receive information on tutorial updates and other relevant content, please join our low-volume mailing list by adding your details in the form at this** 
 `link <https://url6.mailanyone.net/v1/?m=1hdXbX-0007O1-3y&i=57e1b682&c=fsah1NK92LejxpAuprsO026wykncIzIOfMU0oWU2AnSB6UGzi7x0x8K47KojYVSlM5FoVK0UEWEquNOsq4xDYltHfOTz-oKOiuqACV6kgstiQcAxQp0bydxwhfbrkK5yAuZQWr5aEEwwzO2V-QFa0s25yhwYao8Nu45uB4Gs7UugSq_l0pjQ9DfAEsMAe-NSE8fPxiupaJhqDZ3ALLeJkdeAifIVeMwKHDguGC8WrzpT5pA-uf-Aas8Q8Dw3kG9fjwuVCfcVVAqDCEZh-ToGchJtekkvXXSleZWuylqoov4atHg6836mEge2sLLODudCM_TtKSi7Un0F2Hirf-V3Ag>`__
 
-This article provides links to step-by-step tutorials for QGIS and
-ArcGIS, and an ArcGIS toolbox and manual.  Map-based resources and
-outputs produced by or with individual partner countries can be found on
-the \ `*Multiple Benefits Country Resources
-Hub* <http://bitly.com/mbs-redd>`__. 
+What does this repository contain?
+----------------------------------
+This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `*Multiple Benefits Country Resources Hub* <http://bitly.com/mbs-redd>`__. 
 
-Step-by-step tutorials: Using spatial information to support decisions
-on safeguards and multiple benefits for REDD+
 
-(1) *Open-source: QGIS *
+(1) **Open-source: QGIS**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open-source software is released under a license that allows software to
 be freely used, modified, and shared (http://opensource.org/licenses).
