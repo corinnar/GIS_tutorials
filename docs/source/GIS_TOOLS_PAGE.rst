@@ -1,10 +1,14 @@
-   |banner|
 ==============================================================================================================
 **MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**
 ==============================================================================================================
 
-.. include:: .special.rst
-This is :red:`red !` And :blue:`this part is blue`
+Before red.
+
+.. role:: rubric
+
+I like color :rubric:`rubric`.
+
+After red.
 
 Turquoise = link updated
 
