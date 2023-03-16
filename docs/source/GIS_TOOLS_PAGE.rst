@@ -212,6 +212,6 @@ multiple benefits of REDD+: A step by step guide.
 
 Contact: \ `*corinna.ravilious@unep-wcmc.org* <mailto:corinna.ravilious@unep-wcmc.org?cc=ccb>`__
 
-.. |image0| image:: media/banner.png
+.. |banner| image:: media/banner.png
    :width: 6.26806in
    :height: 3.16875in
