@@ -1,6 +1,6 @@
-=========================================================================================================
-MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS 
-=========================================================================================================
+=============================================================================================================
+**MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS** 
+=============================================================================================================
 Turquoise = link updated
 
 Yellow = not online/cant find online
