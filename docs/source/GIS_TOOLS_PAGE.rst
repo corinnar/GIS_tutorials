@@ -75,7 +75,7 @@ Open-source software is released under a license that allows software to be free
 The toolbox, and instruction manual accompanying the toolbox, provide illustrated workflows and guidance that links to the ArcGIS versions of the tutorials. The tutorials give more detailed technical instructions. These resources are aimed at enabling GIS users to undertake spatial analysis for REDD+ planning and to support the creation of maps and statistical outputs, assuming that the necessary software and data are available.
 
 | Download the latest version of the toolbox (for ArcMap version 10.5 and 10.6)
-| Download the toolbox instructions manual (Version  2: For ArcGIS 10.x) \ `<https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__) 
+| Download the toolbox instructions manual (Version  2: For ArcGIS 10.x) \ `<https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__
 
 (3) **Other open-source tools**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
