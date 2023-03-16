@@ -1,6 +1,16 @@
-====================================================================================================================
-:red:'**MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**'
-====================================================================================================================
+==============================================================================================================
+**MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**
+==============================================================================================================
+
+
+
+
+.. role:: raw-html(raw)
+   :format: html
+
+:raw-html:`<font color="blue">Blue word,</font>` And a word without color
+
+
 Turquoise = link updated
 
 Yellow = not online/cant find online
