@@ -1,3 +1,4 @@
+   |banner|
 ==============================================================================================================
 **MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**
 ==============================================================================================================
@@ -210,3 +211,7 @@ multiple benefits of REDD+: A step by step guide.
  
 
 Contact: \ `*corinna.ravilious@unep-wcmc.org* <mailto:corinna.ravilious@unep-wcmc.org?cc=ccb>`__
+
+.. |image0| image:: media/banner.png
+   :width: 6.26806in
+   :height: 3.16875in
