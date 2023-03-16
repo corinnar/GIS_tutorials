@@ -3,13 +3,7 @@
 ==============================================================================================================
 
 
-
-
-.. role:: raw-html(raw)
-   :format: html
-
-:raw-html:`<font color="blue">Blue word,</font>` And a word without color
-
+This is :red:`red !` And :blue:`this part is blue`
 
 Turquoise = link updated
 
