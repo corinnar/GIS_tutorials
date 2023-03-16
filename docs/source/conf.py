@@ -2,6 +2,9 @@
 
 # -- Project information
 
+
+rst_epilog = "\n.. include:: .special.rst\n"
+
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
