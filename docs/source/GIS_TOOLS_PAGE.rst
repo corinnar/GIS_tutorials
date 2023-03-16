@@ -80,9 +80,11 @@ The toolbox, and instruction manual accompanying the toolbox, provide illustrate
 (3) **Other open-source tools**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
-Contact: \ `corinna.ravilious@unep-wcmc.org <mailto:corinna.ravilious@unep-wcmc.org?cc=ccb>`__
+
 
 **Archived materials**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 | (Please note only latest version is maintained and archived versions are no longer supported and may differ in content and may not contain all the models for the most recent ArcGIS tutorials. Older versions of the toolbox and manual have now been archived and are not supported. They were originally developed through work funded by both the UN-REDD Programme and the German Environment Ministry (BMUB) through its Federal Agency for Nature Conservation (BfN). Subsequent editions of the toolbox and tutorials have been updated through working sessions held in various countries to aid the production of multiple benefits maps to inform REDD+ planning and safeguards policies using open source GIS software. Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13110&Itemid=53>`__ (for ArcMap version 10.0), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13111&Itemid=53>`__ (for ArcMap version 10.1), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=6434&Itemid=53>`__ (for ArcMap version 9.3.1) and archived \ `manual <https://www.unredd.net/component/docman/?task=doc_download&gid=6431&Itemid=53>`__ (Version 1): Identifying and mapping the biodiversity and ecosystem-based multiple benefits of REDD+: A step by step guide.
+
+Contact: \ `corinna.ravilious@unep-wcmc.org <mailto:corinna.ravilious@unep-wcmc.org?cc=NBS>`__
 
