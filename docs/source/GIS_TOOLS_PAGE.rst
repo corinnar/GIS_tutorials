@@ -38,13 +38,13 @@ Open-source software is released under a license that allows software to be free
 
 -  *Evaluating the importance of forests for soil stabilization and limiting soil erosion* (\ `English <https://www.un-redd.org/sites/default/files/2021-10/7_EvaluatingSoilErosionRiskUsingQGIS_v1_2_160707.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/7_EvaluatingSoilErosionRiskUsingQGIS_v1_2-FR_160705.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/7_SoilErosionRiskQGIS_v1_1_SPANISH160923a%20%28536954%29.pdf>`__, \ `Mongolian <https://www.un-redd.org/sites/default/files/2021-10/7_EvaluatingSoilErosionRiskUsingQGIS_150324%20mon%20%28832941%29.pdf>`__)
 
--  *How to produce a matrix style legend using both vectors and rasters* (\`English <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_v1_1_190206.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_v1_0-FR_160705.pdf>`__, \ `Mongolian <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_150324_mn_MB%20%28130209%29.pdf>`__). \ `*Supporting files* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
+-  *How to produce a matrix style legend using both vectors and rasters* (\ `English <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_v1_1_190206.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_v1_0-FR_160705.pdf>`__, \ `Mongolian <https://www.un-redd.org/sites/default/files/2021-10/9_MatrixStyleLegendProductionUsingQGIS_150324_mn_MB%20%28130209%29.pdf>`__, \ `*Supporting files* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
 
 -  *Adding below-ground biomass to a dataset of above-ground biomass and converting to carbon* (`English <https://www.un-redd.org/sites/default/files/2021-10/11_AddingBelowGroundBiomassToAboveGroundBiomassAndConvertingToCarbon_v1_0.pdf>`__)
 
--  *Understanding and comparing carbon datasets* (`English <https://www.un-redd.org/sites/default/files/2021-10/Comparing_carbon_datasets_Tutorial_190207.pdf>`__, \ `*French* <https://www.un-redd.org/sites/default/files/2021-10/Comparing_carbon_datasets_Tutorial_180109.pdf>`__)
+-  *Understanding and comparing carbon datasets* (`English <https://www.un-redd.org/sites/default/files/2021-10/Comparing_carbon_datasets_Tutorial_190207.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/Comparing_carbon_datasets_Tutorial_180109.pdf>`__)
 
--  *Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler* (`English <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_190207.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_180110%20%28481747%29.pdf>`__). Supporting files
+-  *Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler* (`English <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_190207.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_180110%20%28481747%29.pdf>`__. `*Supporting files* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
 
 -  *Mapping areas of importance for multiple benefits of REDD+ using QGIS 2.18*  (`English <https://www.un-redd.org/sites/default/files/2021-10/Combining_MB_Tutorial.pdf>`__)
 
@@ -56,7 +56,8 @@ Open-source software is released under a license that allows software to be free
 
  
 
-(2) *ArcGIS Desktop: ArcMap*
+(2) **ArcGIS Desktop: ArcMap**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  ArcGIS is familiar to many users, widely taught and preferred by some
 national GIS teams. See tutorials for ArcGIS and a customised ArcMap
