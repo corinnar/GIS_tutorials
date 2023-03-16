@@ -2,18 +2,6 @@
 **MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**
 ==============================================================================================================
 
-Before red.
-
-.. role:: rubric
-
-I like color :rubric:`rubric`.
-
-After red.
-
-Turquoise = link updated
-
-Yellow = not online/cant find online
-
 GIS training materials and tools have been developed for use in planning
 REDD+ activities that deliver multiple benefits. These resources are
 designed to assist technical staff to undertake spatial analysis to
