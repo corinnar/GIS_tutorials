@@ -19,15 +19,12 @@ result in non-carbon benefits:
 
 How to Present Complex Data on Maps and other Visuals for Effective
 Policy Communication: Using visual tools and spatial information to
-support decisions for REDD+ implementation. \ `*Low Res
-(English)* <https://www.un-redd.org/sites/default/files/2021-10/MappingGuidanceForEffectivePolicyCommunication_v1_lowres%20%28467713%29.pdf>`__  `*High
-Res
-(English)* <https://www.unep-wcmc.org/system/comfy/cms/files/files/000/001/858/original/MappingGuidanceForEffectivePolicyCommunication_v1_highres.pdf>`__
+support decisions for REDD+ implementation. \ `Low Res
+(English) <https://www.un-redd.org/sites/default/files/2021-10/MappingGuidanceForEffectivePolicyCommunication_v1_lowres%20%28467713%29.pdf>`__  `High
+Res (English) <https://www.unep-wcmc.org/system/comfy/cms/files/files/000/001/858/original/MappingGuidanceForEffectivePolicyCommunication_v1_highres.pdf>`__
 
-To receive information on tutorial updates and other relevant content,
-please join our low-volume mailing list by adding your details in the
-form at
-this \ `*link* <https://url6.mailanyone.net/v1/?m=1hdXbX-0007O1-3y&i=57e1b682&c=fsah1NK92LejxpAuprsO026wykncIzIOfMU0oWU2AnSB6UGzi7x0x8K47KojYVSlM5FoVK0UEWEquNOsq4xDYltHfOTz-oKOiuqACV6kgstiQcAxQp0bydxwhfbrkK5yAuZQWr5aEEwwzO2V-QFa0s25yhwYao8Nu45uB4Gs7UugSq_l0pjQ9DfAEsMAe-NSE8fPxiupaJhqDZ3ALLeJkdeAifIVeMwKHDguGC8WrzpT5pA-uf-Aas8Q8Dw3kG9fjwuVCfcVVAqDCEZh-ToGchJtekkvXXSleZWuylqoov4atHg6836mEge2sLLODudCM_TtKSi7Un0F2Hirf-V3Ag>`__
+**To receive information on tutorial updates and other relevant content, please join our low-volume mailing list by adding your details in the form at this** 
+`link <https://url6.mailanyone.net/v1/?m=1hdXbX-0007O1-3y&i=57e1b682&c=fsah1NK92LejxpAuprsO026wykncIzIOfMU0oWU2AnSB6UGzi7x0x8K47KojYVSlM5FoVK0UEWEquNOsq4xDYltHfOTz-oKOiuqACV6kgstiQcAxQp0bydxwhfbrkK5yAuZQWr5aEEwwzO2V-QFa0s25yhwYao8Nu45uB4Gs7UugSq_l0pjQ9DfAEsMAe-NSE8fPxiupaJhqDZ3ALLeJkdeAifIVeMwKHDguGC8WrzpT5pA-uf-Aas8Q8Dw3kG9fjwuVCfcVVAqDCEZh-ToGchJtekkvXXSleZWuylqoov4atHg6836mEge2sLLODudCM_TtKSi7Un0F2Hirf-V3Ag>`__
 
 This article provides links to step-by-step tutorials for QGIS and
 ArcGIS, and an ArcGIS toolbox and manual.  Map-based resources and
