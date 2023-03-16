@@ -59,98 +59,40 @@ Open-source software is released under a license that allows software to be free
 (2) **ArcGIS Desktop: ArcMap**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- ArcGIS is familiar to many users, widely taught and preferred by some
-national GIS teams. See tutorials for ArcGIS and a customised ArcMap
-toolbox, below.
+ ArcGIS is familiar to many users, widely taught and preferred by some national GIS teams. See tutorials for ArcGIS and a customised ArcMap toolbox, below.
 
--  Extracting and processing IUCN Red List species data using a vector
-       method
-       (`*English, * <https://www.un-redd.org/sites/default/files/2021-10/6_ExtractingAndProcessingIUCNRedListSpeciesDataUsingVectorsArcgis10_v1_1_160707%20%28275784%29.pdf>`__\ `*Spanish,* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/16008-guia-tutorial-v10-extraccion-y-procesamiento-de-datos-de-especies-amenzadas-de-la-lista-roja-iucn-utilizando-arcgis-100gis-tutorial-6-extracting-and-processing-iucn-red-list-using-arcgis-100/file.html>`__ `*Vietnamese* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15477-hng-dn-trich-dn-va-x-ly-danh-lc-cac-loai-trong-iucn-s-dng-phn-mm-arcgis-100-gis-tutorial-6-extracting-and-processing-iucn-red-list-using-arcgis-100/file.html>`__).
+-  Extracting and processing IUCN Red List species data using a vector method (`English, <https://www.un-redd.org/sites/default/files/2021-10/6_ExtractingAndProcessingIUCNRedListSpeciesDataUsingVectorsArcgis10_v1_1_160707%20%28275784%29.pdf>`__\ `Spanish, <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/16008-guia-tutorial-v10-extraccion-y-procesamiento-de-datos-de-especies-amenzadas-de-la-lista-roja-iucn-utilizando-arcgis-100gis-tutorial-6-extracting-and-processing-iucn-red-list-using-arcgis-100/file.html>`__ `Vietnamese <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15477-hng-dn-trich-dn-va-x-ly-danh-lc-cac-loai-trong-iucn-s-dng-phn-mm-arcgis-100-gis-tutorial-6-extracting-and-processing-iucn-red-list-using-arcgis-100/file.html>`__).
 
--  Extracting and processing IUCN Red List species data using a raster
-       method
-       (`*English* <https://www.un-redd.org/sites/default/files/2021-10/ExtractingAndProcessingIUCNSpeciesRastersArcgis10_v1_0_170306%20%28110345%29.pdf>`__, \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-10/ExtractingAndProcessingIUCNSpeciesRastersArcgis10v1_0_Spanish_170530.pdf>`__).
+-  Extracting and processing IUCN Red List species data using a raster method (`English <https://www.un-redd.org/sites/default/files/2021-10/ExtractingAndProcessingIUCNSpeciesRastersArcgis10_v1_0_170306%20%28110345%29.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/ExtractingAndProcessingIUCNSpeciesRastersArcgis10v1_0_Spanish_170530.pdf>`__).
 
--  Evaluating the importance of forests for soil stabilization and
-       limiting soil erosion
-       (`*English, * <https://www.un-redd.org/sites/default/files/2021-10/8_EvaluatingSoilErosionRiskUsingArcGIS_v1_0.pdf>`__\ `*Vietnamese* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15476-hng-dn-cac-bc-anh-gia-tac-ng-ca-rng-i-vi-vic-gi-tva-hn-ch-xoi-mon-mt-cach-tip-cn-nh-tinh-n-gin-bng-cong-c-customised-trong-arcgis-100-gis-tutorial-8-evaluating-the-importance-of-forests-for-soil-stabilization/file.html>`__).
+-  Evaluating the importance of forests for soil stabilization and limiting soil erosion (`English, <https://www.un-redd.org/sites/default/files/2021-10/8_EvaluatingSoilErosionRiskUsingArcGIS_v1_0.pdf>`__\ `Vietnamese <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15476-hng-dn-cac-bc-anh-gia-tac-ng-ca-rng-i-vi-vic-gi-tva-hn-ch-xoi-mon-mt-cach-tip-cn-nh-tinh-n-gin-bng-cong-c-customised-trong-arcgis-100-gis-tutorial-8-evaluating-the-importance-of-forests-for-soil-stabilization/file.html>`__).
 
--  How to produce a matrix style legend with raster data (`_*English, * <https://www.un-redd.org/sites/default/files/2021-10/2c_Matrix%20style%20map%20tutorial_ENG.pdf>`__, \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-10/10_MatrixStyleLegendProductionUsingArcGIS_v1_0_Spanish_format_170531.pdf>`__, \ `*Vietnamese* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15475-hng-dn-lam-th-nao-a-ra-c-ma-trn-vi-d-liu-raster-s-dng-trong-arcgis-10-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-10/file.html>`__).
+-  How to produce a matrix style legend with raster data (`_English, <https://www.un-redd.org/sites/default/files/2021-10/2c_Matrix%20style%20map%20tutorial_ENG.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/10_MatrixStyleLegendProductionUsingArcGIS_v1_0_Spanish_format_170531.pdf>`__, \ `Vietnamese <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15475-hng-dn-lam-th-nao-a-ra-c-ma-trn-vi-d-liu-raster-s-dng-trong-arcgis-10-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-10/file.html>`__).
 
--  Building spatial workflows to identify potential areas for
-       undertaking a REDD+ intervention using Model Builder
-       (`*English* <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS_190207.pdf>`__, \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS.pdf>`__). Supporting
-       files
+-  Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using Model Builder (`English <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS_190207.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS.pdf>`__), `Supporting files <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
 
- 
+Exploring Multiple Benefits: ArcGIS mapping toolbox for ArcMap 10.5 and 10.6. The latest version of the customised ArcGIS toolbox for ArcMap developed
+at UNEP-WCMC for REDD+ multiple benefits analyses (the UN-REDD Exploring Multiple Benefits Toolbox) is available for ArcMap 10.5 and 10.6. It provides both novice and experienced GIS users with a series of predominantly raster analysis tools to help identify, map and understand the spatial relationship between ecosystem carbon stocks, other ecosystem services, biodiversity, land-use and pressures on natural resources. The tools are flexible, with the datasets used and resolution of the analysis being defined by the user. In these latest versions of the toolbox  new tools focusing on water-related ecosystem services have been added.
 
-(3) *Other open-source tools*
+The toolbox, and instruction manual accompanying the toolbox, provide illustrated workflows and guidance that links to the ArcGIS versions of the tutorials. The tutorials give more detailed technical instructions. These resources are aimed at enabling GIS users to undertake spatial analysis for REDD+ planning and to support the creation of maps and statistical outputs, assuming that the necessary software and data are available.
 
--   Evaluating the importance of forests for water provision and
-       limiting soil erosion: A modelling approach using WaterWorld
-       (`*English* <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `*French* <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
+Older versions of the toolbox and manual have now been archived and are not supported. They were originally developed through work funded by both the UN-REDD Programme and the German Environment Ministry (BMUB) through its Federal Agency for Nature Conservation (BfN). Subsequent editions of the toolbox and tutorials have been updated through working sessions held in various countries to aid the production of multiple benefits maps to inform REDD+ planning and safeguards policies using open source GIS software.
 
- 
+| Download the latest version of the toolbox (for ArcMap version 10.5 and 10.6)
+| Download the toolbox instructions manual \ `<https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__ (Version  2: For ArcGIS 10.x)
 
-Exploring Multiple Benefits: ArcGIS mapping toolbox for ArcMap 10.5 and
-10.6
+| Download the latest version of the toolbox (for ArcMap version 10.5 and 10.6)
 
- 
+ ***Archived materials**: Please note only latest version is maintained and archived versions are no longer supported and may differ in content and may not contain all the models for the most recent ArcGIS tutorials.*
 
-The latest version of the customised ArcGIS toolbox for ArcMap developed
-at UNEP-WCMC for REDD+ multiple benefits analyses (the UN-REDD Exploring
-Multiple Benefits Toolbox) is available for ArcMap 10.5 and 10.6. . It
-provides both novice and experienced GIS users with a series
-of predominantly raster analysis tools to help identify, map and
-understand the spatial relationship between ecosystem carbon stocks,
-other ecosystem services, biodiversity, land-use and pressures on
-natural resources. The tools are flexible, with the datasets used and
-resolution of the analysis being defined by the user. In these latest
-versions of the toolbox  new tools focusing on water-related ecosystem
-services have been added.
+| Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13110&Itemid=53>`__ (for ArcMap version 10.0)
+| Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13111&Itemid=53>`__ (for ArcMap version 10.1)
 
-The toolbox, and instruction manual accompanying the toolbox, provide
-illustrated workflows and guidance that links to the ArcGIS versions of
-the tutorials. The tutorials give more detailed technical instructions.
-These resources are aimed at enabling GIS users to undertake spatial
-analysis for REDD+ planning and to support the creation of maps and
-statistical outputs, assuming that the necessary software and data are
-available.
-
-Older versions of the toolbox and manual have now been archived and are
-not supported. They were originally developed through work funded by
-both the UN-REDD Programme and the German Environment Ministry (BMUB)
-through its Federal Agency for Nature Conservation (BfN). Subsequent
-editions of the toolbox and tutorials have been updated through working
-sessions held in various countries to aid the production of multiple
-benefits maps to inform REDD+ planning and safeguards policies using
-open source GIS software.
-
-| Download the latest version of the toolbox (for ArcMap version 10.5
-  and 10.6)
-| Download the \ `toolbox\ * *\ instructions
-  manua\ *l * <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__\ (Version
-  2: For ArcGIS 10.x)
-
-Archived materials: \ *please note these versions are no longer
-supported and may not contain all the models for the most recent ArcGIS
-tutorials.*
-
-| Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13110&Itemid=53>`__ (for
-  ArcMap version 10.0)
-| Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13111&Itemid=53>`__ (for
-  ArcMap version 10.1)
-
-Download \ `*toolbox* <https://www.unredd.net/component/docman/?task=doc_download&gid=6434&Itemid=53>`__ (for
-ArcMap version 9.3.1) and
-archived \ `manual <https://www.unredd.net/component/docman/?task=doc_download&gid=6431&Itemid=53>`__ (Version
-1): Identifying and mapping the biodiversity and ecosystem-based
+| Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=6434&Itemid=53>`__ (for ArcMap version 9.3.1) and archived \ `manual <https://www.unredd.net/component/docman/?task=doc_download&gid=6431&Itemid=53>`__ (Version 1): Identifying and mapping the biodiversity and ecosystem-based
 multiple benefits of REDD+: A step by step guide.
 
- 
+(3) **Other open-source tools**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
+Contact: \ `corinna.ravilious@unep-wcmc.org <mailto:corinna.ravilious@unep-wcmc.org?cc=ccb>`__
 
-Contact: \ `*corinna.ravilious@unep-wcmc.org* <mailto:corinna.ravilious@unep-wcmc.org?cc=ccb>`__
-
-.. |banner| image:: media/banner.png
-   :width: 6.26806in
-   :height: 3.16875in
