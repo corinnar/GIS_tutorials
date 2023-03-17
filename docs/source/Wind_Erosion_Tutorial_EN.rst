@@ -63,8 +63,9 @@ and safeguards policies using open source GIS software.
 
 |image1|
 
-Introduction
 ============
+Introduction
+
 
 REDD+ has the potential to deliver multiple benefits beyond carbon. For
 example, it can promote biodiversity conservation and secure ecosystem
