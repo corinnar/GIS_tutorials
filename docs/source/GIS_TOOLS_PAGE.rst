@@ -19,7 +19,7 @@ What does this repository contain?
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-(1) **Open-source: QGIS tutorials**
+**Open-source: QGIS tutorials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open-source software is released under a license that allows software to be freely used, modified, and shared (http://opensource.org/licenses). Therefore, using open source software has great potential in building sustainable capacity and a critical mass of experts. Training materials to aid users of open-source GIS software have been produced under the UN-REDD Programme. Please check QGIS software version specified in tutorial before use:
@@ -59,7 +59,7 @@ Open-source software is released under a license that allows software to be free
  **PDF versions of these tutorials can be accessed here**
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-(2) **ArcGIS Desktop: ArcMap tutorials**
+**ArcGIS Desktop: ArcMap tutorials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  ArcGIS is familiar to many users, widely taught and preferred by some national GIS teams. See tutorials for ArcGIS and a customised ArcMap toolbox, below.
 
@@ -83,13 +83,13 @@ The toolbox, and instruction manual accompanying the toolbox, provide illustrate
  **PDF versions of these tutorials can be accessed here**
  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-(3) **Other open-source tool tutotials**
+**Other open-source tool tutotials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
  **PDF versions of these tutorials can be accessed here**
 
-
+......................................................................................................................................................................
 **Archived materials**
 ^^^^^^^^^^^^^^^^^^^^^^
 
