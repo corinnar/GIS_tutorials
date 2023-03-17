@@ -62,8 +62,9 @@ and safeguards policies using open source GIS software.
 
 |image1|
 
+----------------------------------
 Introduction
-~~~~~~~~~~~~
+----------------------------------
 
 REDD+ has the potential to deliver multiple benefits beyond carbon. For
 example, it can promote biodiversity conservation and secure ecosystem
@@ -115,8 +116,9 @@ risk mapping may be needed.
 The analysis runs entirely from QGIS version 2.18, R Software and R
 Studio, which needs to be installed in order to execute this analysis.
 
+----------------------------------
 Methodology
-~~~~~~~~~~~
+----------------------------------
 
 The first step will be to prepare, download and process all the
 necessary layers in order to have the required variables to estimate the
@@ -185,9 +187,9 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.1. Compute the monthly average wind speed layer (u)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Twelve layers, representing monthly average wind speed values for the
 area of interest, will be developed for the *“u”* component of the
@@ -571,8 +573,9 @@ below:
 
    |image44|
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.2 Extract Potential Evapotranspiration (*PETi*) data 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     To be able to make the calculation as per the initial formula for
     climate erosivity (see Page 2), we need monthly potential
@@ -613,6 +616,7 @@ below:
 
 |image49|
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.3 Extract monthly average precipitation (*Pi*) for your study area
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -641,8 +645,9 @@ below:
    your study area following the same steps described in the previous
    section.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.4 Use Raster Calculator to compute the climatic ‘C’ factor layer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Now that we have all the required variables, we can calculate the C
     factor as per the initial formula using Raster Calculator in QGIS:
@@ -684,8 +689,9 @@ below:
    expected to be the climatic tendency to produce conditions conducive
    to wind erosion.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.5 Re-classify the ‘C’ factor layer into classes for analysis 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Finally, we need to reclassify the C factor layer into classes, so
     as to be able to perform the final function which will produce a
