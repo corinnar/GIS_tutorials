@@ -201,8 +201,9 @@ be used in this tutorial to create average wind speed maps for each
 month of the year in the study area, by using geostatistical methods in
 QGIS and statistical analyses in RStudio.
 
-Steps to download the daily wind speed data 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Steps to download the daily wind speed data 
+
 
 1. Go to: https://www.climate.gov/maps-data, and then click on to
    ***Dataset Gallery*** on the top of the page\ ***.***
