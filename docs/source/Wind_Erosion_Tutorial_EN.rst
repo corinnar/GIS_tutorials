@@ -723,7 +723,7 @@ When done, save the file as C\_factor\_reclass\_rule.txt
    |image55|\ |image56|
 
 Create the soil wind erodibility (I’) layer
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Soil wind erodibility is directly related to the percentage of soil
 aggregates larger than 0.84 mm in diameter. Based on this indicator, the
