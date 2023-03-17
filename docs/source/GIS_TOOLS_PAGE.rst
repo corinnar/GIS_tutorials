@@ -12,12 +12,14 @@ How to Present Complex Data on Maps and other Visuals for Effective Policy Commu
 **To receive information on tutorial updates and other relevant content, please join our low-volume mailing list by adding your details in the form at this** 
 `link <https://url6.mailanyone.net/v1/?m=1hdXbX-0007O1-3y&i=57e1b682&c=fsah1NK92LejxpAuprsO026wykncIzIOfMU0oWU2AnSB6UGzi7x0x8K47KojYVSlM5FoVK0UEWEquNOsq4xDYltHfOTz-oKOiuqACV6kgstiQcAxQp0bydxwhfbrkK5yAuZQWr5aEEwwzO2V-QFa0s25yhwYao8Nu45uB4Gs7UugSq_l0pjQ9DfAEsMAe-NSE8fPxiupaJhqDZ3ALLeJkdeAifIVeMwKHDguGC8WrzpT5pA-uf-Aas8Q8Dw3kG9fjwuVCfcVVAqDCEZh-ToGchJtekkvXXSleZWuylqoov4atHg6836mEge2sLLODudCM_TtKSi7Un0F2Hirf-V3Ag>`__
 
-What does this repository contain?
 ----------------------------------
+What does this repository contain?
+
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (1) **Open-source: QGIS tutorials**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Open-source software is released under a license that allows software to be freely used, modified, and shared (http://opensource.org/licenses). Therefore, using open source software has great potential in building sustainable capacity and a critical mass of experts. Training materials to aid users of open-source GIS software have been produced under the UN-REDD Programme. Please check QGIS software version specified in tutorial before use:
 
@@ -55,8 +57,8 @@ Open-source software is released under a license that allows software to be free
 
  **PDF versions of these tutorials can be accessed here**
  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 (2) **ArcGIS Desktop: ArcMap tutorials**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  ArcGIS is familiar to many users, widely taught and preferred by some national GIS teams. See tutorials for ArcGIS and a customised ArcMap toolbox, below.
 
@@ -79,17 +81,19 @@ The toolbox, and instruction manual accompanying the toolbox, provide illustrate
 
  **PDF versions of these tutorials can be accessed here**
  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 (3) **Other open-source tool tutotials**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
  **PDF versions of these tutorials can be accessed here**
- 
+
+~~~~~~~~~~~~~~~~~~~~~~
 **Archived materials**
-~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Please note only latest version is maintained**. Archived versions are no longer supported and may differ in content and may not contain all the models for the most recent ArcGIS tutorials. Older versions of the toolbox and manual have now been archived and are not supported. They were originally developed through work funded by both the UN-REDD Programme and the German Environment Ministry (BMUB) through its Federal Agency for Nature Conservation (BfN). Subsequent editions of the toolbox and tutorials have been updated through working sessions held in various countries to aid the production of multiple benefits maps to inform REDD+ planning and safeguards policies using open source GIS software. Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13110&Itemid=53>`__ (for ArcMap version 10.0), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13111&Itemid=53>`__ (for ArcMap version 10.1), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=6434&Itemid=53>`__ (for ArcMap version 9.3.1) and archived \ `manual <https://www.unredd.net/component/docman/?task=doc_download&gid=6431&Itemid=53>`__ (Version 1): Identifying and mapping the biodiversity and ecosystem-based multiple benefits of REDD+: A step by step guide.
 
+~~~~~~~~~~~
 **Contact**
-~~~~~~~~~~~~~~~~~~~~~~~~
-For further information please contact:  `corinna.ravilious@unep-wcmc.org <mailto:corinna.ravilious@unep-wcmc.org?cc=NBS>`__
 
+For further information please contact:  `corinna.ravilious@unep-wcmc.org <mailto:corinna.ravilious@unep-wcmc.org?cc=NBS>`__
