@@ -14,7 +14,7 @@ How to Present Complex Data on Maps and other Visuals for Effective Policy Commu
 
 ----------------------------------
 What does this repository contain?
-----------------------------------
+
 
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
