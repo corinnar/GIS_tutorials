@@ -1,6 +1,6 @@
-==============================================================================================================
+=======================================================================================
 Assessing the relative importance of forests for wind erosion control using QGIS V 2.18
-==============================================================================================================
+=======================================================================================
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -62,9 +62,9 @@ and safeguards policies using open source GIS software.
 
 |image1|
 
-----------------------------------
-Introduction
-----------------------------------
+----------------
+**Introduction**
+----------------
 
 REDD+ has the potential to deliver multiple benefits beyond carbon. For
 example, it can promote biodiversity conservation and secure ecosystem
@@ -116,9 +116,9 @@ risk mapping may be needed.
 The analysis runs entirely from QGIS version 2.18, R Software and R
 Studio, which needs to be installed in order to execute this analysis.
 
-----------------------------------
-Methodology
-----------------------------------
+---------------
+**Methodology**
+---------------
 
 The first step will be to prepare, download and process all the
 necessary layers in order to have the required variables to estimate the
@@ -202,7 +202,7 @@ month of the year in the study area, by using geostatistical methods in
 QGIS and statistical analyses in RStudio.
 
 
-#**Steps to download the daily wind speed data**
+**Steps to download the daily wind speed data**
 
 1. Go to: https://www.climate.gov/maps-data, and then click on to
    ***Dataset Gallery*** on the top of the page\ ***.***
@@ -259,8 +259,7 @@ In the following window, click on ***“Agree”***.
 
 |image9|
 
-Steps to compute historical monthly wind speed averages from the daily wind speed data
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Steps to compute historical monthly wind speed averages from the daily wind speed data**
 
 Now that we have downloaded all the required data, we need to compute
 historical monthly wind speed averages from it. We will use R Software
@@ -362,8 +361,8 @@ DAY:
     We can now compute mean monthly wind speed values for each of the
     stations of the dataset.
 
-Steps to compute mean monthly wind speed values
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Steps to compute mean monthly wind speed values**
+
 
 1. We will carry out this operation using a **dplyr** package, which is
    not included in the core R software. To install and load the
@@ -412,8 +411,7 @@ computer.
 
 |image28|
 
-Add the geographical coordinates of the weather stations into the dataset
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Add the geographical coordinates of the weather stations into the dataset**
 
 We now have the average wind speed values we were looking for, but
 before exporting the dataset we need to add further information in order
@@ -478,8 +476,7 @@ Finally, export the datasets created through the following commands:
 
 |image35|
 
-Develop continuous mean monthly wind speed surfaces for the study area 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Develop continuous mean monthly wind speed surfaces for the study area** 
 
 To develop a final climate layer covering the whole area of interest, is
 now necessary to estimate the average wind speed for the zones where
@@ -573,9 +570,9 @@ below:
 
    |image44|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 3.1.2 Extract Potential Evapotranspiration (*PETi*) data 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     To be able to make the calculation as per the initial formula for
     climate erosivity (see Page 2), we need monthly potential
@@ -733,8 +730,7 @@ When done, save the file as C\_factor\_reclass\_rule.txt
 
    |image55|\ |image56|
 
-Create the soil wind erodibility (I’) layer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Create the soil wind erodibility (I) layer**
 
 Soil wind erodibility is directly related to the percentage of soil
 aggregates larger than 0.84 mm in diameter. Based on this indicator, the
@@ -1011,8 +1007,7 @@ shown in the image below.
     Note, in this analysis, there are only 6 classes because those are
     the soil types present in our study area, Paraguay.
 
-Create the Topography (K’) layer
---------------------------------
+**Create the Topography (K) layer**
 
 The more “rough” the surface is, the lower is the wind speed, hence the
 wind erodibility will decrease. To estimate surface roughness, a DEM
@@ -1095,8 +1090,7 @@ You will obtain something similar to the image below:
 
 |image84|
 
-Combine layers to produce wind erosion sensitivity map
-------------------------------------------------------
+**Combine layers to produce wind erosion sensitivity map**
 
 Now that we have all the layers we can perform the final analysis as per
 the original formula. We will sum the C’ (climate), I’ (soil
@@ -1113,8 +1107,7 @@ The final map should look similar to the one below.
 
 |image86|
 
-Mask the wind erosion sensitivity map using the forest cover layer
-------------------------------------------------------------------
+**Mask the wind erosion sensitivity map using the forest cover layer**
 
 The forest cover layer will now be used to mask the previously created
 wind erosion sensitivity map to understand where the forests play an
@@ -1145,8 +1138,7 @@ erosion sensitivity map to only show areas with forest cover.
 
 |image89|
 
-==========
-REFERENCES
+**REFERENCES**
 
 Fryear, D. W. (1998). Mechanics, measurement and modelling wind erosion.
 Advances in Geoecology 31: 291-300.
