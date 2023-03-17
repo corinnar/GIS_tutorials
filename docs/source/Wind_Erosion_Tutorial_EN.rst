@@ -1,12 +1,12 @@
-.. contents:: Table of Contents
-   :depth: 1
-   :local:
-   :backlinks: none
-
 ===========================================================================================
 **Assessing the relative importance of forests for wind erosion control using QGIS V 2.18**
 ===========================================================================================
  
+ .. contents:: Table of Contents
+   :depth: 2
+   :local:
+   :backlinks: none
+  
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
 developing countries. The Programme was launched in September 2008 to
