@@ -1,6 +1,6 @@
-***************************************************************************************
+==============================================================================================================
 Assessing the relative importance of forests for wind erosion control using QGIS V 2.18
-***************************************************************************************
+==============================================================================================================
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -62,9 +62,9 @@ and safeguards policies using open source GIS software.
 
 |image1|
 
-------------
+----------------
 Introduction
-------------
+
 
 REDD+ has the potential to deliver multiple benefits beyond carbon. For
 example, it can promote biodiversity conservation and secure ecosystem
