@@ -53,7 +53,8 @@ Open-source software is released under a license that allows software to be free
 
 -  *Processing and visualising fire data to identify potential pressures from fires on forest using QGIS 2.18* (`English  <https://www.un-redd.org/sites/default/files/2021-10/FireTutorial.pdf>`__)
 
- 
+ **PDF versions of these tutorials can be accessed here**
+ 
 (2) **ArcGIS Desktop: ArcMap tutorials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -76,11 +77,14 @@ The toolbox, and instruction manual accompanying the toolbox, provide illustrate
 | Download the latest version of the toolbox (for ArcMap version 10.5 and 10.6)
 | Download the toolbox instructions manual (`(Version  2: For ArcGIS 10.x <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__)
 
+ **PDF versions of these tutorials can be accessed here**
+ 
 (3) **Other open-source tool tutotials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
-
+ **PDF versions of these tutorials can be accessed here**
+ 
 **Archived materials**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 **Please note only latest version is maintained**. Archived versions are no longer supported and may differ in content and may not contain all the models for the most recent ArcGIS tutorials. Older versions of the toolbox and manual have now been archived and are not supported. They were originally developed through work funded by both the UN-REDD Programme and the German Environment Ministry (BMUB) through its Federal Agency for Nature Conservation (BfN). Subsequent editions of the toolbox and tutorials have been updated through working sessions held in various countries to aid the production of multiple benefits maps to inform REDD+ planning and safeguards policies using open source GIS software. Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13110&Itemid=53>`__ (for ArcMap version 10.0), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=13111&Itemid=53>`__ (for ArcMap version 10.1), Download \ `toolbox <https://www.unredd.net/component/docman/?task=doc_download&gid=6434&Itemid=53>`__ (for ArcMap version 9.3.1) and archived \ `manual <https://www.unredd.net/component/docman/?task=doc_download&gid=6431&Itemid=53>`__ (Version 1): Identifying and mapping the biodiversity and ecosystem-based multiple benefits of REDD+: A step by step guide.
