@@ -673,3 +673,193 @@ below:
 (("ws\_12@1"^3) \* (( "pet\_12@1" - "prec\_12@1") / "pet\_12@1")\*31)) /
 100
 
+
+1. |image52|\ The resulting map will look similar to the one shown on
+   the side. The higher the value is (in dark orange), the higher is
+   expected to be the climatic tendency to produce conditions conducive
+   to wind erosion.
+
+3.1.5 Re-classify the ‘C’ factor layer into classes for analysis 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Finally, we need to reclassify the C factor layer into classes, so
+    as to be able to perform the final function which will produce a
+    layer with different classes of wind erosion sensitivity.
+
+First, we will compute the interval classes that will be utilised to
+reclassify the C factor layer:
+
+1. In the processing toolbox, open the **r.quantile** tool. This tool
+   computes quantiles (intervals that contains equal number of features)
+   in a dataset. In **Input raster layer** select the recently created
+   C\_factor layer. In **Number of quantiles**, enter “7”. Thick on
+   Generate recode values based on quantile-defined intervals. Finally
+   in **Quantiles (raw output)** specify the path where to save the
+   output file.
+
+   |image53|
+
+2. There are various reclassification tools in QGIS. We will use the
+   **r.reclass** tool, which requires a text file (.txt) where the user
+   defines the rules for reclassification. To prepare the
+   reclassification rule text file, open the text file created in the
+   previous step and use the intervals to specify the classes, as shown
+   in the image below:
+
+|image54|
+
+    \* Always ensure to reclassify values in ascending rank, the
+    interval containing the highest values is reclassified to “7”, the
+    second one to “6”, and so on.
+
+When done, save the file as C\_factor\_reclass\_rule.txt
+
+1. Now open the **r.reclass** tool. In **Input Raster** window, enter
+   the C\_factor raster file and in **File containing reclass rules**,
+   select the reclass rule text file created in the previous step
+   (C\_factor\_reclass\_rule.txt). Click **Run**. The output file would
+   be similar to the one below.
+
+   |image55|\ |image56|
+
+Create the soil wind erodibility (I’) layer
+-------------------------------------------
+
+Soil wind erodibility is directly related to the percentage of soil
+aggregates larger than 0.84 mm in diameter. Based on this indicator, the
+US Department of Agriculture (USDA), classified the soils into 7 soil
+wind erodibility classes, based on soil texture and soil carbonate
+content (CaCO:sub:`3`). The classification goes from 1 (highly
+susceptible to wind erosion) to 7 (no susceptible to wind erosion).
+
+|image57|
+
+In order to create the soil wind erodibility layer, you would need a
+soil map for the study area with information on soil texture and
+carbonate content. This part of the tutorial will show you how to obtain
+this data from the Harmonized World Soil Database (HWSDA). The HWSD is a
+30 arc-second raster database that combines existing regional and
+national updates of soil information worldwide.
+
+1. Go to
+   http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/index.html?sb=1
+   and click on Download Data only.
+
+|image58|
+
+1. The HWSD includes a raster image file and a linked attribute
+   database. In the next window, download the HWSD\_RASTER.zip and the
+   HWSD.mbd files.
+
+2. We now need to query the HWSD.mbd database in Microsoft Access to
+   obtain the Soil texture values that will allow to determine to which
+   Wind Erodibility Group they pertain. To do that, open the HWSD.mb in
+   Microsoft Access.
+
+3. Then, go to the tab **CREATE** and click on **QUERY DESIGN**
+
+   |image59|
+
+4. A new screen will automatically appear, in the table pick
+   **HWSD\_DATA** and click on **Add**
+
+5. The HWSD\_DATA table will appear in the workspace. A small panel will
+   appear, double click in this order **MU\_GLOBAL**,
+   **T\_USDA\_TEX\_CLASS**, **T\_CACO3** and **T\_CLAY**. These 4
+   variables will be added in the table located at the bottom. Now click
+   on the **Make Table** command.
+
+|image60|\ |image61|
+
+1. Give the table a name (for example WEG) and click OK. Then click on
+   the **Run** button on the top bar.
+
+|image62|
+
+1. The new table will be created and will automatically appear in the
+   table list at the left. Now, right click on it, select **Export** and
+   then **Excel.** Save it in your working folder. When done, open the
+   file in Microsoft Excel and save it in CSV format.
+
+|image63|
+
+1. Now, unzip HWSD\_RASTER.zip and upload hwsd.bil in QGIS. Convert it
+   into Geotiff format by right clicking on the layer and selecting
+   **Save As…**
+
+|image64|
+
+1. Upload a shapefile of your study area to cut out the hwsd.tiff file
+   created in the previous step to the shape of your study area using
+   GDAL’s **Clip Raster by mask layer tool.**
+
+|image65|
+
+1. Now, we need to convert the output raster file to a point shapefile
+   in order to join it with the excel file created in Access before. To
+   do that, go to the Processing Toolbox window and open the **Raster
+   values to points** tool in Saga. In the **Grids** window, select the
+   raster layer created in the previous step. In Type, select
+   **“cells”.** In Shapes, specify the name of the **output** layer and
+   then click **Run**.
+
+   |image66|
+
+2. When the process is finished, upload the output file in QGIS. Go to
+   the processing toolbox and open the **Refactor fields** tool. This
+   tool is useful to edit the structure attribute table of vector files.
+   Change the name of the variable “clippedmask” to MU\_GLOBAL and click
+   on **Run**.
+
+3. Now open the csv file containing the USDA soil texture values
+   (remember to have previously saved the Excel file exported from
+   Access as csv file). To do that, go to **Layer > Add Layer > Add
+   Delimited Text Layer.** In **Geometry Definition**, select **No
+   Geometry** (**attribute only table).** Then, click OK.
+
+|image67|
+
+1. Now, right click on the point shapefile created in step 12 and go to
+   **Properties**, and then **Joins.** Then click on the green “\ **+”**
+   sign button.
+
+|image68|
+
+1. In the next window, select the text file WEG, as **Join layer**. In
+   **Join field** (the common field between both datasets), select
+   MU\_GLOBAL, and in **Target field** select MU\_GLOBAL again. Then,
+   click **Choose which fields are joined** and select
+   T\_USDA\_TEXT\_CLASS, T\_CACO3 and T\_CLAY. Save it under a new name
+   and in a projected coordinate system.
+
+   |image69|
+
+2. Now the soil texture and carbonate data will be used to reclassify
+   the map into the Wind Erodibility groups defined by the USDA. To do
+   that you first need to know, how this information is codified in the
+   database. This is explained in the database documentation (available
+   at
+   http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HWSD_Documentation.pdf),
+   and is the following:
+
+    **T\_USDA\_TEX\_CLASS**: The values in this fields contains 13
+    possible classes of soil texture, which are codified in the
+    following way:
+
+|image70|
+
+    **T\_CACO3**: The values in this field represent % of weight. We
+    will use this information to determine if a soil is calcareous or
+    non-calcareous, which is a parameter needed to determine the
+    corresponding wind erodibily group of some soil texture classes. For
+    the purposes of this work, we will assume that all soils with more
+    than 15% of CaCO3 are calcareous, as defined by the FAO (FAO 2016).
+
+    To be consistent in the re-classification process through this
+    methodology, we will consider 7 classes of soil wind erodibiliy in
+    ascending order, from 1 (low susceptibility to wind erosion) to 7
+    (high susceptibility to wind erosion), as we did in the C factor
+    map; therefore inverting the classes described below (i.e. class 1
+    ‘very fine sand, fine sand, sand, or coarse sand’ will become class
+    7 for our analysis, as sandy soils are most sensitive to wind
+    erosion).
