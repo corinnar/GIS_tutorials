@@ -1,3 +1,5 @@
+|image00|
+
 ===========================================================================================
 **Assessing the relative importance of forests for wind erosion control using QGIS V 2.18**
 ===========================================================================================
@@ -1189,13 +1191,15 @@ Mongolia*. Institute of Geoecology, Mongolian Academy of Sciences. ISBN:
 Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
-
+.. |image00| image:: media/media_Wind_Erosion/image0.png
+   :width: 11.259in
+   :height: 12.343in
 .. |image0| image:: media/media_Wind_Erosion/image3.png
-   :width: 2.64034in
-   :height: 0.98425in
+   :width: 3.214in
+   :height: 2.194in
 .. |image1| image:: media/media_Wind_Erosion/image4.png
-   :width: 1.50000in
-   :height: 0.50456in
+   :width: 2.427in
+   :height: 0.820in
 .. |image2| image:: media/media_Wind_Erosion/image5.jpeg
    :width: 6.39295in
    :height: 3.22835in
