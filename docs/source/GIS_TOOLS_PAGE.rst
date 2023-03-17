@@ -1,5 +1,5 @@
 ==============================================================================================================
-**MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS**
+**Tutorials overview**
 ==============================================================================================================
 
 GIS training materials and tools have been developed for use in planning REDD+ activities that deliver multiple benefits. These resources are designed to assist technical staff to undertake spatial analysis to identify areas suitable for specific REDD+ policies and measures, and which are likely to yield multiple benefits. Materials have been developed for both QGIS (open-source) and ArcGIS software, according to the needs of individual partner countries. The materials continue to be
