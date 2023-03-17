@@ -3,6 +3,7 @@
 ===========================================================================================
   
 |image200|
+|image0|
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -60,9 +61,7 @@ materials generated for working sessions held in various countries to
 aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
-|image0|
-
-|image1|
+|image201|                                                    |image1|
 
 ------------
 Introduction
@@ -1191,8 +1190,11 @@ Mongolia*. Institute of Geoecology, Mongolian Academy of Sciences. ISBN:
 Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
-
+   
 .. |image200| image:: media/media_Wind_Erosion/image0.png
+   :width: 11.259in
+   :height: 12.343in
+.. |image201| image:: media/media_Wind_Erosion/image1.png
    :width: 11.259in
    :height: 12.343in
 .. |image0| image:: media/media_Wind_Erosion/image3.png
