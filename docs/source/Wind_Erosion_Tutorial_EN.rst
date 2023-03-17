@@ -2,7 +2,6 @@
 Assessing the relative importance of forests for wind erosion control using QGIS V 2.18
 ***************************************************************************************
 
-
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
 developing countries. The Programme was launched in September 2008 to
@@ -63,7 +62,7 @@ and safeguards policies using open source GIS software.
 
 |image1|
 
-============
+------------
 Introduction
 
 
@@ -117,7 +116,7 @@ risk mapping may be needed.
 The analysis runs entirely from QGIS version 2.18, R Software and R
 Studio, which needs to be installed in order to execute this analysis.
 
-===========
+-----------
 Methodology
 
 The first step will be to prepare, download and process all the
@@ -187,8 +186,9 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-3.1.1. Compute the monthly average wind speed layer (u)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.1.1. Compute the monthly average wind speed layer (u)
+
 
 Twelve layers, representing monthly average wind speed values for the
 area of interest, will be developed for the *“u”* component of the
