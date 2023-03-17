@@ -188,7 +188,7 @@ equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.1. Compute the monthly average wind speed layer (u)
+Compute the monthly average wind speed layer (u)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Twelve layers, representing monthly average wind speed values for the
@@ -571,7 +571,7 @@ below:
    |image44|
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.2 Extract Potential Evapotranspiration (*PETi*) data 
+Extract Potential Evapotranspiration (*PETi*) data 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     To be able to make the calculation as per the initial formula for
@@ -614,7 +614,7 @@ below:
 |image49|
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.3 Extract monthly average precipitation (*Pi*) for your study area
+Extract monthly average precipitation (*Pi*) for your study area
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     The climate erosivity formula also requires monthly average
@@ -643,7 +643,7 @@ below:
    section.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.4 Use Raster Calculator to compute the climatic ‘C’ factor layer
+Use Raster Calculator to compute the climatic ‘C’ factor layer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Now that we have all the required variables, we can calculate the C
@@ -687,7 +687,7 @@ below:
    to wind erosion.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.5 Re-classify the ‘C’ factor layer into classes for analysis 
+Re-classify the ‘C’ factor layer into classes for analysis 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Finally, we need to reclassify the C factor layer into classes, so
