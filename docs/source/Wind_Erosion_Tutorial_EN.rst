@@ -1,3 +1,9 @@
+.. toctree::
+   :numbered:
+
+   Wind_Erosion_Tutorial_EN
+
+
 ===========================================================================================
 **Assessing the relative importance of forests for wind erosion control using QGIS V 2.18**
 ===========================================================================================
