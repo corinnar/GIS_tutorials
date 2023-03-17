@@ -1,3 +1,13 @@
+========================================================
+Using open source GIS software to support REDD+ planning
+========================================================
+============================================================================================
+USING SPATIAL INFORMATION TO SUPPORT DECISIONS ON SAFEGUARDS AND MULTIPLE BENEFITS FOR REDD+
+============================================================================================
+---------------------------------------------------------------------------------
+ASSESSING THE RELATIVE IMPORTANCE OF FORESTS FOR WIND EROSION CONTROL QGIS V 2.18
+---------------------------------------------------------------------------------
+
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
 developing countries. The Programme was launched in September 2008 to
