@@ -6,6 +6,7 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
    :maxdepth:1
    
    GIS_TOOLS_PAGE
