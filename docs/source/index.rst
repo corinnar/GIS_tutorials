@@ -1,7 +1,7 @@
-Welcome to the Mountain Green Cover Index's documentation!
-==========================================================
+WMAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS
+==========================================================================================================
 
-Documentation to the Mountain Green Cover Index tools developed by FAO and UNEP-WCMC:
+Step-by-step tutorials: Using spatial information to support decisions on safeguards and multiple benefits for REDD+
 
 Contents
 --------
