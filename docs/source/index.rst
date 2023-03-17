@@ -6,7 +6,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth:3
+   :maxdepth:1
    
    GIS_TOOLS_PAGE
    Wind_Erosion_Tutorial_EN
