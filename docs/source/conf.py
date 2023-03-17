@@ -11,6 +11,10 @@ version = '0.1.0'
 
 # -- General configuration
 
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
