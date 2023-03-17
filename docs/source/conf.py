@@ -11,10 +11,6 @@ version = '0.1.0'
 
 # -- General configuration
 
-latex_elements = {
-  'extraclassoptions': 'openany,oneside'
-}
-
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -37,3 +33,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
