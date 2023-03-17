@@ -697,3 +697,26 @@ reclassify the C factor layer:
    output file.
 
    |image53|
+   
+2. There are various reclassification tools in QGIS. We will use the
+   **r.reclass** tool, which requires a text file (.txt) where the user
+   defines the rules for reclassification. To prepare the
+   reclassification rule text file, open the text file created in the
+   previous step and use the intervals to specify the classes, as shown
+   in the image below:
+
+|image54|
+
+    \* Always ensure to reclassify values in ascending rank, the
+    interval containing the highest values is reclassified to “7”, the
+    second one to “6”, and so on.
+
+When done, save the file as C\_factor\_reclass\_rule.txt
+
+1. Now open the **r.reclass** tool. In **Input Raster** window, enter
+   the C\_factor raster file and in **File containing reclass rules**,
+   select the reclass rule text file created in the previous step
+   (C\_factor\_reclass\_rule.txt). Click **Run**. The output file would
+   be similar to the one below.
+
+   |image55|\ |image56|
