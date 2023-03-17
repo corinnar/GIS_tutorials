@@ -1187,273 +1187,273 @@ Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
 
-.. |image0| image:: media/image3.png
+.. |image0| image:: media/media_Wind_Erosion/image3.png
    :width: 2.64034in
    :height: 0.98425in
-.. |image1| image:: media/image4.png
+.. |image1| image:: media/media_Wind_Erosion/image4.png
    :width: 1.50000in
    :height: 0.50456in
-.. |image2| image:: media/image5.jpeg
+.. |image2| image:: media/media_Wind_Erosion/image5.jpeg
    :width: 6.39295in
    :height: 3.22835in
-.. |image3| image:: media/image6.png
+.. |image3| image:: media/media_Wind_Erosion/image6.png
    :width: 6.26806in
    :height: 2.32431in
-.. |image4| image:: media/image7.png
+.. |image4| image:: media/media_Wind_Erosion/image7.png
    :width: 6.74451in
    :height: 2.62353in
-.. |image5| image:: media/image10.png
+.. |image5| image:: media/media_Wind_Erosion/image10.png
    :width: 5.81525in
    :height: 2.91128in
-.. |image6| image:: media/image11.png
+.. |image6| image:: media/media_Wind_Erosion/image11.png
    :width: 6.26806in
    :height: 3.10069in
-.. |image7| image:: media/image12.PNG
+.. |image7| image:: media/media_Wind_Erosion/image12.PNG
    :width: 5.16264in
    :height: 3.67244in
-.. |image8| image:: media/image13.PNG
+.. |image8| image:: media/media_Wind_Erosion/image13.PNG
    :width: 3.97414in
    :height: 2.99051in
-.. |image9| image:: media/image14.PNG
+.. |image9| image:: media/media_Wind_Erosion/image14.PNG
    :width: 4.67826in
    :height: 3.32755in
-.. |image10| image:: media/image15.png
+.. |image10| image:: media/media_Wind_Erosion/image15.png
    :width: 5.84783in
    :height: 2.60256in
-.. |image11| image:: media/image16.PNG
+.. |image11| image:: media/media_Wind_Erosion/image16.PNG
    :width: 2.53525in
    :height: 1.53034in
-.. |image12| image:: media/image17.PNG
+.. |image12| image:: media/media_Wind_Erosion/image17.PNG
    :width: 3.99513in
    :height: 3.34646in
-.. |image13| image:: media/image18.png
+.. |image13| image:: media/media_Wind_Erosion/image18.png
    :width: 3.55258in
    :height: 0.21878in
-.. |image14| image:: media/image19.png
+.. |image14| image:: media/media_Wind_Erosion/image19.png
    :width: 6.26724in
    :height: 3.72775in
-.. |image15| image:: media/image20.PNG
+.. |image15| image:: media/media_Wind_Erosion/image20.PNG
    :width: 3.45003in
    :height: 0.22920in
-.. |image16| image:: media/image21.png
+.. |image16| image:: media/media_Wind_Erosion/image21.png
    :width: 6.26806in
    :height: 1.48472in
-.. |image17| image:: media/image22.png
+.. |image17| image:: media/media_Wind_Erosion/image22.png
    :width: 6.26806in
    :height: 0.18264in
-.. |image18| image:: media/image23.png
+.. |image18| image:: media/media_Wind_Erosion/image23.png
    :width: 3.74010in
    :height: 0.57300in
-.. |image19| image:: media/image24.png
+.. |image19| image:: media/media_Wind_Erosion/image24.png
    :width: 4.40217in
    :height: 1.84651in
-.. |image20| image:: media/image25.png
+.. |image20| image:: media/media_Wind_Erosion/image25.png
    :width: 3.94828in
    :height: 1.93965in
-.. |image21| image:: media/image26.png
+.. |image21| image:: media/media_Wind_Erosion/image26.png
    :width: 2.97958in
    :height: 0.19794in
-.. |image22| image:: media/image27.png
+.. |image22| image:: media/media_Wind_Erosion/image27.png
    :width: 3.66304in
    :height: 1.46627in
-.. |image23| image:: media/image28.png
+.. |image23| image:: media/media_Wind_Erosion/image28.png
    :width: 3.71927in
    :height: 0.20836in
-.. |image24| image:: media/image29.png
+.. |image24| image:: media/media_Wind_Erosion/image29.png
    :width: 6.26806in
    :height: 1.82847in
-.. |image25| image:: media/image30.png
+.. |image25| image:: media/media_Wind_Erosion/image30.png
    :width: 2.41700in
    :height: 0.19794in
-.. |image26| image:: media/image31.png
+.. |image26| image:: media/media_Wind_Erosion/image31.png
    :width: 1.67732in
    :height: 0.23962in
-.. |image27| image:: media/image32.png
+.. |image27| image:: media/media_Wind_Erosion/image32.png
    :width: 3.47965in
    :height: 0.58341in
-.. |image28| image:: media/image33.png
+.. |image28| image:: media/media_Wind_Erosion/image33.png
    :width: 6.17292in
    :height: 2.12500in
-.. |image29| image:: media/image34.PNG
+.. |image29| image:: media/media_Wind_Erosion/image34.PNG
    :width: 4.40865in
    :height: 3.65725in
-.. |image30| image:: media/image35.png
+.. |image30| image:: media/media_Wind_Erosion/image35.png
    :width: 4.46219in
    :height: 2.95238in
-.. |image31| image:: media/image36.png
+.. |image31| image:: media/media_Wind_Erosion/image36.png
    :width: 4.95409in
    :height: 1.96385in
-.. |image32| image:: media/image37.png
+.. |image32| image:: media/media_Wind_Erosion/image37.png
    :width: 2.63260in
    :height: 0.18889in
-.. |image33| image:: media/image38.png
+.. |image33| image:: media/media_Wind_Erosion/image38.png
    :width: 2.62504in
    :height: 1.77969in
-.. |image34| image:: media/image39.png
+.. |image34| image:: media/media_Wind_Erosion/image39.png
    :width: 3.02918in
    :height: 1.74699in
-.. |image35| image:: media/image40.png
+.. |image35| image:: media/media_Wind_Erosion/image40.png
    :width: 4.41833in
    :height: 1.69811in
-.. |image36| image:: media/image41.png
+.. |image36| image:: media/media_Wind_Erosion/image41.png
    :width: 4.42037in
    :height: 2.85085in
-.. |image37| image:: media/image42.png
+.. |image37| image:: media/media_Wind_Erosion/image42.png
    :width: 6.26806in
    :height: 4.11806in
-.. |image38| image:: media/image43.png
+.. |image38| image:: media/media_Wind_Erosion/image43.png
    :width: 6.29214in
    :height: 3.30278in
-.. |image39| image:: media/image44.png
+.. |image39| image:: media/media_Wind_Erosion/image44.png
    :width: 3.80139in
    :height: 4.16806in
-.. |image40| image:: media/image45.png
+.. |image40| image:: media/media_Wind_Erosion/image45.png
    :width: 2.21348in
    :height: 3.56031in
-.. |image41| image:: media/image46.png
+.. |image41| image:: media/media_Wind_Erosion/image46.png
    :width: 3.50562in
    :height: 1.64898in
-.. |image42| image:: media/image47.png
+.. |image42| image:: media/media_Wind_Erosion/image47.png
    :width: 5.51511in
    :height: 2.83577in
-.. |image43| image:: media/image48.png
+.. |image43| image:: media/media_Wind_Erosion/image48.png
    :width: 3.60000in
    :height: 2.10671in
-.. |image44| image:: media/image49.png
+.. |image44| image:: media/media_Wind_Erosion/image49.png
    :width: 3.81177in
    :height: 2.25175in
-.. |image45| image:: media/image50.PNG
+.. |image45| image:: media/media_Wind_Erosion/image50.PNG
    :width: 5.32110in
    :height: 2.43673in
-.. |image46| image:: media/image51.PNG
+.. |image46| image:: media/media_Wind_Erosion/image51.PNG
    :width: 3.19887in
    :height: 2.24634in
-.. |image47| image:: media/image52.png
+.. |image47| image:: media/media_Wind_Erosion/image52.png
    :width: 4.05278in
    :height: 1.15126in
-.. |image48| image:: media/image53.png
+.. |image48| image:: media/media_Wind_Erosion/image53.png
    :width: 5.40033in
    :height: 2.21135in
-.. |image49| image:: media/image54.png
+.. |image49| image:: media/media_Wind_Erosion/image54.png
    :width: 3.43529in
    :height: 2.25620in
-.. |image50| image:: media/image55.PNG
+.. |image50| image:: media/media_Wind_Erosion/image55.PNG
    :width: 3.96552in
    :height: 2.33877in
-.. |image51| image:: media/image56.PNG
+.. |image51| image:: media/media_Wind_Erosion/image56.PNG
    :width: 4.17672in
    :height: 1.50385in
-.. |image52| image:: media/image57.png
+.. |image52| image:: media/media_Wind_Erosion/image57.png
    :width: 4.01736in
    :height: 2.78403in
-.. |image53| image:: media/image58.png
+.. |image53| image:: media/media_Wind_Erosion/image58.png
    :width: 3.52512in
    :height: 2.57647in
-.. |image54| image:: media/image59.png
+.. |image54| image:: media/media_Wind_Erosion/image59.png
    :width: 4.19850in
    :height: 1.72941in
-.. |image55| image:: media/image60.png
+.. |image55| image:: media/media_Wind_Erosion/image60.png
    :width: 2.80720in
    :height: 2.03526in
-.. |image56| image:: media/image61.png
+.. |image56| image:: media/media_Wind_Erosion/image61.png
    :width: 3.25882in
    :height: 2.46777in
-.. |image57| image:: media/image62.png
+.. |image57| image:: media/media_Wind_Erosion/image62.png
    :width: 5.19865in
    :height: 4.27826in
-.. |image58| image:: media/image63.png
+.. |image58| image:: media/media_Wind_Erosion/image63.png
    :width: 4.77639in
    :height: 2.11765in
-.. |image59| image:: media/image64.png
+.. |image59| image:: media/media_Wind_Erosion/image64.png
    :width: 3.22353in
    :height: 2.17832in
-.. |image60| image:: media/image65.png
+.. |image60| image:: media/media_Wind_Erosion/image65.png
    :width: 2.02083in
    :height: 1.26042in
-.. |image61| image:: media/image66.png
+.. |image61| image:: media/media_Wind_Erosion/image66.png
    :width: 3.36181in
    :height: 1.76471in
-.. |image62| image:: media/image67.png
+.. |image62| image:: media/media_Wind_Erosion/image67.png
    :width: 3.81111in
    :height: 2.25416in
-.. |image63| image:: media/image68.png
+.. |image63| image:: media/media_Wind_Erosion/image68.png
    :width: 3.58823in
    :height: 2.44023in
-.. |image64| image:: media/image69.png
+.. |image64| image:: media/media_Wind_Erosion/image69.png
    :width: 4.23535in
    :height: 1.09118in
-.. |image65| image:: media/image70.png
+.. |image65| image:: media/media_Wind_Erosion/image70.png
    :width: 3.81176in
    :height: 1.44464in
-.. |image66| image:: media/image71.PNG
+.. |image66| image:: media/media_Wind_Erosion/image71.PNG
    :width: 2.71017in
    :height: 2.97345in
-.. |image67| image:: media/image72.png
+.. |image67| image:: media/media_Wind_Erosion/image72.png
    :width: 3.70180in
    :height: 2.67033in
-.. |image68| image:: media/image73.png
+.. |image68| image:: media/media_Wind_Erosion/image73.png
    :width: 3.17500in
    :height: 1.65208in
-.. |image69| image:: media/image74.png
+.. |image69| image:: media/media_Wind_Erosion/image74.png
    :width: 2.92308in
    :height: 2.39739in
-.. |image70| image:: media/image75.png
+.. |image70| image:: media/media_Wind_Erosion/image75.png
    :width: 4.15652in
    :height: 2.01439in
-.. |image71| image:: media/image62.png
+.. |image71| image:: media/media_Wind_Erosion/image62.png
    :width: 5.19806in
    :height: 4.21687in
-.. |image72| image:: media/image76.png
+.. |image72| image:: media/media_Wind_Erosion/image76.png
    :width: 4.70330in
    :height: 1.90397in
-.. |image73| image:: media/image77.png
+.. |image73| image:: media/media_Wind_Erosion/image77.png
    :width: 2.95575in
    :height: 1.51521in
-.. |image74| image:: media/image78.png
+.. |image74| image:: media/media_Wind_Erosion/image78.png
    :width: 2.35135in
    :height: 2.30602in
-.. |image75| image:: media/image79.png
+.. |image75| image:: media/media_Wind_Erosion/image79.png
    :width: 5.61176in
    :height: 3.86407in
-.. |image76| image:: media/image80.png
+.. |image76| image:: media/media_Wind_Erosion/image80.png
    :width: 3.94118in
    :height: 2.10944in
-.. |image77| image:: media/image81.png
+.. |image77| image:: media/media_Wind_Erosion/image81.png
    :width: 5.56471in
    :height: 2.27619in
-.. |image78| image:: media/image82.png
+.. |image78| image:: media/media_Wind_Erosion/image82.png
    :width: 3.44706in
    :height: 1.95955in
-.. |image79| image:: media/image83.png
+.. |image79| image:: media/media_Wind_Erosion/image83.png
    :width: 2.97647in
    :height: 1.65282in
-.. |image80| image:: media/image84.png
+.. |image80| image:: media/media_Wind_Erosion/image84.png
    :width: 4.47524in
    :height: 3.20000in
-.. |image81| image:: media/image85.png
+.. |image81| image:: media/media_Wind_Erosion/image85.png
    :width: 4.42794in
    :height: 2.05868in
-.. |image82| image:: media/image86.png
+.. |image82| image:: media/media_Wind_Erosion/image86.png
    :width: 2.47951in
    :height: 1.65648in
-.. |image83| image:: media/image87.png
+.. |image83| image:: media/media_Wind_Erosion/image87.png
    :width: 3.35294in
    :height: 2.68235in
-.. |image84| image:: media/image88.png
+.. |image84| image:: media/media_Wind_Erosion/image88.png
    :width: 3.90588in
    :height: 2.88073in
-.. |image85| image:: media/image89.png
+.. |image85| image:: media/media_Wind_Erosion/image89.png
    :width: 3.50588in
    :height: 3.04094in
-.. |image86| image:: media/image90.png
+.. |image86| image:: media/media_Wind_Erosion/image90.png
    :width: 4.12970in
    :height: 3.07737in
-.. |image87| image:: media/image91.png
+.. |image87| image:: media/media_Wind_Erosion/image91.png
    :width: 2.71765in
    :height: 2.70242in
-.. |image88| image:: media/image92.png
+.. |image88| image:: media/media_Wind_Erosion/image92.png
    :width: 5.40000in
    :height: 3.20315in
-.. |image89| image:: media/image93.png
+.. |image89| image:: media/media_Wind_Erosion/image93.png
    :width: 5.22115in
    :height: 3.89764in
