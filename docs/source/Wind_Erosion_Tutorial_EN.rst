@@ -63,7 +63,7 @@ and safeguards policies using open source GIS software.
 |image1|
 
 Introduction
-----------------------------------
+~~~~~~~~~~~~
 
 REDD+ has the potential to deliver multiple benefits beyond carbon. For
 example, it can promote biodiversity conservation and secure ecosystem
@@ -115,8 +115,8 @@ risk mapping may be needed.
 The analysis runs entirely from QGIS version 2.18, R Software and R
 Studio, which needs to be installed in order to execute this analysis.
 
------------
 Methodology
+~~~~~~~~~~~
 
 The first step will be to prepare, download and process all the
 necessary layers in order to have the required variables to estimate the
@@ -185,9 +185,9 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-3.1.1. Compute the monthly average wind speed layer (u)
 
+3.1.1. Compute the monthly average wind speed layer (u)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Twelve layers, representing monthly average wind speed values for the
 area of interest, will be developed for the *“u”* component of the
