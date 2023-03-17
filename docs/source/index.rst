@@ -19,4 +19,8 @@ Contents
 .. toctree::
 
    GIS_TOOLS_PAGE
+   
+Tutorial 1:  Wind Erosion
+-------------------------
+
    Wind_Erosion_Tutorial_EN
