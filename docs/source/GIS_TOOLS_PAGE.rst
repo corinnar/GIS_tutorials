@@ -56,8 +56,7 @@ Open-source software is released under a license that allows software to be free
 
 -  *Processing and visualising fire data to identify potential pressures from fires on forest using QGIS 2.18* (`English  <https://www.un-redd.org/sites/default/files/2021-10/FireTutorial.pdf>`__)
 
- **PDF versions of these tutorials can be accessed here**
- 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 **ArcGIS Desktop: ArcMap tutorials**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
