@@ -18,5 +18,5 @@ Contents
 
 .. toctree::
 
-   GIS_TOOLS_PAGE.rst
-   api
+   GIS_TOOLS_PAGE
+   Wind_Erosion_Tutorial_EN
