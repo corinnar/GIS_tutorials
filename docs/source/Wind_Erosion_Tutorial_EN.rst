@@ -2,7 +2,7 @@
 **Assessing the relative importance of forests for wind erosion control using QGIS V 2.18**
 ===========================================================================================
 
- .. toctree::
+.. contents:: Table of Contents
    :depth: 3
    :local:
    :backlinks: none
