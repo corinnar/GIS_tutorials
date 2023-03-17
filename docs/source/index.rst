@@ -4,7 +4,6 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
 
 .. toctree::
    :numbered:
-   :titlesonly:
    
    GIS_TOOLS_PAGE
    Wind_Erosion_Tutorial_EN
