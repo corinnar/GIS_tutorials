@@ -117,8 +117,8 @@ risk mapping may be needed.
 The analysis runs entirely from QGIS version 2.18, R Software and R
 Studio, which needs to be installed in order to execute this analysis.
 
-Methodology
 ===========
+Methodology
 
 The first step will be to prepare, download and process all the
 necessary layers in order to have the required variables to estimate the
@@ -1140,8 +1140,8 @@ erosion sensitivity map to only show areas with forest cover.
 
 |image89|
 
-REFERENCES
 ==========
+REFERENCES
 
 Fryear, D. W. (1998). Mechanics, measurement and modelling wind erosion.
 Advances in Geoecology 31: 291-300.
