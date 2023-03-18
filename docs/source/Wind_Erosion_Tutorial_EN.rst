@@ -522,9 +522,7 @@ below:
    system for your study area, in this case we will select WGS 84 UTM
    Zone 21S. Repeat for all twelve layers.
 
-|image39|
-
-|image40|
+|image40| \ |image39|
 
 4. We are now going to apply the Universal Kriging technique to
    interpolate the monthly mean wind speed values. This particular
@@ -683,9 +681,9 @@ The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) p
 (("ws\_12@1"^3) \* (( "pet\_12@1" - "prec\_12@1") / "pet\_12@1")\*31)) /
 100
 
-4. |image52|
+4. The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
 
-The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
+|image52|
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Re-classify the ‘C’ factor layer into classes for analysis 
@@ -872,29 +870,7 @@ national updates of soil information worldwide.
     7 for our analysis, as sandy soils are most sensitive to wind
     erosion).
 
-+---------------+
-| New classes   |
-+===============+
-| 7             |
-+---------------+
-| 6             |
-+---------------+
-| 5             |
-+---------------+
-| 4             |
-+---------------+
-| 4             |
-+---------------+
-| 3             |
-+---------------+
-| 2             |
-+---------------+
-| 1             |
-+---------------+
-| NA            |
-+---------------+
-
-    |image71|
+|image71b|
 
     To do that, open the attribute table of the point shapefile created
     in the step 15 and click on **field calculator**. This tool allows
@@ -1413,10 +1389,13 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image70| image:: media/media_Wind_Erosion/image75.png
    :width: 4.15652in
    :height: 2.01439in
-.. |image70| image:: media/media_Wind_Erosion/image75b.png
+.. |image70b| image:: media/media_Wind_Erosion/image75b.png
    :width:b 4.15652in
    :height: 2.01439in
 .. |image71| image:: media/media_Wind_Erosion/image62.png
+   :width: 5.19806in
+   :height: 4.21687in
+.. |image71b| image:: media/media_Wind_Erosion/image62b.png
    :width: 5.19806in
    :height: 4.21687in
 .. |image72| image:: media/media_Wind_Erosion/image76.png
