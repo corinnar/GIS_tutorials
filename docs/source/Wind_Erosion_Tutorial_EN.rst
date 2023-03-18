@@ -1128,7 +1128,7 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 8.444in
    :height: 9.257in
 .. |image201| image:: media/media_Wind_Erosion/combined.png
-   :width: 2.640in
+   :width: 6.766in
    :height: 0.987in
 .. |image0| image:: media/media_Wind_Erosion/image3.png
    :width: 3.214in
