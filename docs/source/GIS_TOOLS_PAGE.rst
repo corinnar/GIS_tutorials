@@ -74,13 +74,6 @@ Open-source software is released under a license that allows software to be free
 
 |
 
-|
-
-|
-
-|
-
-
 **Exploring Multiple Benefits ArcGIS toolbox for ArcMap**: The latest version of the customised ArcGIS toolbox for ArcMap (the UN-REDD Exploring Multiple Benefits Toolbox) developed at UNEP-WCMC for REDD+ multiple benefits analyses is available for **ArcMap 10.6** and **10.6**. It provides both novice and experienced GIS users with a series of predominantly raster analysis tools to help identify, map and understand the spatial relationship between ecosystem carbon stocks, other ecosystem services, biodiversity, land-use and pressures on natural resources. The tools are flexible, with the datasets used and resolution of the analysis being defined by the user. In these latest versions of the toolbox  new tools focusing on water-related ecosystem services have been added.
 
 The toolbox, and instruction manual accompanying the toolbox, provide illustrated workflows and guidance that links to the ArcGIS versions of the tutorials. The tutorials give more detailed technical instructions. These resources are aimed at enabling GIS users to undertake spatial analysis for REDD+ planning and to support the creation of maps and statistical outputs, assuming that the necessary software and data are available.
