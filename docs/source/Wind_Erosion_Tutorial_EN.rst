@@ -61,6 +61,14 @@ materials generated for working sessions held in various countries to
 aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
+|
+
+|
+
+|
+
+|
+
 |image202|
 
 ------------
