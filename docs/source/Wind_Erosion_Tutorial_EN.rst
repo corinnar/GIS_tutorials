@@ -681,9 +681,9 @@ The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) p
 (("ws\_12@1"^3) \* (( "pet\_12@1" - "prec\_12@1") / "pet\_12@1")\*31)) /
 100
 
-4. |image52|
+4. The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
 
-The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
+|image52|
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Re-classify the ‘C’ factor layer into classes for analysis 
