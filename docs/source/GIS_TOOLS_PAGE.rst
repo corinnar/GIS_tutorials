@@ -71,7 +71,10 @@ Open-source software is released under a license that allows software to be free
 -  How to produce a matrix style legend with raster data (`English <https://www.un-redd.org/sites/default/files/2021-10/2c_Matrix%20style%20map%20tutorial_ENG.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/10_MatrixStyleLegendProductionUsingArcGIS_v1_0_Spanish_format_170531.pdf>`__, \ `Vietnamese <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15475-hng-dn-lam-th-nao-a-ra-c-ma-trn-vi-d-liu-raster-s-dng-trong-arcgis-10-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-10/file.html>`__).
 
 -  Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using Model Builder (`English <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS_190207.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS.pdf>`__), `Supporting files <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
-
+|
+|
+|
+|
 
 
 **Exploring Multiple Benefits ArcGIS toolbox for ArcMap**: The latest version of the customised ArcGIS toolbox for ArcMap (the UN-REDD Exploring Multiple Benefits Toolbox) developed at UNEP-WCMC for REDD+ multiple benefits analyses is available for **ArcMap 10.6** and **10.6**. It provides both novice and experienced GIS users with a series of predominantly raster analysis tools to help identify, map and understand the spatial relationship between ecosystem carbon stocks, other ecosystem services, biodiversity, land-use and pressures on natural resources. The tools are flexible, with the datasets used and resolution of the analysis being defined by the user. In these latest versions of the toolbox  new tools focusing on water-related ecosystem services have been added.
