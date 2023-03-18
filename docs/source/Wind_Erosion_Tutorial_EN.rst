@@ -162,12 +162,12 @@ carry out this analysis.
 
 |image2|
 
-1. .. rubric:: Prepare the climate, soil characteristics and topography
-      layers.
-      :name: prepare-the-climate-soil-characteristics-and-topography-layers.
-
-2. .. rubric:: Create the Climate factor (C’) layer
-      :name: create-the-climate-factor-c-layer
+------------------------------------------------------------------
+Prepare the climate, soil characteristics and topography layers
+------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create the Climate factor (C) layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Climate erosivity is assessed in this method using the formula suggested
 by FAO (1979) for the Universal Wind Erosion Equation (Wooddruf &
@@ -222,6 +222,8 @@ QGIS and statistical analyses in RStudio.
 
 4. A pop up window will open, click on **All Maps** and then on **Daily
    Observational Data.** A map viewer will automatically open.
+   
+|image4a|
 
 5. Once the map viewer is open, **Search** for a location, Paraguay in
    this case, and tick the box next to **Global Summary of the Day** on
@@ -1210,6 +1212,9 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image4| image:: media/media_Wind_Erosion/image7.png
    :width: 6.74451in
    :height: 2.62353in
+.. |image4a| image:: media/media_Wind_Erosion/image8.png
+   :width: 6.74451in
+   :height: 2.62353in   
 .. |image5| image:: media/media_Wind_Erosion/image10.png
    :width: 5.81525in
    :height: 2.91128in
