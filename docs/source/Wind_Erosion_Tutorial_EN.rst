@@ -653,10 +653,7 @@ Use Raster Calculator to compute the climatic ‘C’ factor layer
 
 .. math:: C = \frac{1}{100}\  \times \ \sum_{i = 1}^{12}{u^{3}\left( \frac{PETi - Pi}{\text{PETi}} \right)}d
 
-
-    The 3 sets of monthly layers (windspeed, precipitation and
-    EvapoTranspiration) prepared in the previous steps will be used as
-    input layers in Raster Calculator.
+The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) prepared in the previous steps will be used as input layers in Raster Calculator.
 
     To perform the analysis follow the instructions below:
 
