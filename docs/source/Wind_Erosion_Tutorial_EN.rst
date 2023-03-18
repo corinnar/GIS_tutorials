@@ -651,7 +651,7 @@ Use Raster Calculator to compute the climatic ‘C’ factor layer
     Now that we have all the required variables, we can calculate the C
     factor as per the initial formula using Raster Calculator in QGIS:
 
-.. math:: C = \\frac{1}{100}\  \times \ \sum_{i = 1}^{12}{u^{3}\left( \\frac{PETi - Pi}{\text{PETi}} \right)}d
+.. math:: C = \frac{1}{100}\  \times \ \sum_{i = 1}^{12}{u^{3}\left( \frac{PETi - Pi}{\text{PETi}} \right)}d
 
 
     The 3 sets of monthly layers (windspeed, precipitation and
