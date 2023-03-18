@@ -870,7 +870,7 @@ national updates of soil information worldwide.
     7 for our analysis, as sandy soils are most sensitive to wind
     erosion).
 
-|image 71b|
+|image71b|
 
     To do that, open the attribute table of the point shapefile created
     in the step 15 and click on **field calculator**. This tool allows
