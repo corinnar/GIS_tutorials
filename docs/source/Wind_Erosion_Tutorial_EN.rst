@@ -3,6 +3,7 @@
 ===========================================================================================
   
 |image200|
+|image0|
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -60,9 +61,8 @@ materials generated for working sessions held in various countries to
 aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
-|image0|
-
-|image1|
+|image201|
+\ |image1|
 
 ------------
 Introduction
@@ -215,21 +215,21 @@ QGIS and statistical analyses in RStudio.
 
 |image3|
 
-1. *Go to **Data Access ***\ and click on the link under ***Daily
+3. *Go to **Data Access ***\ and click on the link under ***Daily
    Observational Data*** in the ***Subsetting Service Row. ***
 
 |image4|
 
-1. A pop up window will open, click on **All Maps** and then on **Daily
+4. A pop up window will open, click on **All Maps** and then on **Daily
    Observational Data.** A map viewer will automatically open.
 
-2. Once the map viewer is open, **Search** for a location, Paraguay in
+5. Once the map viewer is open, **Search** for a location, Paraguay in
    this case, and tick the box next to **Global Summary of the Day** on
    the left side of the map.
 
 |image5|
 
-1. Click on the **tools** **icon** next to **Global Summary of the Day**
+6. Click on the **tools** **icon** next to **Global Summary of the Day**
    and then to **Polygon** to select the area of interest. This will
    allow you to draw a polygon and select the weather stations for your
    area of interest. For a more accurate execution of the interpolation
@@ -239,7 +239,7 @@ QGIS and statistical analyses in RStudio.
 
    |image6|
 
-2. On the left side of the map the list of the stations included in the
+7. On the left side of the map the list of the stations included in the
    polygon will appear. Select just the stations with at least *five
    years of data* and then click on **Access Data** at the bottom.
 
@@ -247,7 +247,7 @@ QGIS and statistical analyses in RStudio.
 
 In the following window, click on ***“Agree”***.
 
-1. In the next window, you will be asked to select the date range of the
+8. In the next window, you will be asked to select the date range of the
    weather records of the station selected. Select 01/01/1949 and leave
    the date in the “To” row as it is. Select ***“comma delimited”***
    under ***“Select output format”.*** Mark the box under “I am not a
@@ -255,7 +255,7 @@ In the following window, click on ***“Agree”***.
 
 |image8|
 
-1. The dataset of the records selected will then available for download
+9. The dataset of the records selected will then available for download
    as a csv. Click on the link to the text file and select ***“Save link
    as”*** and save it in your working file (“data\_downloaded.txt”).
 
@@ -273,14 +273,14 @@ and R Studio (an R user interface) to do this.
 
 |image10|
 
-1. Now we are going to import the weather dataset file,
+2. Now we are going to import the weather dataset file,
    “data\_downloaded.txt”. Under the ‘Environment’ tab in R studio
    window, click on ***“Import Dataset”*** and select **“From Text
    (base)”**
 
 |image11|
 
-1. Select the dataset and ensure that the “\ ***Separator***\ ” is set
+3. Select the dataset and ensure that the “\ ***Separator***\ ” is set
    as *“Comma”,* “\ ***Decimal***\ ” is set as *“Period”* and
    ***“na.strings”*** to *“999.9”*, which is the value to which our
    dataset assigns the missing values. Then click ***“Import”*.** You
@@ -294,7 +294,7 @@ and R Studio (an R user interface) to do this.
     Station Code Number (“STN…”), the date of the observations
     (“YEARMODA”) and the mean wind speed value (“WDSP”).
 
-1. Change the name of the station name column (STN…) to something
+4. Change the name of the station name column (STN…) to something
    simpler to work with (fnamWSor example: STN). To do that, write the
    following formula in the console window:
 
@@ -302,7 +302,7 @@ and R Studio (an R user interface) to do this.
 
 |image14|
 
-1. Now, we are going to create a new data frame (WS1) containing only
+5. Now, we are going to create a new data frame (WS1) containing only
    the three variables of interest (STN, YEARMODA and WDSP). To do that,
    write the following command in the console.
 
@@ -313,7 +313,7 @@ Environment tab:
 
 |image16|
 
-1. For computational purposes, the variable for the date of the
+6. For computational purposes, the variable for the date of the
    observation (*YEARMODA*) must be split into three: year, month and
    day of observation. To do this, write the following formula into the
    Console window:
@@ -332,7 +332,7 @@ DAY:
 
 |image20|
 
-1. The WS dataset contains some no data values (recorded as 999.9). We
+7. The WS dataset contains some no data values (recorded as 999.9). We
    need to remove these values from the dataset before any other
    calculation is made. A new data frame will be created (WS2),
    containing only valid observations. To do that, write the following
@@ -346,7 +346,7 @@ DAY:
 
 |image22|
 
-1. In the ‘metadata’ txt file downloaded in Step 8 of the section “Steps
+8. In the ‘metadata’ txt file downloaded in Step 8 of the section “Steps
    to download the daily wind speed data”, you will see that wind speed
    values are in tenths of a knot (0.1 knots). The formula requires
    these values to be converted to meters per second (m/s). To convert
@@ -400,7 +400,7 @@ computer.
 
 |image26|
 
-1. Once the package is loaded, write the following command in the
+2. Once the package is loaded, write the following command in the
    console:
 
 |image27|
@@ -431,10 +431,10 @@ steps:
     is downloaded as a .csv file, comma delimited, which can be opened
     and viewed in R or Excel.
 
-1. Open the csv data set, and save it as a text file, e.g.
+2. Open the csv data set, and save it as a text file, e.g.
    ‘isd.history-merge.txt’.
 
-2. In R, use the Import button to import the txt file. Use the
+3. In R, use the Import button to import the txt file. Use the
    parameters as shown in the image below:
 
 |image29|
@@ -444,7 +444,7 @@ this:
 
 |image30|
 
-1. The station coordinate file (‘isd.history-merge.txt’) containing
+4. The station coordinate file (‘isd.history-merge.txt’) containing
    information of each station (its name, the country where is located
    and the geographic coordinates LAT and LONG) has now to be merged
    with the data frame containing information on mean\_wdsp. R will use
@@ -461,7 +461,7 @@ this:
 
 |image31|
 
-1. To facilitate the steps of the analysis performed with QGIS, we now
+5. To facilitate the steps of the analysis performed with QGIS, we now
    need to split the dataset into one file for each month. To do that,
    write the following commands in the console:
 
@@ -503,7 +503,7 @@ speeds. At the end of the process you will have 12 separate files:**
 
 |image37|
 
-1. A Coordinate Reference System Selector will appear asking you to
+2. A Coordinate Reference System Selector will appear asking you to
    select a coordinate reference system. Since the wind speed
    coordinates are in latitudes and longitudes, you should select WGS
    84. Click OK.
@@ -513,7 +513,7 @@ below:
 
 |image38|
 
-1. The layers need now to be projected into a projected coordinate
+3. The layers need now to be projected into a projected coordinate
    system. Right click on each layer and select “Save As…” a window will
    automatically appear. Select the folder to which you want to save the
    file, give it a name and select an appropriate projected coordinate
@@ -524,7 +524,7 @@ below:
 
 |image40|
 
-1. We are now going to apply the Universal Kriging technique to
+4. We are now going to apply the Universal Kriging technique to
    interpolate the monthly mean wind speed values. This particular
    technique has been chosen since is considered one of the most
    accurate techniques to spatially interpolate this kind of variable
@@ -534,7 +534,7 @@ below:
 
 |image41|
 
-1. This action will open a new window, insert each one of the projected
+5. This action will open a new window, insert each one of the projected
    point shapefiles produced in the prior step. In **Attribute**, select
    the name of the column that contain the monthly mean wind speed
    values. In the **Resampling** column, choose “Inverse Distance
@@ -549,7 +549,7 @@ below:
 
    |image42|
 
-2. The layer you are interested in is the Prediction one, the second
+6. The layer you are interested in is the Prediction one, the second
    layer generated (Quality measures) just provides you with statistics
    on how well the prediction has been made. Interpolation does not give
    accurate results outside the collection area, so let’s clip the
@@ -559,7 +559,7 @@ below:
 
    |image43|
 
-3. Go to \ **Processing -> Toolbox** and search for **Clip raster by
+7. Go to \ **Processing -> Toolbox** and search for **Clip raster by
    mask layer.** Rick click and select **“Execute as a batch process”.**
    In the **Input layer** column, select each of the recently created
    wind speed raster layers, in consecutive order. In the **Mask layer**
@@ -585,15 +585,15 @@ Extract Potential Evapotranspiration (*PETi*) data
 
 |image45|
 
-1. Select the “global\_et0\_monthly.tif.zip” to download and save in
+2. Select the “global\_et0\_monthly.tif.zip” to download and save in
    your working folder. Unzip the files.
 
-2. Open the 12 raster files in QGIS. Select the 12 tif files (the number
+3. Open the 12 raster files in QGIS. Select the 12 tif files (the number
    corresponds to the month).
 
 |image46|
 
-1. Once all PET files are open, we need to clip them to the study area
+4. Once all PET files are open, we need to clip them to the study area
    border. Open a shapefile of the study area and ensure that it is in
    the same projection as the PET layers (EPGS 4326). To do that go to
    **Processing -> Toolbox** and search for **Clip raster by mask
@@ -601,7 +601,7 @@ Extract Potential Evapotranspiration (*PETi*) data
 
 |image47|
 
-1. In the **Input layer** column, select each of the PET raster layers,
+5. In the **Input layer** column, select each of the PET raster layers,
    in consecutive order. In the **mask layer** column, select the
    shapefile of your study area. Then, select the folder and name of the
    12 clipped layers in the **Clipped (mask)** column. Leave the rest as
@@ -609,7 +609,7 @@ Extract Potential Evapotranspiration (*PETi*) data
 
 |image48|
 
-1. QGIS will automatically clip the twelve PET layers to the shape of
+6. QGIS will automatically clip the twelve PET layers to the shape of
    your study area and save the resulting files in the folder that you
    specified. The result will be something similar to this:
 
@@ -630,7 +630,7 @@ Extract monthly average precipitation (*Pi*) for your study area
 
 |image50|
 
-1. This will take you to the download page for climate data at different
+2. This will take you to the download page for climate data at different
    resolutions. Click on the relative link to download raster data for
    precipitation at the required resolution, in this example, we will
    select the 30 sec resolution.
@@ -640,7 +640,7 @@ Extract monthly average precipitation (*Pi*) for your study area
     The download of a zip file including precipitation layers for each
     month of the year, numbered 1 to 12, will start.
 
-1. Unzip these files, upload them in QGIS and clip them to the shape of
+3. Unzip these files, upload them in QGIS and clip them to the shape of
    your study area following the same steps described in the previous
    section.
 
@@ -653,9 +653,7 @@ Use Raster Calculator to compute the climatic ‘C’ factor layer
 
 .. math:: C = \frac{1}{100}\  \times \ \sum_{i = 1}^{12}{u^{3}\left( \frac{PETi - Pi}{\text{PETi}} \right)}d
 
-    The 3 sets of monthly layers (windspeed, precipitation and
-    EvapoTranspiration) prepared in the previous steps will be used as
-    input layers in Raster Calculator.
+The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) prepared in the previous steps will be used as input layers in Raster Calculator.
 
     To perform the analysis follow the instructions below:
 
@@ -683,10 +681,9 @@ Use Raster Calculator to compute the climatic ‘C’ factor layer
 (("ws\_12@1"^3) \* (( "pet\_12@1" - "prec\_12@1") / "pet\_12@1")\*31)) /
 100
 
-1. |image52|\ The resulting map will look similar to the one shown on
-   the side. The higher the value is (in dark orange), the higher is
-   expected to be the climatic tendency to produce conditions conducive
-   to wind erosion.
+4. |image52|
+
+The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Re-classify the ‘C’ factor layer into classes for analysis 
@@ -724,7 +721,7 @@ reclassify the C factor layer:
 
 When done, save the file as C\_factor\_reclass\_rule.txt
 
-1. Now open the **r.reclass** tool. In **Input Raster** window, enter
+3. Now open the **r.reclass** tool. In **Input Raster** window, enter
    the C\_factor raster file and in **File containing reclass rules**,
    select the reclass rule text file created in the previous step
    (C\_factor\_reclass\_rule.txt). Click **Run**. The output file would
@@ -756,23 +753,23 @@ national updates of soil information worldwide.
 
 |image58|
 
-1. The HWSD includes a raster image file and a linked attribute
+2. The HWSD includes a raster image file and a linked attribute
    database. In the next window, download the HWSD\_RASTER.zip and the
    HWSD.mbd files.
 
-2. We now need to query the HWSD.mbd database in Microsoft Access to
+3. We now need to query the HWSD.mbd database in Microsoft Access to
    obtain the Soil texture values that will allow to determine to which
    Wind Erodibility Group they pertain. To do that, open the HWSD.mb in
    Microsoft Access.
 
-3. Then, go to the tab **CREATE** and click on **QUERY DESIGN**
+4. Then, go to the tab **CREATE** and click on **QUERY DESIGN**
 
    |image59|
 
-4. A new screen will automatically appear, in the table pick
+5. A new screen will automatically appear, in the table pick
    **HWSD\_DATA** and click on **Add**
 
-5. The HWSD\_DATA table will appear in the workspace. A small panel will
+6. The HWSD\_DATA table will appear in the workspace. A small panel will
    appear, double click in this order **MU\_GLOBAL**,
    **T\_USDA\_TEX\_CLASS**, **T\_CACO3** and **T\_CLAY**. These 4
    variables will be added in the table located at the bottom. Now click
@@ -780,31 +777,31 @@ national updates of soil information worldwide.
 
 |image60|\ |image61|
 
-1. Give the table a name (for example WEG) and click OK. Then click on
+7. Give the table a name (for example WEG) and click OK. Then click on
    the **Run** button on the top bar.
 
 |image62|
 
-1. The new table will be created and will automatically appear in the
+8. The new table will be created and will automatically appear in the
    table list at the left. Now, right click on it, select **Export** and
    then **Excel.** Save it in your working folder. When done, open the
    file in Microsoft Excel and save it in CSV format.
 
 |image63|
 
-1. Now, unzip HWSD\_RASTER.zip and upload hwsd.bil in QGIS. Convert it
+9. Now, unzip HWSD\_RASTER.zip and upload hwsd.bil in QGIS. Convert it
    into Geotiff format by right clicking on the layer and selecting
    **Save As…**
 
 |image64|
 
-1. Upload a shapefile of your study area to cut out the hwsd.tiff file
+10. Upload a shapefile of your study area to cut out the hwsd.tiff file
    created in the previous step to the shape of your study area using
    GDAL’s **Clip Raster by mask layer tool.**
 
 |image65|
 
-1. Now, we need to convert the output raster file to a point shapefile
+11. Now, we need to convert the output raster file to a point shapefile
    in order to join it with the excel file created in Access before. To
    do that, go to the Processing Toolbox window and open the **Raster
    values to points** tool in Saga. In the **Grids** window, select the
@@ -814,13 +811,13 @@ national updates of soil information worldwide.
 
    |image66|
 
-2. When the process is finished, upload the output file in QGIS. Go to
+12. When the process is finished, upload the output file in QGIS. Go to
    the processing toolbox and open the **Refactor fields** tool. This
    tool is useful to edit the structure attribute table of vector files.
    Change the name of the variable “clippedmask” to MU\_GLOBAL and click
    on **Run**.
 
-3. Now open the csv file containing the USDA soil texture values
+13. Now open the csv file containing the USDA soil texture values
    (remember to have previously saved the Excel file exported from
    Access as csv file). To do that, go to **Layer > Add Layer > Add
    Delimited Text Layer.** In **Geometry Definition**, select **No
@@ -828,13 +825,13 @@ national updates of soil information worldwide.
 
 |image67|
 
-1. Now, right click on the point shapefile created in step 12 and go to
+14. Now, right click on the point shapefile created in step 12 and go to
    **Properties**, and then **Joins.** Then click on the green “\ **+”**
    sign button.
 
 |image68|
 
-1. In the next window, select the text file WEG, as **Join layer**. In
+15. In the next window, select the text file WEG, as **Join layer**. In
    **Join field** (the common field between both datasets), select
    MU\_GLOBAL, and in **Target field** select MU\_GLOBAL again. Then,
    click **Choose which fields are joined** and select
@@ -843,7 +840,7 @@ national updates of soil information worldwide.
 
    |image69|
 
-2. Now the soil texture and carbonate data will be used to reclassify
+16. Now the soil texture and carbonate data will be used to reclassify
    the map into the Wind Erodibility groups defined by the USDA. To do
    that you first need to know, how this information is codified in the
    database. This is explained in the database documentation (available
@@ -904,12 +901,12 @@ national updates of soil information worldwide.
 
 |image72|
 
-1. In the next window, click on **Create new field**. In the **Output
+17. In the next window, click on **Create new field**. In the **Output
    field name** insert WEG.
 
    |image73|
 
-2. In the Expression window, insert the text below. This function will
+18. In the Expression window, insert the text below. This function will
    automatically compute the corresponding WEG value based on the values
    of USDA texture classes, CaCO\ :sub:`3` and Clay content, as defined
    in the WEG table included in the previous page.
@@ -990,7 +987,7 @@ END
     automatically populate it following the criteria established in the
     code. This may take a few minutes. Then click **Save**.
 
-1. Once the previous step is completed, we need to convert the point
+19. Once the previous step is completed, we need to convert the point
    shapefile layer into a raster file again. The **Rasterize (vector to
    raster)** tool can be used to perform this step. In **Input layer**,
    select the projected point shapefile created in the previous step. In
@@ -1030,16 +1027,16 @@ steps described below:
 
 |image76|
 
-1. This will download a zip file. You must store the file and extract
+2. This will download a zip file. You must store the file and extract
    all data (right click, then select **Extract All**\ …) in order to
    open the DEM data in QGIS.
 
-2. Open QGIS and add the DEM data as a ‘raster layer’. To do this, click
+3. Open QGIS and add the DEM data as a ‘raster layer’. To do this, click
    on **Layer** in the tools bar at the top of the document, then click
    **Add Layer** and select **Add Raster Layer…** from the drop-down
    menu.
 
-3. You can then browse to the folder location where the DEM is saved.
+4. You can then browse to the folder location where the DEM is saved.
    The DEM raster is located within the sa\_dem\_30s sub-folder. Within
    that folder, click on any of the files, and click **Open**.
 
@@ -1047,10 +1044,10 @@ steps described below:
 
 You will now have the DEM layer in your QGIS.
 
-1. Clip the DEM to the shape of your study area, using GDAL’s **Clip
+5. Clip the DEM to the shape of your study area, using GDAL’s **Clip
    Raster by mask layer** tool as done in previous steps\ **.**
 
-2. To calculate the terrain ruggedness index, go to **Raster > Terrain
+6. To calculate the terrain ruggedness index, go to **Raster > Terrain
    Analysis > Ruggedness Index.**
 
 |image78|
@@ -1066,7 +1063,7 @@ You will now have the DEM layer in your QGIS.
 
     |image80|
 
-1. We now need to reclassify the final layer into 7 classes. We will use
+7. We now need to reclassify the final layer into 7 classes. We will use
    the classification suggested by Riley et al. (the authors of this
    index) and re-classify the layer into 7 classes, where 7 indicates
    low ruggedness index values, meaning a higher sensitivity to wind
@@ -1083,7 +1080,7 @@ You will now have the DEM layer in your QGIS.
 
     Then save the file with the name TRI-reclass.txt
 
-1. Open the **r.reclass** tool to reclassify the Terrain Ruggedness
+8. Open the **r.reclass** tool to reclassify the Terrain Ruggedness
    Index into 7 classes.
 
     |image83|
@@ -1128,7 +1125,7 @@ erosion sensitivity map to only show areas with forest cover.
     relative importance of forests to control wind erosion from 21
     (maximum importance) to 3 (minimum importance).
 
-1. Now, right click on the layer and choose **Properties**. Then go to
+2. Now, right click on the layer and choose **Properties**. Then go to
    **Style. In Render Type,** select “Singleband pseudocolor”, select a
    color ramp that you like, in **Mode** select “Equal Interval”, in
    **classes** select “6” and then click **Apply**.
@@ -1191,10 +1188,13 @@ Mongolia*. Institute of Geoecology, Mongolian Academy of Sciences. ISBN:
 Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
-
+   
 .. |image200| image:: media/media_Wind_Erosion/image0.png
    :width: 11.259in
-   :height: 12.343in
+   :height: 10in
+.. |image201| image:: media/media_Wind_Erosion/image1.png
+   :width: 2.640in
+   :height: 0.987in
 .. |image0| image:: media/media_Wind_Erosion/image3.png
    :width: 3.214in
    :height: 2.194in
