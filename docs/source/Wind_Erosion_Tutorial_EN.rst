@@ -62,7 +62,6 @@ aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
 |image201|
-\ |image1|
 
 ------------
 Introduction
@@ -1128,7 +1127,7 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image200| image:: media/media_Wind_Erosion/image0.png
    :width: 8.444in
    :height: 9.257in
-.. |image201| image:: media/media_Wind_Erosion/image1.png
+.. |image201| image:: media/media_Wind_Erosion/combined.png
    :width: 2.640in
    :height: 0.987in
 .. |image0| image:: media/media_Wind_Erosion/image3.png
