@@ -890,76 +890,44 @@ national updates of soil information worldwide.
    in the WEG table included in the previous page.
 
 CASE WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 13
-
 THEN 7
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 12
-
 THEN 6
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 11
-
 THEN 5
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 10
-
 THEN 3
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" > 15
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" < 15
-
 THEN 3
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 8
-
 THEN 3
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" < 20
-
 THEN 3
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" > 20
-
 THEN 2
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 6
-
 THEN 1
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 5
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
 "WEG\_T\_CACO3" < 15
-
 THEN 1
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
 "WEG\_T\_CACO3" > 15
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" < 35
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 3
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 2
-
 THEN 4
-
 WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 1
-
 THEN 4
-
 END
+
+|image500|
 
     Then click **OK.** QGIS will create a column named “WEG” and
     automatically populate it following the criteria established in the
@@ -1450,5 +1418,8 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 5.40000in
    :height: 3.20315in
 .. |image89| image:: media/media_Wind_Erosion/image93.png
+   :width: 5.22115in
+   :height: 3.89764in
+.. |image500| image:: media/media_Wind_Erosion/additionalimage.png
    :width: 5.22115in
    :height: 3.89764in
