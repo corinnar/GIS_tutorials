@@ -215,21 +215,21 @@ QGIS and statistical analyses in RStudio.
 
 |image3|
 
-1. *Go to **Data Access ***\ and click on the link under ***Daily
+3. *Go to **Data Access ***\ and click on the link under ***Daily
    Observational Data*** in the ***Subsetting Service Row. ***
 
 |image4|
 
-1. A pop up window will open, click on **All Maps** and then on **Daily
+4. A pop up window will open, click on **All Maps** and then on **Daily
    Observational Data.** A map viewer will automatically open.
 
-2. Once the map viewer is open, **Search** for a location, Paraguay in
+5. Once the map viewer is open, **Search** for a location, Paraguay in
    this case, and tick the box next to **Global Summary of the Day** on
    the left side of the map.
 
 |image5|
 
-1. Click on the **tools** **icon** next to **Global Summary of the Day**
+6. Click on the **tools** **icon** next to **Global Summary of the Day**
    and then to **Polygon** to select the area of interest. This will
    allow you to draw a polygon and select the weather stations for your
    area of interest. For a more accurate execution of the interpolation
@@ -239,7 +239,7 @@ QGIS and statistical analyses in RStudio.
 
    |image6|
 
-2. On the left side of the map the list of the stations included in the
+7. On the left side of the map the list of the stations included in the
    polygon will appear. Select just the stations with at least *five
    years of data* and then click on **Access Data** at the bottom.
 
@@ -247,7 +247,7 @@ QGIS and statistical analyses in RStudio.
 
 In the following window, click on ***“Agree”***.
 
-1. In the next window, you will be asked to select the date range of the
+8. In the next window, you will be asked to select the date range of the
    weather records of the station selected. Select 01/01/1949 and leave
    the date in the “To” row as it is. Select ***“comma delimited”***
    under ***“Select output format”.*** Mark the box under “I am not a
@@ -255,7 +255,7 @@ In the following window, click on ***“Agree”***.
 
 |image8|
 
-1. The dataset of the records selected will then available for download
+9. The dataset of the records selected will then available for download
    as a csv. Click on the link to the text file and select ***“Save link
    as”*** and save it in your working file (“data\_downloaded.txt”).
 
@@ -273,14 +273,14 @@ and R Studio (an R user interface) to do this.
 
 |image10|
 
-1. Now we are going to import the weather dataset file,
+2. Now we are going to import the weather dataset file,
    “data\_downloaded.txt”. Under the ‘Environment’ tab in R studio
    window, click on ***“Import Dataset”*** and select **“From Text
    (base)”**
 
 |image11|
 
-1. Select the dataset and ensure that the “\ ***Separator***\ ” is set
+3. Select the dataset and ensure that the “\ ***Separator***\ ” is set
    as *“Comma”,* “\ ***Decimal***\ ” is set as *“Period”* and
    ***“na.strings”*** to *“999.9”*, which is the value to which our
    dataset assigns the missing values. Then click ***“Import”*.** You
@@ -294,7 +294,7 @@ and R Studio (an R user interface) to do this.
     Station Code Number (“STN…”), the date of the observations
     (“YEARMODA”) and the mean wind speed value (“WDSP”).
 
-1. Change the name of the station name column (STN…) to something
+4. Change the name of the station name column (STN…) to something
    simpler to work with (fnamWSor example: STN). To do that, write the
    following formula in the console window:
 
@@ -302,7 +302,7 @@ and R Studio (an R user interface) to do this.
 
 |image14|
 
-1. Now, we are going to create a new data frame (WS1) containing only
+5. Now, we are going to create a new data frame (WS1) containing only
    the three variables of interest (STN, YEARMODA and WDSP). To do that,
    write the following command in the console.
 
@@ -313,7 +313,7 @@ Environment tab:
 
 |image16|
 
-1. For computational purposes, the variable for the date of the
+6. For computational purposes, the variable for the date of the
    observation (*YEARMODA*) must be split into three: year, month and
    day of observation. To do this, write the following formula into the
    Console window:
@@ -332,7 +332,7 @@ DAY:
 
 |image20|
 
-1. The WS dataset contains some no data values (recorded as 999.9). We
+7. The WS dataset contains some no data values (recorded as 999.9). We
    need to remove these values from the dataset before any other
    calculation is made. A new data frame will be created (WS2),
    containing only valid observations. To do that, write the following
@@ -346,7 +346,7 @@ DAY:
 
 |image22|
 
-1. In the ‘metadata’ txt file downloaded in Step 8 of the section “Steps
+8. In the ‘metadata’ txt file downloaded in Step 8 of the section “Steps
    to download the daily wind speed data”, you will see that wind speed
    values are in tenths of a knot (0.1 knots). The formula requires
    these values to be converted to meters per second (m/s). To convert
