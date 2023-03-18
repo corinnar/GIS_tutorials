@@ -61,6 +61,14 @@ materials generated for working sessions held in various countries to
 aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
+|
+
+|
+
+|
+
+|
+
 |image202|
 
 ------------
@@ -1125,14 +1133,13 @@ Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
 .. |image200| image:: media/media_Wind_Erosion/image0.png
-   :width: 8.444in
-   :height: 9.257in
+   :width: 900
+
 .. |image202| image:: media/media_Wind_Erosion/combined.png
-   :width: 6.766in
-   :height: 0.987in
+   :width: 900
+
 .. |image0| image:: media/media_Wind_Erosion/image3.png
-   :width: 3.214in
-   :height: 2.194in
+   :width: 300
 .. |image1| image:: media/media_Wind_Erosion/image4.png
    :width: 1.213in
    :height: 0.410in
