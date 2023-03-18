@@ -1125,11 +1125,11 @@ Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
 .. |image200| image:: media/media_Wind_Erosion/image0.png
-   :width: 8.444in
-   :height: 9.257in
+   :width: 900
+
 .. |image202| image:: media/media_Wind_Erosion/combined.png
-   :width: 6.766in
-   :height: 0.987in
+   :width: 900
+
 .. |image0| image:: media/media_Wind_Erosion/image3.png
    :width: 1.607in
    :height: 1.097in
