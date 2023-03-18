@@ -522,9 +522,7 @@ below:
    system for your study area, in this case we will select WGS 84 UTM
    Zone 21S. Repeat for all twelve layers.
 
-|image39|
-
-|image40|
+|image40| \ |image39|
 
 4. We are now going to apply the Universal Kriging technique to
    interpolate the monthly mean wind speed values. This particular
