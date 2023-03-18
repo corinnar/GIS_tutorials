@@ -870,29 +870,7 @@ national updates of soil information worldwide.
     7 for our analysis, as sandy soils are most sensitive to wind
     erosion).
 
-+---------------+
-| New classes   |
-+===============+
-| 7             |
-+---------------+
-| 6             |
-+---------------+
-| 5             |
-+---------------+
-| 4             |
-+---------------+
-| 4             |
-+---------------+
-| 3             |
-+---------------+
-| 2             |
-+---------------+
-| 1             |
-+---------------+
-| NA            |
-+---------------+ |image 70b|
-
-    |image71|
+|image 71b|
 
     To do that, open the attribute table of the point shapefile created
     in the step 15 and click on **field calculator**. This tool allows
@@ -1415,6 +1393,9 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width:b 4.15652in
    :height: 2.01439in
 .. |image71| image:: media/media_Wind_Erosion/image62.png
+   :width: 5.19806in
+   :height: 4.21687in
+.. |image71b| image:: media/media_Wind_Erosion/image62b.png
    :width: 5.19806in
    :height: 4.21687in
 .. |image72| image:: media/media_Wind_Erosion/image76.png
