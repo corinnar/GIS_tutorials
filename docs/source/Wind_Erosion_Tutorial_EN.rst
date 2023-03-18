@@ -62,7 +62,7 @@ aid the production of multiple benefits maps to inform REDD+ planning
 and safeguards policies using open source GIS software.
 
 |image201|
-|image1|
+\ |image1|
 
 ------------
 Introduction
