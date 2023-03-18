@@ -177,13 +177,10 @@ Sidoway, 1965):
 
 Where:
 
-*u* = monthly average wind speed (m/s)
-
-*PETi* = monthly potential evaporation (mm)
-
-*Pi* = monthly average precipitation (mm)
-
-*d* = the number of days in a month.
+|*u* = monthly average wind speed (m/s)
+|*PETi* = monthly potential evaporation (mm)
+|*Pi* = monthly average precipitation (mm)
+|*d* = the number of days in a month.
 
 Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
@@ -377,21 +374,14 @@ DAY:
     The download process will start automatically. Once the process is
     finished, you should see the text below in the Console window:
 
-package ‘assertthat’ successfully unpacked and MD5 sums checked
-
-package ‘R6’ successfully unpacked and MD5 sums checked
-
-package ‘Rcpp’ successfully unpacked and MD5 sums checked
-
-package ‘magrittr’ successfully unpacked and MD5 sums checked
-
-package ‘lazyeval’ successfully unpacked and MD5 sums checked
-
-package ‘DBI’ successfully unpacked and MD5 sums checked
-
-package ‘BH’ successfully unpacked and MD5 sums checked
-
-package ‘dplyr’ successfully unpacked and MD5 sums checked
+|package ‘assertthat’ successfully unpacked and MD5 sums checked
+|package ‘R6’ successfully unpacked and MD5 sums checked
+|package ‘Rcpp’ successfully unpacked and MD5 sums checked
+|package ‘magrittr’ successfully unpacked and MD5 sums checked
+|package ‘lazyeval’ successfully unpacked and MD5 sums checked
+|package ‘DBI’ successfully unpacked and MD5 sums checked
+|package ‘BH’ successfully unpacked and MD5 sums checked
+|package ‘dplyr’ successfully unpacked and MD5 sums checked
 
 The downloaded binary packages are in
 
@@ -889,43 +879,43 @@ national updates of soil information worldwide.
    of USDA texture classes, CaCO\ :sub:`3` and Clay content, as defined
    in the WEG table included in the previous page.
 
-CASE WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 13
-THEN 7
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 12
-THEN 6
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 11
-THEN 5
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 10
-THEN 3
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" > 15
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" < 15
-THEN 3
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 8
-THEN 3
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" < 20
-THEN 3
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" > 20
-THEN 2
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 6
-THEN 1
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 5
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
-"WEG\_T\_CACO3" < 15
-THEN 1
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
-"WEG\_T\_CACO3" > 15
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" < 35
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 3
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 2
-THEN 4
-WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 1
-THEN 4
-END
+|CASE WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 13
+|THEN 7
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 12
+|THEN 6
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 11
+|THEN 5
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 10
+|THEN 3
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" > 15
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 9 AND "WEG\_T\_CACO3" < 15
+|THEN 3
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 8
+|THEN 3
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" < 20
+|THEN 3
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 7 AND "WEG\_T\_CLAY" > 20
+|THEN 2
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 6
+|THEN 1
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 5
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
+|"WEG\_T\_CACO3" < 15
+|THEN 1
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" > 35 AND
+|"WEG\_T\_CACO3" > 15
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 4 AND "WEG\_T\_CLAY" < 35
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 3
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 2
+|THEN 4
+|WHEN "WEG\_T\_USDA\_TEX\_CLASS" = 1
+|THEN 4
+|END
 
 |image500|
 
@@ -1136,8 +1126,8 @@ Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
 .. |image200| image:: media/media_Wind_Erosion/image0.png
-   :width: 11.259in
-   :height: 10in
+   :width: 8.444in
+   :height: 9.257in
 .. |image201| image:: media/media_Wind_Erosion/image1.png
    :width: 2.640in
    :height: 0.987in
@@ -1145,8 +1135,8 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 3.214in
    :height: 2.194in
 .. |image1| image:: media/media_Wind_Erosion/image4.png
-   :width: 2.427in
-   :height: 0.820in
+   :width: 1.213in
+   :height: 0.410in
 .. |image2| image:: media/media_Wind_Erosion/image5.jpeg
    :width: 6.39295in
    :height: 3.22835in
@@ -1157,8 +1147,8 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 6.74451in
    :height: 2.62353in
 .. |image4a| image:: media/media_Wind_Erosion/image8.PNG
-   :width: 6.74451in
-   :height: 2.62353in   
+   :width: 7.187in
+   :height: 6.249in   
 .. |image5| image:: media/media_Wind_Erosion/image10.png
    :width: 5.81525in
    :height: 2.91128in
@@ -1187,8 +1177,8 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 3.55258in
    :height: 0.21878in
 .. |image14| image:: media/media_Wind_Erosion/image19.png
-   :width: 6.26724in
-   :height: 3.72775in
+   :width: 6.447in
+   :height: 5.760in
 .. |image15| image:: media/media_Wind_Erosion/image20.PNG
    :width: 3.45003in
    :height: 0.22920in
@@ -1205,8 +1195,8 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
    :width: 4.40217in
    :height: 1.84651in
 .. |image20| image:: media/media_Wind_Erosion/image25.png
-   :width: 3.94828in
-   :height: 1.93965in
+   :width: 7.676in
+   :height: 2.333in
 .. |image21| image:: media/media_Wind_Erosion/image26.png
    :width: 2.97958in
    :height: 0.19794in
