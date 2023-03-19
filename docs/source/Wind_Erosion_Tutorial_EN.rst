@@ -725,9 +725,9 @@ When done, save the file as C\_factor\_reclass\_rule.txt
 
    |image55|\ |image56|
 
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create the soil wind erodibility (I) layer
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Soil wind erodibility is directly related to the percentage of soil
 aggregates larger than 0.84 mm in diameter. Based on this indicator, the
 US Department of Agriculture (USDA), classified the soils into 7 soil
@@ -949,9 +949,9 @@ shown in the image below.
     Note, in this analysis, there are only 6 classes because those are
     the soil types present in our study area, Paraguay.
 
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create the Topography (K) layer
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The more “rough” the surface is, the lower is the wind speed, hence the
 wind erodibility will decrease. To estimate surface roughness, a DEM
@@ -1034,9 +1034,9 @@ You will obtain something similar to the image below:
 
 |image84|
 
--------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Combine layers to produce wind erosion sensitivity map
--------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now that we have all the layers we can perform the final analysis as per
 the original formula. We will sum the C’ (climate), I’ (soil
@@ -1053,9 +1053,9 @@ The final map should look similar to the one below.
 
 |image86|
 
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Mask the wind erosion sensitivity map using the forest cover layer
---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The forest cover layer will now be used to mask the previously created
 wind erosion sensitivity map to understand where the forests play an
