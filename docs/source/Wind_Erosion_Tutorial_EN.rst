@@ -193,9 +193,9 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Compute the monthly average wind speed layer (u)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Twelve layers, representing monthly average wind speed values for the
 area of interest, will be developed for the *“u”* component of the
@@ -569,9 +569,9 @@ below:
 
    |image44|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Extract Potential Evapotranspiration (*PETi*) data 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     To be able to make the calculation as per the initial formula for
     climate erosivity (see Page 2), we need monthly potential
@@ -612,9 +612,9 @@ Extract Potential Evapotranspiration (*PETi*) data
 
 |image49|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Extract monthly average precipitation (*Pi*) for your study area
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     The climate erosivity formula also requires monthly average
     precipitation (*Pi*) values. If a gridded precipitation layer is not
@@ -641,9 +641,9 @@ Extract monthly average precipitation (*Pi*) for your study area
    your study area following the same steps described in the previous
    section.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Use Raster Calculator to compute the climatic ‘C’ factor layer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Now that we have all the required variables, we can calculate the C
     factor as per the initial formula using Raster Calculator in QGIS:
@@ -682,9 +682,9 @@ The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) p
 
 |image52|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Re-classify the ‘C’ factor layer into classes for analysis 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Finally, we need to reclassify the C factor layer into classes, so
     as to be able to perform the final function which will produce a
@@ -726,8 +726,9 @@ When done, save the file as C\_factor\_reclass\_rule.txt
 
    |image55|\ |image56|
 
-**Create the soil wind erodibility (I) layer**
-
+-------------------------------------------
+Create the soil wind erodibility (I) layer
+-------------------------------------------
 Soil wind erodibility is directly related to the percentage of soil
 aggregates larger than 0.84 mm in diameter. Based on this indicator, the
 US Department of Agriculture (USDA), classified the soils into 7 soil
@@ -949,7 +950,9 @@ shown in the image below.
     Note, in this analysis, there are only 6 classes because those are
     the soil types present in our study area, Paraguay.
 
-**Create the Topography (K) layer**
+-------------------------------------------
+Create the Topography (K) layer
+-------------------------------------------
 
 The more “rough” the surface is, the lower is the wind speed, hence the
 wind erodibility will decrease. To estimate surface roughness, a DEM
@@ -1032,7 +1035,9 @@ You will obtain something similar to the image below:
 
 |image84|
 
-**Combine layers to produce wind erosion sensitivity map**
+-------------------------------------------------------------
+Combine layers to produce wind erosion sensitivity map
+-------------------------------------------------------------
 
 Now that we have all the layers we can perform the final analysis as per
 the original formula. We will sum the C’ (climate), I’ (soil
@@ -1049,7 +1054,9 @@ The final map should look similar to the one below.
 
 |image86|
 
-**Mask the wind erosion sensitivity map using the forest cover layer**
+--------------------------------------------------------------------
+Mask the wind erosion sensitivity map using the forest cover layer
+--------------------------------------------------------------------
 
 The forest cover layer will now be used to mask the previously created
 wind erosion sensitivity map to understand where the forests play an
@@ -1080,7 +1087,9 @@ erosion sensitivity map to only show areas with forest cover.
 
 |image89|
 
-**REFERENCES**
+--------------
+REFERENCES
+--------------
 
 Fryear, D. W. (1998). Mechanics, measurement and modelling wind erosion.
 Advances in Geoecology 31: 291-300.
