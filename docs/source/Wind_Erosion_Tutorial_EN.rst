@@ -193,7 +193,7 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Compute the monthly average wind speed layer (u)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
