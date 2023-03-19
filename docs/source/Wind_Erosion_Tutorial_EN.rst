@@ -569,7 +569,7 @@ below:
 
    |image44|
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Extract Potential Evapotranspiration (*PETi*) data 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -612,7 +612,6 @@ Extract Potential Evapotranspiration (*PETi*) data
 
 |image49|
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Extract monthly average precipitation (*Pi*) for your study area
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -641,7 +640,7 @@ Extract monthly average precipitation (*Pi*) for your study area
    your study area following the same steps described in the previous
    section.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Use Raster Calculator to compute the climatic ‘C’ factor layer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -682,7 +681,7 @@ The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) p
 
 |image52|
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Re-classify the ‘C’ factor layer into classes for analysis 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1088,7 +1087,7 @@ erosion sensitivity map to only show areas with forest cover.
 |image89|
 
 --------------
-REFERENCES
+References
 --------------
 
 Fryear, D. W. (1998). Mechanics, measurement and modelling wind erosion.
