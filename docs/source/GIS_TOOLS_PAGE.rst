@@ -19,7 +19,7 @@ What does this repository contain?
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Open-source: QGIS tutorials**
+Open-source: QGIS tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open-source software is released under a license that allows software to be freely used, modified, and shared (http://opensource.org/licenses). Therefore, using open source software has great potential in building sustainable capacity and a critical mass of experts. Training materials to aid users of open-source GIS software have been produced under the UN-REDD Programme. Please check QGIS software version specified in tutorial before use:
@@ -58,7 +58,7 @@ Open-source software is released under a license that allows software to be free
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-**ArcGIS Desktop: ArcMap tutorials**
+ArcGIS Desktop: ArcMap tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  ArcGIS is familiar to many users, widely taught and preferred by some national GIS teams. See tutorials for ArcGIS and a customised ArcMap toolbox, below.
 
@@ -82,7 +82,7 @@ The toolbox, and instruction manual accompanying the toolbox, provide illustrate
 | Download the toolbox instructions manual (`(Version  2: For ArcGIS 10.x <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/17430-exploring-multiple-benefits-using-an-arcgis-10x-toolbox-instructions-and-documentation.html>`__)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-**Other open-source tool tutotials**
+Other open-source tool tutotials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
