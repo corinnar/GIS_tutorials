@@ -18,7 +18,7 @@ What does this repository contain?
 
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Open-source: QGIS tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -56,13 +56,13 @@ Open-source software is released under a license that allows software to be free
 
 -  *Processing and visualising fire data to identify potential pressures from fires on forest using QGIS 2.18* (`English  <https://www.un-redd.org/sites/default/files/2021-10/FireTutorial.pdf>`__)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
 Other open-source tool tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_170306%20%28336966%29.pdf>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
 ArcGIS Desktop: ArcMap tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  ArcGIS is familiar to many users, widely taught and preferred by some national GIS teams. See tutorials for ArcGIS and a customised ArcMap toolbox, below.
@@ -77,7 +77,7 @@ ArcGIS Desktop: ArcMap tutorials
 
 - Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using Model Builder (`English <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS_190207.pdf>`__, \ `Spanish <https://www.un-redd.org/sites/default/files/2021-10/BuildingSpatialWorkflowsToIdentifyPotReddInterArcGIS.pdf>`__), `Supporting files <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/15628-supporting-files-for-gis-tutorial-10-how-to-produce-a-matrix-style-legend-with-raster-data-using-arcgis-100.html>`__)
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Exploring Multiple Benefits ArcGIS toolbox for ArcMap
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The latest version of the customised ArcGIS toolbox for ArcMap (the UN-REDD Exploring Multiple Benefits Toolbox) developed at UNEP-WCMC for REDD+ multiple benefits analyses is available for **ArcMap 10.6** and **10.5**. It provides both novice and experienced GIS users with a series of predominantly raster analysis tools to help identify, map and understand the spatial relationship between ecosystem carbon stocks, other ecosystem services, biodiversity, land-use and pressures on natural resources. The tools are flexible, with the datasets used and resolution of the analysis being defined by the user. In these latest versions of the toolbox  new tools focusing on water-related ecosystem services have been added.
