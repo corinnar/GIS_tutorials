@@ -4,7 +4,7 @@
 Last updated: |today|
 Last tested with QGIS Version: 2.18
 
-|image0|
+|image00|
 |image3|
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
