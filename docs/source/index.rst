@@ -8,4 +8,5 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    :maxdepth: 4
 
    GIS_TOOLS_PAGE
+   OpenForisXubuntuLiveUSB
    Wind_Erosion_Tutorial_EN
