@@ -5,7 +5,7 @@
 
 **Last tested with QGIS Version**: 2.18
 
-**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious. 
+**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). 
 **See original version** (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
 
 **Suggested Citation:** UNEP [year] Step-by-step tutorial v1.0: Calculating the relative importance of
