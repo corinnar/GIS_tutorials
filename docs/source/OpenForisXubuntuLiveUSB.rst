@@ -1,5 +1,5 @@
 ===========================================================================================
-**Creating an Open Foris Xubuntu Live USB - the basics**
+**Creating an Open Foris Xubuntu Live USB - the basics(QGIS)**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdf only
