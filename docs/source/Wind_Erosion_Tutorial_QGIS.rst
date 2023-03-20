@@ -1,9 +1,17 @@
 ===========================================================================================
 **Assessing the relative importance of forests for wind erosion control (QGIS)**
 ===========================================================================================
+**Last updated**: |today|
+\ **Last tested with QGIS Version:** 2.18 
   
 |image0|
 |image3|
+
+**Suggested Citation:** UNEP [year] Step-by-step tutorial: Calculating the relative importance of
+forest for wind erosion control using QGIS. UN Environment World Conservation Monitoring Centre,
+Cambridge, UK. Downloaded from unep-wcmc-gis-tutorials.readthedocs.io on |today|. 
+
+**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). **See original version** (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -21,10 +29,7 @@ intergovernmental environmental organisation.  The Centre has been in
 operation for over 30 years, combining scientific research with
 practical policy advice.
 
-**Prepared by Xavier de Lamo, Yara Shennan-Farpón and Corinna
-Ravilious.**
-
-**Copyright:** 2019 United Nations Environment Programme
+**Copyright:** United Nations Environment Programme
 
 **Copyright release:** This publication may be reproduced for
 educational or non-profit purposes without special permission, provided
@@ -48,13 +53,9 @@ imply endorsement by UNEP.
 
 We welcome comments on any errors or issues. Should readers wish to
 comment on this document, they are encouraged to get in touch via:
-ccb@unep-wcmc.org.
+https://github.com/corinnar/GIS_tutorials/issues.
 
-**Citation:** de Lamo, X. Shennan-Farpón, Y. and Ravilious, C. (2019)
-Step-by-step tutorial v1.0: Calculating the relative importance of
-forest for wind erosion control - QGIS v2.18. Prepared on behalf of the
-UN-REDD Programme. UN Environment World Conservation Monitoring Centre,
-Cambridge, UK.
+
 
 **Acknowledgements:** These training materials have been produced from
 materials generated for working sessions held in various countries to
@@ -1142,7 +1143,7 @@ Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
-.. |image0| image:: media/media_Wind_Erosion/image0.png
+.. |image0| image:: media/media_Wind_Erosion/image00.png
    :width: 900
 .. |image1| image:: media/media_Wind_Erosion/combined.png
    :width: 900
