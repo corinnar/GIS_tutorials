@@ -18,21 +18,20 @@ What does this repository contain?
 
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
+*Please note in the links below are currently linked to the static published pdf's. We are currently moving these to an online format for easier access and update. These will appear in the table of contents and on the left hand pannel in the read-the docs pages.*
 
 Open-source: QGIS tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open-source software is released under a license that allows software to be freely used, modified, and shared (http://opensource.org/licenses). Therefore, using open source software has great potential in building sustainable capacity and a critical mass of experts. Training materials to aid users of open-source GIS software have been produced under the UN-REDD Programme. Please check QGIS software version specified in tutorial before use:
 
--  *Creating an Open Foris Xubuntu Live USB - the basics* (`English <https://www.un-redd.org/sites/default/files/2021-10/1_CreatingAnOpenForisLiveUSB_v1_0%20%28439643%29.pdf>`__)
+-  *Creating an Open Foris Xubuntu Live USB - the basics* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/1_CreatingAnOpenForisLiveUSB_v1_0%20(439643).pdf>`__)
 
--  *Introduction to QGIS 1.8 – the basics* (`English <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/12018-open-source-gis-tutorial-2-introduction-to-qgis-12018/file.html>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/2_IntroductionTo_QGIS_1_8_v1_1-FR-V3_160705%20%28834644%29.pdf>`__, \ `Mongolian <https://www.un-redd.org/sites/default/files/2021-10/Doc_Intro%20to%20QGIS210%20Mongolia_MN%20%28439430%29.pdf>`__)
+-  *Introduction to QGIS 2.8 - the basics* ( `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_8_FR_180109.pdf>`__)
 
--  *Introduction to QGIS 2.8 - the basics* ( `French <https://www.un-redd.org/sites/default/files/2021-10/2_Intro_to_QGIS2_8_FR_180109.pdf>`__)
+-  *Introduction to QGIS 2.18* (\ `English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_18_190208.pdf>`__)
 
--  *Introduction to QGIS 2.18* (\ `English <https://www.un-redd.org/sites/default/files/2021-10/2_Intro_to_QGIS2_18_190208%20%28456465%29.pdf>`__)
-
--  *How to georeference a scanned map or image* (`English <https://www.un-redd.org/sites/default/files/2021-10/3_GeoreferencingScannedImageUsingQGIS_v1_1.pdf>`__)
+-  *How to georeference a scanned map or image* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/3_GeoreferencingScannedImageUsingQGIS_v1_1.pdf>`__)
 
 -  *Extracting and processing IUCN Red List species data using a vector method* (`English <https://www.un-redd.org/sites/default/files/2021-10/4_ExtractingAndProcessingIUCNRedListSpeciesDataUsingVectorsQGIS_v1_0%20%28728652%29.pdf>`__)
 
