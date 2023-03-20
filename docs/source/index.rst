@@ -4,8 +4,8 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
 
 .. toctree::
    :numbered:
-   :caption: Contents:
-   :maxdepth: 4
+   :caption: Index:
+   :maxdepth: 1
 
    GIS_TOOLS_PAGE
    IntroductionTo_QGIS
