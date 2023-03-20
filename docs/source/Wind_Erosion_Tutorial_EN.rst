@@ -2,8 +2,8 @@
 **Assessing the relative importance of forests for wind erosion control using QGIS V 2.18**
 ===========================================================================================
   
-|image200|
 |image0|
+|image3|
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -69,7 +69,7 @@ and safeguards policies using open source GIS software.
 
 |
 
-|image202|
+|image1|
 
 ------------
 Introduction
@@ -167,7 +167,7 @@ cover.
 Below an image showing the workflow including the steps required to
 carry out this analysis.
 
-|image2|
+|image5|
 
 ------------------------------------------------------------------
 Prepare the climate, soil characteristics and topography layers
@@ -193,9 +193,9 @@ Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
 Calculator to produce a climate erosivity map.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Compute the monthly average wind speed layer (u)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Twelve layers, representing monthly average wind speed values for the
 area of interest, will be developed for the *“u”* component of the
@@ -217,23 +217,23 @@ QGIS and statistical analyses in RStudio.
    on ***Global*** and then search for ***Daily Weather Statistics
    (Graph or Data table).***
 
-|image3|
+|image6|
 
 3. *Go to **Data Access ***\ and click on the link under ***Daily
    Observational Data*** in the ***Subsetting Service Row. ***
 
-|image4|
+|image7|
 
 4. A pop up window will open, click on **All Maps** and then on **Daily
    Observational Data.** A map viewer will automatically open.
    
-|image4a|
+|image8|
 
 5. Once the map viewer is open, **Search** for a location, Paraguay in
    this case, and tick the box next to **Global Summary of the Day** on
    the left side of the map.
 
-|image5|
+|image10|
 
 6. Click on the **tools** **icon** next to **Global Summary of the Day**
    and then to **Polygon** to select the area of interest. This will
@@ -243,13 +243,13 @@ QGIS and statistical analyses in RStudio.
    weather station in the surrounding area of our area of interest. In
    this example, we will draw a polygon around Paraguay.
 
-   |image6|
+   |image11|
 
 7. On the left side of the map the list of the stations included in the
    polygon will appear. Select just the stations with at least *five
    years of data* and then click on **Access Data** at the bottom.
 
-|image7|
+|image12|
 
 In the following window, click on ***“Agree”***.
 
@@ -259,13 +259,13 @@ In the following window, click on ***“Agree”***.
    under ***“Select output format”.*** Mark the box under “I am not a
    robot” and then click continue.
 
-|image8|
+|image13|
 
 9. The dataset of the records selected will then available for download
    as a csv. Click on the link to the text file and select ***“Save link
    as”*** and save it in your working file (“data\_downloaded.txt”).
 
-|image9|
+|image14|
 
 **Steps to compute historical monthly wind speed averages from the daily wind speed data**
 
@@ -277,14 +277,14 @@ and R Studio (an R user interface) to do this.
    **Session > Set Working Directory > Choose Directory.** Select the
    folder in which you have saved the weather data.
 
-|image10|
+|image15|
 
 2. Now we are going to import the weather dataset file,
    “data\_downloaded.txt”. Under the ‘Environment’ tab in R studio
    window, click on ***“Import Dataset”*** and select **“From Text
    (base)”**
 
-|image11|
+|image16|
 
 3. Select the dataset and ensure that the “\ ***Separator***\ ” is set
    as *“Comma”,* “\ ***Decimal***\ ” is set as *“Period”* and
@@ -293,7 +293,7 @@ and R Studio (an R user interface) to do this.
    can change the name of the dataset to something easier to work with
    (for example, WS).
 
-|image12|
+|image17|
 
     You are now able to see the dataset in the viewer window. We are now
     going to select from the dataset our parameters of interest: the
@@ -304,39 +304,39 @@ and R Studio (an R user interface) to do this.
    simpler to work with (fnamWSor example: STN). To do that, write the
    following formula in the console window:
 
-   |image13|
+   |image18|
 
-|image14|
+|image19|
 
 5. Now, we are going to create a new data frame (WS1) containing only
    the three variables of interest (STN, YEARMODA and WDSP). To do that,
    write the following command in the console.
 
-|image15|
+|image20|
 
 You should now see the following datasets (WS and WS1) in the Global
 Environment tab:
 
-|image16|
+|image21|
 
 6. For computational purposes, the variable for the date of the
    observation (*YEARMODA*) must be split into three: year, month and
    day of observation. To do this, write the following formula into the
    Console window:
 
-|image17|
+|image22|
 
-|image18|
+|image23|
 
     Right click on the **WS1** data frame in **RStudio’s data window**
     to see the changes made in the data frame.
 
-|image19|
+|image24|
 
 The WS1 dataset now shows the new variables created, YEAR, MONTH and
 DAY:
 
-|image20|
+|image25|
 
 7. The WS dataset contains some no data values (recorded as 999.9). We
    need to remove these values from the dataset before any other
@@ -344,13 +344,13 @@ DAY:
    containing only valid observations. To do that, write the following
    command in the console:
 
-|image21|
+|image26|
 
     Note that you can now see WS2 in the Data window. The number of
     observations (obs.) included in WS2 has been reduced compared to
     WS1.
 
-|image22|
+|image27|
 
 8. In the ‘metadata’ txt file downloaded in Step 8 of the section “Steps
    to download the daily wind speed data”, you will see that wind speed
@@ -359,12 +359,12 @@ DAY:
    these values to m/s and store them in a new column called ‘WDSP\_MS’,
    write the following command in the console:
 
-|image23|
+|image28|
 
     In the WS2 data tab you can now see a new column ‘WDSP\_MS’ with new
     values for wind speed in m/s:
 
-|image24|
+|image29|
 
     We can now compute mean monthly wind speed values for each of the
     stations of the dataset.
@@ -376,7 +376,7 @@ DAY:
    not included in the core R software. To install and load the
    **dplyr** package, write the following formula in the Console tab:
 
-   |image25|
+   |image30|
 
     The download process will start automatically. Once the process is
     finished, you should see the text below in the Console window:
@@ -397,12 +397,12 @@ C:\\Users\\yaras\\AppData\\Local\\Temp\\RtmpQV1ak4\\downloaded\_packages
 This will also show you the directory of the downloaded package on your
 computer.
 
-|image26|
+|image31|
 
 2. Once the package is loaded, write the following command in the
    console:
 
-|image27|
+|image32|
 
     This will calculate monthly average wind speed for each of the
     weather stations in the data frame and store the values in a new
@@ -410,7 +410,7 @@ computer.
     In order to see the WS3 data frame, click on WS3 in the Global
     Environments window:
 
-|image28|
+|image33|
 
 **Add the geographical coordinates of the weather stations into the dataset**
 
@@ -436,12 +436,12 @@ steps:
 3. In R, use the Import button to import the txt file. Use the
    parameters as shown in the image below:
 
-|image29|
+|image34|
 
 You should now see the data in the data viewing window (top left), like
 this:
 
-|image30|
+|image35|
 
 4. The station coordinate file (‘isd.history-merge.txt’) containing
    information of each station (its name, the country where is located
@@ -458,24 +458,24 @@ this:
     common key variable. The new dataset will look something similar to
     this:
 
-|image31|
+|image36|
 
 5. To facilitate the steps of the analysis performed with QGIS, we now
    need to split the dataset into one file for each month. To do that,
    write the following commands in the console:
 
-|image32|
+|image37|
 
-|image33|
+|image38|
 
 Finally, export the datasets created through the following commands:
 
-|image34|
+|image39|
 
     This will create a separate csv file for each of the months, which
     will also be saved in the workspace directory folder.
 
-|image35|
+|image40|
 
 **Develop continuous mean monthly wind speed surfaces for the study area** 
 
@@ -493,14 +493,14 @@ speeds. At the end of the process you will have 12 separate files:**
 1. Select **‘Layer’ > ‘Add Layer’ > ‘Add delimited text layer’**, as
    shown below:
 
-|image36|
+|image41|
 
     Select the parameters, using the CSV format (change the input layer
     name for each monthly dataset, e.g. “Mean\_WS\_Jan”,
     “Mean\_WS\_Feb”, etc.) as shown in the image below, and then click
     OK:
 
-|image37|
+|image42|
 
 2. A Coordinate Reference System Selector will appear asking you to
    select a coordinate reference system. Since the wind speed
@@ -510,7 +510,7 @@ speeds. At the end of the process you will have 12 separate files:**
 You should now have the point data loaded in QGIS, as in the image
 below:
 
-|image38|
+|image43|
 
 3. The layers need now to be projected into a projected coordinate
    system. Right click on each layer and select “Save As…” a window will
@@ -519,7 +519,7 @@ below:
    system for your study area, in this case we will select WGS 84 UTM
    Zone 21S. Repeat for all twelve layers.
 
-|image40| \ |image39|
+|image45| \ |image44|
 
 4. We are now going to apply the Universal Kriging technique to
    interpolate the monthly mean wind speed values. This particular
@@ -529,7 +529,7 @@ below:
    toolbox and search for SAGA’s Universal Kriging tool. Right click and
    select “Execute as batch process”.
 
-|image41|
+|image46|
 
 5. This action will open a new window, insert each one of the projected
    point shapefiles produced in the prior step. In **Attribute**, select
@@ -544,7 +544,7 @@ below:
    value of the first row by double clicking the head of the column).
    Then click **Run**.
 
-   |image42|
+   |image47|
 
 6. The layer you are interested in is the Prediction one, the second
    layer generated (Quality measures) just provides you with statistics
@@ -554,7 +554,7 @@ below:
    to load a shapefile of the area of interest. Click on **‘Layer’ >
    ‘Add Layer’ > ‘Add Vector Layer’.**
 
-   |image43|
+   |image48|
 
 7. Go to \ **Processing -> Toolbox** and search for **Clip raster by
    mask layer.** Rick click and select **“Execute as a batch process”.**
@@ -567,11 +567,11 @@ below:
    parameters as they are. Once done, click **Run**. The interpolated
    data will now be cut to the region of interest:
 
-   |image44|
+   |image49|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Extract Potential Evapotranspiration (*PETi*) data 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     To be able to make the calculation as per the initial formula for
     climate erosivity (see Page 2), we need monthly potential
@@ -580,7 +580,7 @@ Extract Potential Evapotranspiration (*PETi*) data
 1. PET data can be downloaded from the `CGIAR-CSI Global PET
    Database. <https://figshare.com/articles/Global_Aridity_Index_and_Potential_Evapotranspiration_ET0_Climate_Database_v2/7504448/3>`__
 
-|image45|
+|image50|
 
 2. Select the “global\_et0\_monthly.tif.zip” to download and save in
    your working folder. Unzip the files.
@@ -588,7 +588,7 @@ Extract Potential Evapotranspiration (*PETi*) data
 3. Open the 12 raster files in QGIS. Select the 12 tif files (the number
    corresponds to the month).
 
-|image46|
+|image51|
 
 4. Once all PET files are open, we need to clip them to the study area
    border. Open a shapefile of the study area and ensure that it is in
@@ -596,7 +596,7 @@ Extract Potential Evapotranspiration (*PETi*) data
    **Processing -> Toolbox** and search for **Clip raster by mask
    layer**. Right click on it and select **Execute as batch process.**
 
-|image47|
+|image52|
 
 5. In the **Input layer** column, select each of the PET raster layers,
    in consecutive order. In the **mask layer** column, select the
@@ -604,17 +604,16 @@ Extract Potential Evapotranspiration (*PETi*) data
    12 clipped layers in the **Clipped (mask)** column. Leave the rest as
    it is. Once done, click **Run**.
 
-|image48|
+|image53|
 
 6. QGIS will automatically clip the twelve PET layers to the shape of
    your study area and save the resulting files in the folder that you
    specified. The result will be something similar to this:
 
-|image49|
+|image54|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Extract monthly average precipitation (*Pi*) for your study area
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     The climate erosivity formula also requires monthly average
     precipitation (*Pi*) values. If a gridded precipitation layer is not
@@ -625,14 +624,14 @@ Extract monthly average precipitation (*Pi*) for your study area
 1. Go to WorldClim (`www.worldclim.org <http://www.worldclim.org>`__),
    click **Version 2.0. **
 
-|image50|
+|image55|
 
 2. This will take you to the download page for climate data at different
    resolutions. Click on the relative link to download raster data for
    precipitation at the required resolution, in this example, we will
    select the 30 sec resolution.
 
-|image51|
+|image56|
 
     The download of a zip file including precipitation layers for each
     month of the year, numbered 1 to 12, will start.
@@ -641,9 +640,9 @@ Extract monthly average precipitation (*Pi*) for your study area
    your study area following the same steps described in the previous
    section.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Use Raster Calculator to compute the climatic ‘C’ factor layer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Now that we have all the required variables, we can calculate the C
     factor as per the initial formula using Raster Calculator in QGIS:
@@ -680,11 +679,11 @@ The 3 sets of monthly layers (windspeed, precipitation and evapoTranspiration) p
 
 4. The resulting map will look similar to the one shown on the side. The higher the value is (in dark orange), the higher is expected to be the climatic tendency to produce conditions conducive to wind erosion.
 
-|image52|
+|image57|
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Re-classify the ‘C’ factor layer into classes for analysis 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Finally, we need to reclassify the C factor layer into classes, so
     as to be able to perform the final function which will produce a
@@ -701,7 +700,7 @@ reclassify the C factor layer:
    in **Quantiles (raw output)** specify the path where to save the
    output file.
 
-   |image53|
+   |image58|
 
 2. There are various reclassification tools in QGIS. We will use the
    **r.reclass** tool, which requires a text file (.txt) where the user
@@ -710,7 +709,7 @@ reclassify the C factor layer:
    previous step and use the intervals to specify the classes, as shown
    in the image below:
 
-|image54|
+|image59|
 
     \* Always ensure to reclassify values in ascending rank, the
     interval containing the highest values is reclassified to “7”, the
@@ -724,10 +723,13 @@ When done, save the file as C\_factor\_reclass\_rule.txt
    (C\_factor\_reclass\_rule.txt). Click **Run**. The output file would
    be similar to the one below.
 
-   |image55|\ |image56|
+   |image60|
+   
+   |image61|
 
-**Create the soil wind erodibility (I) layer**
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create the soil wind erodibility (I) layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Soil wind erodibility is directly related to the percentage of soil
 aggregates larger than 0.84 mm in diameter. Based on this indicator, the
 US Department of Agriculture (USDA), classified the soils into 7 soil
@@ -735,7 +737,7 @@ wind erodibility classes, based on soil texture and soil carbonate
 content (CaCO:sub:`3`). The classification goes from 1 (highly
 susceptible to wind erosion) to 7 (no susceptible to wind erosion).
 
-|image57|
+|image62|
 
 In order to create the soil wind erodibility layer, you would need a
 soil map for the study area with information on soil texture and
@@ -748,7 +750,7 @@ national updates of soil information worldwide.
    http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/index.html?sb=1
    and click on Download Data only.
 
-|image58|
+|image63|
 
 2. The HWSD includes a raster image file and a linked attribute
    database. In the next window, download the HWSD\_RASTER.zip and the
@@ -761,7 +763,7 @@ national updates of soil information worldwide.
 
 4. Then, go to the tab **CREATE** and click on **QUERY DESIGN**
 
-   |image59|
+   |image64|
 
 5. A new screen will automatically appear, in the table pick
    **HWSD\_DATA** and click on **Add**
@@ -772,31 +774,31 @@ national updates of soil information worldwide.
    variables will be added in the table located at the bottom. Now click
    on the **Make Table** command.
 
-|image60|\ |image61|
+|image65|\ |image66|
 
 7. Give the table a name (for example WEG) and click OK. Then click on
    the **Run** button on the top bar.
 
-|image62|
+|image67|
 
 8. The new table will be created and will automatically appear in the
    table list at the left. Now, right click on it, select **Export** and
    then **Excel.** Save it in your working folder. When done, open the
    file in Microsoft Excel and save it in CSV format.
 
-|image63|
+|image68|
 
 9. Now, unzip HWSD\_RASTER.zip and upload hwsd.bil in QGIS. Convert it
    into Geotiff format by right clicking on the layer and selecting
    **Save As…**
 
-|image64|
+|image69|
 
 10. Upload a shapefile of your study area to cut out the hwsd.tiff file
    created in the previous step to the shape of your study area using
    GDAL’s **Clip Raster by mask layer tool.**
 
-|image65|
+|image70|
 
 11. Now, we need to convert the output raster file to a point shapefile
    in order to join it with the excel file created in Access before. To
@@ -806,7 +808,7 @@ national updates of soil information worldwide.
    **“cells”.** In Shapes, specify the name of the **output** layer and
    then click **Run**.
 
-   |image66|
+   |image71|
 
 12. When the process is finished, upload the output file in QGIS. Go to
    the processing toolbox and open the **Refactor fields** tool. This
@@ -820,13 +822,13 @@ national updates of soil information worldwide.
    Delimited Text Layer.** In **Geometry Definition**, select **No
    Geometry** (**attribute only table).** Then, click OK.
 
-|image67|
+|image72|
 
 14. Now, right click on the point shapefile created in step 12 and go to
    **Properties**, and then **Joins.** Then click on the green “\ **+”**
    sign button.
 
-|image68|
+|image73|
 
 15. In the next window, select the text file WEG, as **Join layer**. In
    **Join field** (the common field between both datasets), select
@@ -835,7 +837,7 @@ national updates of soil information worldwide.
    T\_USDA\_TEXT\_CLASS, T\_CACO3 and T\_CLAY. Save it under a new name
    and in a projected coordinate system.
 
-   |image69|
+   |image74|
 
 16. Now the soil texture and carbonate data will be used to reclassify
    the map into the Wind Erodibility groups defined by the USDA. To do
@@ -849,7 +851,7 @@ national updates of soil information worldwide.
     possible classes of soil texture, which are codified in the
     following way:
 
-|image70|
+|image75|
 
     **T\_CACO3**: The values in this field represent % of weight. We
     will use this information to determine if a soil is calcareous or
@@ -867,19 +869,19 @@ national updates of soil information worldwide.
     7 for our analysis, as sandy soils are most sensitive to wind
     erosion).
 
-|image71b|
+|image75b|
 
     To do that, open the attribute table of the point shapefile created
     in the step 15 and click on **field calculator**. This tool allows
     to perform calculations on the basis of existing attributes values
     or functions.
 
-|image72|
+|image76|
 
 17. In the next window, click on **Create new field**. In the **Output
    field name** insert WEG.
 
-   |image73|
+   |image77|
 
 18. In the Expression window, insert the text below. This function will
    automatically compute the corresponding WEG value based on the values
@@ -939,17 +941,19 @@ national updates of soil information worldwide.
    case, we will set it to 1000 x 1000 meters. Give the output file a
    name and click **Run.**
 
-|image74|
+|image78|
 
 You have just created a soil texture map for your study area, as it is
 shown in the image below.
 
-|image75|
+|image79|
 
     Note, in this analysis, there are only 6 classes because those are
     the soil types present in our study area, Paraguay.
 
-**Create the Topography (K) layer**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create the Topography (K) layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The more “rough” the surface is, the lower is the wind speed, hence the
 wind erodibility will decrease. To estimate surface roughness, a DEM
@@ -968,7 +972,7 @@ steps described below:
    that covers your study area (in the case of Paraguay, we will choose
    **sa\_dem\_30s\_grip.zip**
 
-|image76|
+|image80|
 
 2. This will download a zip file. You must store the file and extract
    all data (right click, then select **Extract All**\ …) in order to
@@ -983,7 +987,7 @@ steps described below:
    The DEM raster is located within the sa\_dem\_30s sub-folder. Within
    that folder, click on any of the files, and click **Open**.
 
-|image77|
+|image81|
 
 You will now have the DEM layer in your QGIS.
 
@@ -993,18 +997,18 @@ You will now have the DEM layer in your QGIS.
 6. To calculate the terrain ruggedness index, go to **Raster > Terrain
    Analysis > Ruggedness Index.**
 
-|image78|
+|image82|
 
     Load the Raster Terrain Analysis plugin in the Plugin Manager. Go to
     **Raster > Terrain Analysis > Ruggedness Index**. Fill in the tool
     dialogue box as shown below and click OK:
 
-|image79|
+|image83|
 
     You should now have a new raster layer with values within the index.
     In our case, the values range from 0 to 572.228
 
-    |image80|
+    |image84|
 
 7. We now need to reclassify the final layer into 7 classes. We will use
    the classification suggested by Riley et al. (the authors of this
@@ -1012,27 +1016,29 @@ You will now have the DEM layer in your QGIS.
    low ruggedness index values, meaning a higher sensitivity to wind
    erosion.
 
-   |image81|
+   |image85|
 
 (Source: https://planet.qgis.org/planet/tag/terrain%20analysis/)
 
     To reclassify the layer, open a text editor and create a reclass
     rule text file, using the as shown below:
 
-    |image82|
+    |image86|
 
     Then save the file with the name TRI-reclass.txt
 
 8. Open the **r.reclass** tool to reclassify the Terrain Ruggedness
    Index into 7 classes.
 
-    |image83|
+    |image87|
 
 You will obtain something similar to the image below:
 
-|image84|
+|image88|
 
-**Combine layers to produce wind erosion sensitivity map**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Combine layers to produce wind erosion sensitivity map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now that we have all the layers we can perform the final analysis as per
 the original formula. We will sum the C’ (climate), I’ (soil
@@ -1043,13 +1049,15 @@ First, ensure that the layers have all the same cell size, geographic
 projection and layer extent. Go to Raster calculator and fill in the
 parameters as shown in the image below.
 
-|image85|
+|image89|
 
 The final map should look similar to the one below.
 
-|image86|
+|image90|
 
-**Mask the wind erosion sensitivity map using the forest cover layer**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mask the wind erosion sensitivity map using the forest cover layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The forest cover layer will now be used to mask the previously created
 wind erosion sensitivity map to understand where the forests play an
@@ -1062,7 +1070,7 @@ erosion sensitivity map to only show areas with forest cover.
    enter the forest cover layer and in **Masked Grid** enter the name
    and desired location of the output file. Then click **Run**.
 
-    |image87|
+    |image91|
 
     We have now created the final map, a layer that indicates the
     relative importance of forests to control wind erosion from 21
@@ -1073,14 +1081,16 @@ erosion sensitivity map to only show areas with forest cover.
    color ramp that you like, in **Mode** select “Equal Interval”, in
    **classes** select “6” and then click **Apply**.
 
-|image88|
+|image92|
 
     The resulting file indicates the relative importance of forest to
     control wind soil erosion in 6 classes, from Low to High.
 
-|image89|
+|image93|
 
-**REFERENCES**
+--------------
+References
+--------------
 
 Fryear, D. W. (1998). Mechanics, measurement and modelling wind erosion.
 Advances in Geoecology 31: 291-300.
@@ -1132,290 +1142,191 @@ Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
-.. |image200| image:: media/media_Wind_Erosion/image0.png
+.. |image0| image:: media/media_Wind_Erosion/image0.png
    :width: 900
-
-.. |image202| image:: media/media_Wind_Erosion/combined.png
+.. |image1| image:: media/media_Wind_Erosion/combined.png
    :width: 900
-
-.. |image0| image:: media/media_Wind_Erosion/image3.png
+.. |image3| image:: media/media_Wind_Erosion/image3.png
    :width: 300
-.. |image1| image:: media/media_Wind_Erosion/image4.png
-   :width: 1.213in
-   :height: 0.410in
-.. |image2| image:: media/media_Wind_Erosion/image5.jpeg
-   :width: 6.39295in
-   :height: 3.22835in
-.. |image3| image:: media/media_Wind_Erosion/image6.png
-   :width: 6.26806in
-   :height: 2.32431in
-.. |image4| image:: media/media_Wind_Erosion/image7.png
-   :width: 6.74451in
-   :height: 2.62353in
-.. |image4a| image:: media/media_Wind_Erosion/image8.PNG
-   :width: 7.187in
-   :height: 6.249in   
-.. |image5| image:: media/media_Wind_Erosion/image10.png
-   :width: 5.81525in
-   :height: 2.91128in
-.. |image6| image:: media/media_Wind_Erosion/image11.png
-   :width: 6.26806in
-   :height: 3.10069in
-.. |image7| image:: media/media_Wind_Erosion/image12.PNG
-   :width: 5.16264in
-   :height: 3.67244in
-.. |image8| image:: media/media_Wind_Erosion/image13.PNG
-   :width: 3.97414in
-   :height: 2.99051in
-.. |image9| image:: media/media_Wind_Erosion/image14.PNG
-   :width: 4.67826in
-   :height: 3.32755in
-.. |image10| image:: media/media_Wind_Erosion/image15.png
-   :width: 5.84783in
-   :height: 2.60256in
-.. |image11| image:: media/media_Wind_Erosion/image16.PNG
-   :width: 2.53525in
-   :height: 1.53034in
-.. |image12| image:: media/media_Wind_Erosion/image17.PNG
-   :width: 3.99513in
-   :height: 3.34646in
-.. |image13| image:: media/media_Wind_Erosion/image18.png
-   :width: 3.55258in
-   :height: 0.21878in
-.. |image14| image:: media/media_Wind_Erosion/image19.png
-   :width: 6.447in
-   :height: 5.760in
-.. |image15| image:: media/media_Wind_Erosion/image20.PNG
-   :width: 3.45003in
-   :height: 0.22920in
-.. |image16| image:: media/media_Wind_Erosion/image21.png
-   :width: 6.26806in
-   :height: 1.48472in
-.. |image17| image:: media/media_Wind_Erosion/image22.png
-   :width: 6.26806in
-   :height: 0.18264in
-.. |image18| image:: media/media_Wind_Erosion/image23.png
-   :width: 3.74010in
-   :height: 0.57300in
-.. |image19| image:: media/media_Wind_Erosion/image24.png
-   :width: 4.40217in
-   :height: 1.84651in
-.. |image20| image:: media/media_Wind_Erosion/image25.png
-   :width: 7.676in
-   :height: 2.333in
-.. |image21| image:: media/media_Wind_Erosion/image26.png
-   :width: 2.97958in
-   :height: 0.19794in
-.. |image22| image:: media/media_Wind_Erosion/image27.png
-   :width: 3.66304in
-   :height: 1.46627in
-.. |image23| image:: media/media_Wind_Erosion/image28.png
-   :width: 3.71927in
-   :height: 0.20836in
-.. |image24| image:: media/media_Wind_Erosion/image29.png
-   :width: 6.26806in
-   :height: 1.82847in
-.. |image25| image:: media/media_Wind_Erosion/image30.png
-   :width: 2.41700in
-   :height: 0.19794in
-.. |image26| image:: media/media_Wind_Erosion/image31.png
-   :width: 1.67732in
-   :height: 0.23962in
-.. |image27| image:: media/media_Wind_Erosion/image32.png
-   :width: 3.47965in
-   :height: 0.58341in
-.. |image28| image:: media/media_Wind_Erosion/image33.png
-   :width: 6.17292in
-   :height: 2.12500in
-.. |image29| image:: media/media_Wind_Erosion/image34.PNG
-   :width: 4.40865in
-   :height: 3.65725in
-.. |image30| image:: media/media_Wind_Erosion/image35.png
-   :width: 4.46219in
-   :height: 2.95238in
-.. |image31| image:: media/media_Wind_Erosion/image36.png
-   :width: 4.95409in
-   :height: 1.96385in
-.. |image32| image:: media/media_Wind_Erosion/image37.png
-   :width: 2.63260in
-   :height: 0.18889in
-.. |image33| image:: media/media_Wind_Erosion/image38.png
-   :width: 2.62504in
-   :height: 1.77969in
-.. |image34| image:: media/media_Wind_Erosion/image39.png
-   :width: 3.02918in
-   :height: 1.74699in
-.. |image35| image:: media/media_Wind_Erosion/image40.png
-   :width: 4.41833in
-   :height: 1.69811in
-.. |image36| image:: media/media_Wind_Erosion/image41.png
-   :width: 4.42037in
-   :height: 2.85085in
-.. |image37| image:: media/media_Wind_Erosion/image42.png
-   :width: 6.26806in
-   :height: 4.11806in
-.. |image38| image:: media/media_Wind_Erosion/image43.png
-   :width: 6.29214in
-   :height: 3.30278in
-.. |image39| image:: media/media_Wind_Erosion/image44.png
-   :width: 3.80139in
-   :height: 4.16806in
-.. |image40| image:: media/media_Wind_Erosion/image45.png
-   :width: 2.21348in
-   :height: 3.56031in
-.. |image41| image:: media/media_Wind_Erosion/image46.png
-   :width: 3.50562in
-   :height: 1.64898in
-.. |image42| image:: media/media_Wind_Erosion/image47.png
-   :width: 5.51511in
-   :height: 2.83577in
-.. |image43| image:: media/media_Wind_Erosion/image48.png
-   :width: 3.60000in
-   :height: 2.10671in
-.. |image44| image:: media/media_Wind_Erosion/image49.png
-   :width: 3.81177in
-   :height: 2.25175in
-.. |image45| image:: media/media_Wind_Erosion/image50.PNG
-   :width: 5.32110in
-   :height: 2.43673in
-.. |image46| image:: media/media_Wind_Erosion/image51.PNG
-   :width: 3.19887in
-   :height: 2.24634in
-.. |image47| image:: media/media_Wind_Erosion/image52.png
-   :width: 4.05278in
-   :height: 1.15126in
-.. |image48| image:: media/media_Wind_Erosion/image53.png
-   :width: 5.40033in
-   :height: 2.21135in
-.. |image49| image:: media/media_Wind_Erosion/image54.png
-   :width: 3.43529in
-   :height: 2.25620in
-.. |image50| image:: media/media_Wind_Erosion/image55.PNG
-   :width: 3.96552in
-   :height: 2.33877in
-.. |image51| image:: media/media_Wind_Erosion/image56.PNG
-   :width: 4.17672in
-   :height: 1.50385in
-.. |image52| image:: media/media_Wind_Erosion/image57.png
-   :width: 4.01736in
-   :height: 2.78403in
-.. |image53| image:: media/media_Wind_Erosion/image58.png
-   :width: 3.52512in
-   :height: 2.57647in
-.. |image54| image:: media/media_Wind_Erosion/image59.png
-   :width: 4.19850in
-   :height: 1.72941in
-.. |image55| image:: media/media_Wind_Erosion/image60.png
-   :width: 2.80720in
-   :height: 2.03526in
-.. |image56| image:: media/media_Wind_Erosion/image61.png
-   :width: 3.25882in
-   :height: 2.46777in
-.. |image57| image:: media/media_Wind_Erosion/image62.png
-   :width: 5.19865in
-   :height: 4.27826in
-.. |image58| image:: media/media_Wind_Erosion/image63.png
-   :width: 4.77639in
-   :height: 2.11765in
-.. |image59| image:: media/media_Wind_Erosion/image64.png
-   :width: 3.22353in
-   :height: 2.17832in
-.. |image60| image:: media/media_Wind_Erosion/image65.png
-   :width: 2.02083in
-   :height: 1.26042in
-.. |image61| image:: media/media_Wind_Erosion/image66.png
-   :width: 3.36181in
-   :height: 1.76471in
-.. |image62| image:: media/media_Wind_Erosion/image67.png
-   :width: 3.81111in
-   :height: 2.25416in
-.. |image63| image:: media/media_Wind_Erosion/image68.png
-   :width: 3.58823in
-   :height: 2.44023in
-.. |image64| image:: media/media_Wind_Erosion/image69.png
-   :width: 4.23535in
-   :height: 1.09118in
-.. |image65| image:: media/media_Wind_Erosion/image70.png
-   :width: 3.81176in
-   :height: 1.44464in
-.. |image66| image:: media/media_Wind_Erosion/image71.PNG
-   :width: 2.71017in
-   :height: 2.97345in
-.. |image67| image:: media/media_Wind_Erosion/image72.png
-   :width: 3.70180in
-   :height: 2.67033in
-.. |image68| image:: media/media_Wind_Erosion/image73.png
-   :width: 3.17500in
-   :height: 1.65208in
-.. |image69| image:: media/media_Wind_Erosion/image74.png
-   :width: 2.92308in
-   :height: 2.39739in
-.. |image70| image:: media/media_Wind_Erosion/image75.png
-   :width: 4.15652in
-   :height: 2.01439in
-.. |image70b| image:: media/media_Wind_Erosion/image75b.png
-   :width:b 4.15652in
-   :height: 2.01439in
-.. |image71| image:: media/media_Wind_Erosion/image62.png
-   :width: 5.19806in
-   :height: 4.21687in
-.. |image71b| image:: media/media_Wind_Erosion/image62b.png
-   :width: 5.19806in
-   :height: 4.21687in
-.. |image72| image:: media/media_Wind_Erosion/image76.png
-   :width: 4.70330in
-   :height: 1.90397in
-.. |image73| image:: media/media_Wind_Erosion/image77.png
-   :width: 2.95575in
-   :height: 1.51521in
-.. |image74| image:: media/media_Wind_Erosion/image78.png
-   :width: 2.35135in
-   :height: 2.30602in
-.. |image75| image:: media/media_Wind_Erosion/image79.png
-   :width: 5.61176in
-   :height: 3.86407in
-.. |image76| image:: media/media_Wind_Erosion/image80.png
-   :width: 3.94118in
-   :height: 2.10944in
-.. |image77| image:: media/media_Wind_Erosion/image81.png
-   :width: 5.56471in
-   :height: 2.27619in
-.. |image78| image:: media/media_Wind_Erosion/image82.png
-   :width: 3.44706in
-   :height: 1.95955in
-.. |image79| image:: media/media_Wind_Erosion/image83.png
-   :width: 2.97647in
-   :height: 1.65282in
-.. |image80| image:: media/media_Wind_Erosion/image84.png
-   :width: 4.47524in
-   :height: 3.20000in
-.. |image81| image:: media/media_Wind_Erosion/image85.png
-   :width: 4.42794in
-   :height: 2.05868in
-.. |image82| image:: media/media_Wind_Erosion/image86.png
-   :width: 2.47951in
-   :height: 1.65648in
-.. |image83| image:: media/media_Wind_Erosion/image87.png
-   :width: 3.35294in
-   :height: 2.68235in
-.. |image84| image:: media/media_Wind_Erosion/image88.png
-   :width: 3.90588in
-   :height: 2.88073in
-.. |image85| image:: media/media_Wind_Erosion/image89.png
-   :width: 3.50588in
-   :height: 3.04094in
-.. |image86| image:: media/media_Wind_Erosion/image90.png
-   :width: 4.12970in
-   :height: 3.07737in
-.. |image87| image:: media/media_Wind_Erosion/image91.png
-   :width: 2.71765in
-   :height: 2.70242in
-.. |image88| image:: media/media_Wind_Erosion/image92.png
-   :width: 5.40000in
-   :height: 3.20315in
-.. |image89| image:: media/media_Wind_Erosion/image93.png
-   :width: 5.22115in
-   :height: 3.89764in
+.. |image4| image:: media/media_Wind_Erosion/image4.png
+   :width: 900
+.. |image5| image:: media/media_Wind_Erosion/image5.jpeg
+   :width: 900
+.. |image6| image:: media/media_Wind_Erosion/image6.png
+   :width: 900
+.. |image7| image:: media/media_Wind_Erosion/image7.png
+   :width: 900
+.. |image8| image:: media/media_Wind_Erosion/image8.PNG
+    :width: 400 
+.. |image10| image:: media/media_Wind_Erosion/image10.png
+   :width: 900
+.. |image11| image:: media/media_Wind_Erosion/image11.png
+   :width: 900
+.. |image12| image:: media/media_Wind_Erosion/image12.PNG
+   :width: 900
+.. |image13| image:: media/media_Wind_Erosion/image13.PNG
+   :width: 700
+.. |image14| image:: media/media_Wind_Erosion/image14.PNG
+   :width: 900
+.. |image15| image:: media/media_Wind_Erosion/image15.png
+   :width: 900
+.. |image16| image:: media/media_Wind_Erosion/image16.PNG
+   :width: 400
+.. |image17| image:: media/media_Wind_Erosion/image17.PNG
+   :width: 900
+.. |image18| image:: media/media_Wind_Erosion/image18.png
+   :width: 400
+.. |image19| image:: media/media_Wind_Erosion/image19.png
+   :width: 900
+.. |image20| image:: media/media_Wind_Erosion/image20.PNG
+   :width: 400
+.. |image21| image:: media/media_Wind_Erosion/image21.png
+   :width: 900
+.. |image22| image:: media/media_Wind_Erosion/image22.png
+   :width: 900
+.. |image23| image:: media/media_Wind_Erosion/image23.png
+    :width: 400
+.. |image24| image:: media/media_Wind_Erosion/image24.png
+   :width: 900
+.. |image25| image:: media/media_Wind_Erosion/image25.png
+   :width: 900
+.. |image26| image:: media/media_Wind_Erosion/image26.png
+   :width: 400
+.. |image27| image:: media/media_Wind_Erosion/image27.png
+   :width: 900
+.. |image28| image:: media/media_Wind_Erosion/image28.png
+   :width: 400
+.. |image29| image:: media/media_Wind_Erosion/image29.png
+   :width: 900
+.. |image30| image:: media/media_Wind_Erosion/image30.png
+   :width: 250
+.. |image31| image:: media/media_Wind_Erosion/image31.png
+   :width: 200
+.. |image32| image:: media/media_Wind_Erosion/image32.png
+   :width: 400
+.. |image33| image:: media/media_Wind_Erosion/image33.png
+   :width: 900
+.. |image34| image:: media/media_Wind_Erosion/image34.PNG
+   :width: 900
+.. |image35| image:: media/media_Wind_Erosion/image35.png
+   :width: 900
+.. |image36| image:: media/media_Wind_Erosion/image36.png
+   :width: 900
+.. |image37| image:: media/media_Wind_Erosion/image37.png
+   :width: 400
+.. |image38| image:: media/media_Wind_Erosion/image38.png
+   :width: 400
+.. |image39| image:: media/media_Wind_Erosion/image39.png
+   :width: 400
+.. |image40| image:: media/media_Wind_Erosion/image40.png
+   :width: 900
+.. |image41| image:: media/media_Wind_Erosion/image41.png
+   :width: 400
+.. |image42| image:: media/media_Wind_Erosion/image42.png
+   :width: 900
+.. |image43| image:: media/media_Wind_Erosion/image43.png
+   :width: 900
+.. |image44| image:: media/media_Wind_Erosion/image44.png
+   :width: 900
+.. |image45| image:: media/media_Wind_Erosion/image45.png
+   :width: 400
+.. |image46| image:: media/media_Wind_Erosion/image46.png
+   :width: 900
+.. |image47| image:: media/media_Wind_Erosion/image47.png
+   :width: 900
+.. |image48| image:: media/media_Wind_Erosion/image48.png
+   :width: 900
+.. |image49| image:: media/media_Wind_Erosion/image49.png
+   :width: 900
+.. |image50| image:: media/media_Wind_Erosion/image50.PNG
+   :width: 900
+.. |image51| image:: media/media_Wind_Erosion/image51.PNG
+   :width: 900
+.. |image52| image:: media/media_Wind_Erosion/image52.png
+   :width: 900
+.. |image53| image:: media/media_Wind_Erosion/image53.png
+   :width: 900
+.. |image54| image:: media/media_Wind_Erosion/image54.png
+   :width: 900
+.. |image55| image:: media/media_Wind_Erosion/image55.PNG
+   :width: 900
+.. |image56| image:: media/media_Wind_Erosion/image56.PNG
+   :width: 900
+.. |image57| image:: media/media_Wind_Erosion/image57.png
+   :width: 900
+.. |image58| image:: media/media_Wind_Erosion/image58.png
+   :width: 900
+.. |image59| image:: media/media_Wind_Erosion/image59.png
+   :width: 400
+.. |image60| image:: media/media_Wind_Erosion/image60.png
+   :width: 900
+.. |image61| image:: media/media_Wind_Erosion/image61.png
+   :width: 900
+.. |image62| image:: media/media_Wind_Erosion/image62.png
+   :width: 900
+.. |image63| image:: media/media_Wind_Erosion/image63.png
+   :width: 900
+.. |image64| image:: media/media_Wind_Erosion/image64.png
+   :width: 400
+.. |image65| image:: media/media_Wind_Erosion/image65.png
+   :width: 250
+.. |image66| image:: media/media_Wind_Erosion/image66.png
+   :width: 400
+.. |image67| image:: media/media_Wind_Erosion/image67.png
+   :width: 900
+.. |image68| image:: media/media_Wind_Erosion/image68.png
+   :width: 900
+.. |image69| image:: media/media_Wind_Erosion/image69.png
+   :width: 900
+.. |image70| image:: media/media_Wind_Erosion/image70.png
+   :width: 900
+.. |image71| image:: media/media_Wind_Erosion/image71.PNG
+   :width: 900
+.. |image72| image:: media/media_Wind_Erosion/image72.png
+   :width: 900
+.. |image73| image:: media/media_Wind_Erosion/image73.png
+   :width: 900
+.. |image74| image:: media/media_Wind_Erosion/image74.png
+   :width: 900
+.. |image75| image:: media/media_Wind_Erosion/image75.png
+   :width: 900
+.. |image75b| image:: media/media_Wind_Erosion/image75b.png
+   :width: 900
+.. |image76| image:: media/media_Wind_Erosion/image76.png
+   :width: 900
+.. |image77| image:: media/media_Wind_Erosion/image77.png
+   :width: 900 
 .. |image500| image:: media/media_Wind_Erosion/additionalimage.png
-   :width: 5.22115in
-   :height: 3.89764in
+   :width: 900
+.. |image78| image:: media/media_Wind_Erosion/image78.png
+   :width: 900
+.. |image79| image:: media/media_Wind_Erosion/image79.png
+   :width: 900
+.. |image80| image:: media/media_Wind_Erosion/image80.png
+   :width: 400
+.. |image81| image:: media/media_Wind_Erosion/image81.png
+   :width: 900
+.. |image82| image:: media/media_Wind_Erosion/image82.png
+   :width: 900
+.. |image83| image:: media/media_Wind_Erosion/image83.png
+   :width: 900
+.. |image84| image:: media/media_Wind_Erosion/image84.png
+   :width: 900
+.. |image85| image:: media/media_Wind_Erosion/image85.png
+   :width: 500
+.. |image86| image:: media/media_Wind_Erosion/image86.png
+   :width: 400
+.. |image87| image:: media/media_Wind_Erosion/image87.png
+   :width: 900
+.. |image88| image:: media/media_Wind_Erosion/image88.png
+   :width: 900
+.. |image89| image:: media/media_Wind_Erosion/image89.png
+   :width: 900
+.. |image90| image:: media/media_Wind_Erosion/image90.png
+   :width: 900
+.. |image91| image:: media/media_Wind_Erosion/image91.png
+   :width: 600
+.. |image92| image:: media/media_Wind_Erosion/image92.png
+   :width: 900
+.. |image93| image:: media/media_Wind_Erosion/image93.png
+   :width: 900
