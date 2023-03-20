@@ -2,7 +2,15 @@
 **Assessing the relative importance of forests for wind erosion control (QGIS)**
 ===========================================================================================
 Last updated: |today|
+
 Last tested with QGIS Version: 2.18
+
+Originally prepared by:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious. \
+See original version (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
+
+**Citation:** UNEP [year] Step-by-step tutorial v1.0: Calculating the relative importance of
+forest for wind erosion control using QGIS. UN Environment World Conservation Monitoring Centre,
+Cambridge, UK. Downloaded on |today|. 
 
 |image0|
 |image3|
@@ -50,12 +58,9 @@ imply endorsement by UNEP.
 
 We welcome comments on any errors or issues. Should readers wish to
 comment on this document, they are encouraged to get in touch via:
-spatialanalysis@unep-wcmc.org.
+https://github.com/corinnar/GIS_tutorials/issues.
 
-**Citation:** UNEP |today| Step-by-step tutorial v1.0: Calculating the relative importance of
-forest for wind erosion control - QGIS v2.18. Prepared on behalf of the
-UN-REDD Programme. UN Environment World Conservation Monitoring Centre,
-Cambridge, UK.
+
 
 **Acknowledgements:** These training materials have been produced from
 materials generated for working sessions held in various countries to
