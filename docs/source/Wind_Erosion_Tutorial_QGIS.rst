@@ -2,18 +2,16 @@
 **Assessing the relative importance of forests for wind erosion control (QGIS)**
 ===========================================================================================
 **Last updated**: |today|
+\ **Last tested with QGIS Version:** 2.18 
+  
+|image0|
+|image3|
 
-**Last tested with QGIS Version**: 2.18
-
-**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). 
-**See original version** (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
-
-**Suggested Citation:** UNEP [year] Step-by-step tutorial v1.0: Calculating the relative importance of
+**Suggested Citation:** UNEP [year] Step-by-step tutorial: Calculating the relative importance of
 forest for wind erosion control using QGIS. UN Environment World Conservation Monitoring Centre,
 Cambridge, UK. Downloaded from unep-wcmc-gis-tutorials.readthedocs.io on |today|. 
 
-|image0|
-|image3|
+**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). **See original version** (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
@@ -30,9 +28,6 @@ the United Nations Environment Programme (UNEP), the world’s foremost
 intergovernmental environmental organisation.  The Centre has been in
 operation for over 30 years, combining scientific research with
 practical policy advice.
-
-**Originally prepared by Xavier de Lamo, Yara Shennan-Farpón and Corinna
-Ravilious.**
 
 **Copyright:** United Nations Environment Programme
 
