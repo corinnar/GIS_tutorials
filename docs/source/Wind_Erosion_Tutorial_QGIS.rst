@@ -11,7 +11,7 @@
 forest for wind erosion control using QGIS. UN Environment World Conservation Monitoring Centre,
 Cambridge, UK. Downloaded from unep-wcmc-gis-tutorials.readthedocs.io on |today|. 
 
-**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). **See original version** (`here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
+**Originally prepared by**:  Xavier de Lamo, Yara Shennan-Farpón and Corinna Ravilious (2019). **See original version:** ( `here <https://www.un-redd.org/sites/default/files/2021-10/Wind_Erosion_Tutorial.pdf>`__)
 
 The UN-REDD Programme is the United Nations Collaborative initiative on
 Reducing Emissions from Deforestation and forest Degradation (REDD) in
