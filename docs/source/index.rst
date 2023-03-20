@@ -31,12 +31,14 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    :numbered:
    :caption: Other open-source tutorials:
    :maxdepth: 1
+   
    WaterWorld_Other
    
 .. toctree::
    :numbered:
    :caption: ArcGIS tutorials:
    :maxdepth: 1
+   
    ProcessingIUCNRedList_ArcGIS
    ImportanceForestsSoilStabilization_ArcGIS
    BuildingSpatialWorkflows_ArcGIS
