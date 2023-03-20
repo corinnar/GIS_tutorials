@@ -4,10 +4,11 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
 
 .. toctree::
    :numbered:
-   :caption: Index:
+   :caption: CONTENTS:
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
+   :caption: QGIS Tutorials
    IntroductionTo_QGIS
    ProcessingIUCNRedList_QGIS
    ImportanceForestsSoilStabilization_QGIS
@@ -21,8 +22,9 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    MatrixLegend_QGIS
    GeoreferenceScannedMap_QGIS
    OpenForisXubuntuLiveUSB_QGIS
-   
+   :caption: Other open source tutorials
    WaterWorld_Other
+   :caption: ArcGIS tutorials
    ProcessingIUCNRedList_ArcGIS
    ImportanceForestsSoilStabilization_ArcGIS
    BuildingSpatialWorkflows_ArcGIS
