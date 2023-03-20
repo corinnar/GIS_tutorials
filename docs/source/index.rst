@@ -4,6 +4,7 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
 
 .. toctree::
    :numbered:
+   :titlesonly:
    :caption: Contents:
    :maxdepth: 4
 
