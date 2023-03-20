@@ -7,7 +7,7 @@ developed and tested with country partners, with tutorials shared in different l
 
 The latest addition to this series is new guidance document that incorporates knowledge gained from working with over 20 developing countries to build capacity and analysing where REDD+ actions could result in non-carbon benefits:
 
-How to Present Complex Data on Maps and other Visuals for Effective Policy Communication: Using visual tools and spatial information to support decisions for REDD+ implementation. \ `Low Res (English) <https://resources.unep-wcmc.org/products/WCMC_CB011>`__  `High Res (English) <https://resources.unep-wcmc.org/products/WCMC_CB011>`__
+How to Present Complex Data on Maps and other Visuals for Effective Policy Communication: Using visual tools and spatial information to support decisions for REDD+ implementation. \ `Low Res (English) <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/MappingGuidanceForEffectivePolicyCommunication_v1_lowres%20(467713).pdf>`__  `High Res (English) <https://resources.unep-wcmc.org/products/WCMC_CB011>`__
 
 **To receive information on tutorial updates and other relevant content, please join our low-volume mailing list by adding your details in the form at this** 
 `link <https://url6.mailanyone.net/v1/?m=1hdXbX-0007O1-3y&i=57e1b682&c=fsah1NK92LejxpAuprsO026wykncIzIOfMU0oWU2AnSB6UGzi7x0x8K47KojYVSlM5FoVK0UEWEquNOsq4xDYltHfOTz-oKOiuqACV6kgstiQcAxQp0bydxwhfbrkK5yAuZQWr5aEEwwzO2V-QFa0s25yhwYao8Nu45uB4Gs7UugSq_l0pjQ9DfAEsMAe-NSE8fPxiupaJhqDZ3ALLeJkdeAifIVeMwKHDguGC8WrzpT5pA-uf-Aas8Q8Dw3kG9fjwuVCfcVVAqDCEZh-ToGchJtekkvXXSleZWuylqoov4atHg6836mEge2sLLODudCM_TtKSi7Un0F2Hirf-V3Ag>`__
@@ -16,7 +16,7 @@ How to Present Complex Data on Maps and other Visuals for Effective Policy Commu
 What does this repository contain?
 ----------------------------------
 
-This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
+This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <https://resources.unep-wcmc.org/products/WCMC_CB015>`__
 
 *Please note the links below are currently linked to the static published pdf's. We are currently moving these to an online format for easier access and update. The links in table of contents and on the left hand pannel in the read-the docs pages will change to link to more interactive versions as and when they are updated.*
 
