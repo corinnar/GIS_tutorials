@@ -1,5 +1,5 @@
 ===========================================================================================
-**How to Present Complex Data on Maps and other Visuals for Effective Policy Communication: Using visual tools and spatial information to support decisions for REDD+ implementation**
+**How to Present Complex Data on Maps and other Visuals for Effective Policy Communication**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
