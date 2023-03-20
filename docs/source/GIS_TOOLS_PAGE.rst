@@ -18,7 +18,7 @@ What does this repository contain?
 
 This repository provides links to step-by-step tutorials for QGIS and ArcGIS, and an ArcGIS toolbox and manual, to support decisions on safeguards and multiple benefits for REDD+.  Map-based resources and outputs produced by or with individual partner countries can be found on the \ `Multiple Benefits Country Resources Hub <http://bitly.com/mbs-redd>`__
 
-*Please note in the links below are currently linked to the static published pdf's. We are currently moving these to an online format for easier access and update. These will appear in the table of contents and on the left hand pannel in the read-the docs pages.*
+*Please note the links below are currently linked to the static published pdf's. We are currently moving these to an online format for easier access and update. The links in table of contents and on the left hand pannel in the read-the docs pages will change to link to more interactive versions as and when they are updated.*
 
 Open-source: QGIS tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
