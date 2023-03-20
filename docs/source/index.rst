@@ -8,6 +8,8 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
+   MappingGuidanceEffectivePolicy
+   
 .. toctree::
    :numbered:
    :caption: QGIS tutorials:
@@ -26,8 +28,6 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    BuildingSpatialWorkflows_QGIS
    MatrixLegend_QGIS
    MultipleBenefits_QGIS
-   
-   
    
 .. toctree::
    :numbered:
