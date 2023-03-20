@@ -27,13 +27,11 @@ Open-source software is released under a license that allows software to be free
 
 -  *Creating an Open Foris Xubuntu Live USB - the basics* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/1_CreatingAnOpenForisLiveUSB_v1_0%20(439643).pdf>`__)
 
--  *Introduction to QGIS 1.8 – the basics* (`English <https://www.unredd.net/documents/global-programme-191/multiple-benefits/gis-tools-3403/12018-open-source-gis-tutorial-2-introduction-to-qgis-12018/file.html>`__, \ `French <https://www.un-redd.org/sites/default/files/2021-10/2_IntroductionTo_QGIS_1_8_v1_1-FR-V3_160705%20%28834644%29.pdf>`__, \ `Mongolian <https://www.un-redd.org/sites/default/files/2021-10/Doc_Intro%20to%20QGIS210%20Mongolia_MN%20%28439430%29.pdf>`__)
+-  *Introduction to QGIS 2.8 - the basics* ( `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_8_FR_180109.pdf>`__)
 
--  *Introduction to QGIS 2.8 - the basics* ( `French <https://www.un-redd.org/sites/default/files/2021-10/2_Intro_to_QGIS2_8_FR_180109.pdf>`__)
+-  *Introduction to QGIS 2.18* (\ `English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_18_190208.pdf>`__)
 
--  *Introduction to QGIS 2.18* (\ `English <https://www.un-redd.org/sites/default/files/2021-10/2_Intro_to_QGIS2_18_190208%20%28456465%29.pdf>`__)
-
--  *How to georeference a scanned map or image* (`English <https://www.un-redd.org/sites/default/files/2021-10/3_GeoreferencingScannedImageUsingQGIS_v1_1.pdf>`__)
+-  *How to georeference a scanned map or image* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/3_GeoreferencingScannedImageUsingQGIS_v1_1.pdf>`__)
 
 -  *Extracting and processing IUCN Red List species data using a vector method* (`English <https://www.un-redd.org/sites/default/files/2021-10/4_ExtractingAndProcessingIUCNRedListSpeciesDataUsingVectorsQGIS_v1_0%20%28728652%29.pdf>`__)
 
