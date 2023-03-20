@@ -14,18 +14,20 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    :maxdepth: 1
    
    IntroductionTo_QGIS
+   OpenForisXubuntuLiveUSB_QGIS
+   GeoreferenceScannedMap_QGIS
+   AddingBelowGroundBiomass_QGIS
+   ComparingCarbonDatasets_QGIS
    ProcessingIUCNRedList_QGIS
    ImportanceForestsSoilStabilization_QGIS
    LandslideMitigation_QGIS
    Wind_Erosion_Tutorial_QGIS
-   AddingBelowGroundBiomass_QGIS
-   ComparingCarbonDatasets_QGIS
-   BuildingSpatialWorkflows_QGIS
-   MultipleBenefits_QGIS
    PotentialPressuresFires_QGIS
+   BuildingSpatialWorkflows_QGIS
    MatrixLegend_QGIS
-   GeoreferenceScannedMap_QGIS
-   OpenForisXubuntuLiveUSB_QGIS
+   MultipleBenefits_QGIS
+   
+   
    
 .. toctree::
    :numbered:
