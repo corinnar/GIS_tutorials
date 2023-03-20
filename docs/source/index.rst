@@ -8,7 +8,6 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    :maxdepth: 4
 
    GIS_TOOLS_PAGE
-   
    ProcessingIUCNRedList_QGIS
    ImportanceForestsSoilStabilization_QGIS
    LandslideMitigation_QGIS
@@ -22,9 +21,7 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    GeoreferenceScannedMap_QGIS
    OpenForisXubuntuLiveUSB_QGIS
    IntroductionTo_QGIS
-
    WaterWorld_Other
-
    ProcessingIUCNRedList_ArcGIS
    ImportanceForestsSoilStabilization_ArcGIS
    BuildingSpatialWorkflows_ArcGIS
