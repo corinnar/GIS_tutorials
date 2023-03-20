@@ -27,13 +27,13 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
    GeoreferenceScannedMap_QGIS
    OpenForisXubuntuLiveUSB_QGIS
    
-   .. toctree::
+.. toctree::
    :numbered:
    :caption: Other open-source tutorials:
    :maxdepth: 1
    WaterWorld_Other
    
-   .. toctree::
+.. toctree::
    :numbered:
    :caption: ArcGIS tutorials:
    :maxdepth: 1
