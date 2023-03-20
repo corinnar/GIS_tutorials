@@ -1,11 +1,8 @@
 ===========================================================================================
 **Assessing the relative importance of forests for wind erosion control (QGIS)**
 ===========================================================================================
-today_fmt = '%b %d %y at %H:%M'
-
-Last change: |today|
-
-QGIS Version: 2.18
+Last updated: |today|
+Last tested with QGIS Version: 2.18
 
 |image0|
 |image3|
@@ -29,9 +26,7 @@ practical policy advice.
 **Originally prepared by Xavier de Lamo, Yara Shennan-Farpón and Corinna
 Ravilious.**
 
-today_fmt = '%y'
-
-**Copyright:** |today| United Nations Environment Programme
+**Copyright:** United Nations Environment Programme
 
 **Copyright release:** This publication may be reproduced for
 educational or non-profit purposes without special permission, provided
