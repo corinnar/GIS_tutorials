@@ -9,6 +9,8 @@ author = 'Corinna Ravilious'
 release = '0.1'
 version = '0.1.0'
 
+today_fmt = '%d %m %y'
+
 # -- General configuration
 
 extensions = [
