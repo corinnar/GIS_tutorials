@@ -1,6 +1,6 @@
-===========================================================================================
-**Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach (WaterWorld)**
-===========================================================================================
+===============================================================================================================================
+**Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld**
+===============================================================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
 
