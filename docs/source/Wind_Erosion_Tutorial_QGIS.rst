@@ -1,5 +1,5 @@
 ===========================================================================================
-**Assessing the relative importance of forests for wind erosion control (QGIS)**
+**Assessing the relative importance of forests for wind erosion control using QGIS**
 ===========================================================================================
 **Last updated**: |today|
 
