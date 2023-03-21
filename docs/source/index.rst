@@ -1,7 +1,61 @@
 --------------------------------------------------------------------------------------
 Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
+.. raw:: latex
 
+   \part{Introduction}
+
+.. toctree::
+   :caption: Introduction
+   :hidden:
+   
+   GIS_TOOLS_PAGE
+   MappingGuidanceEffectivePolicy
+
+.. raw:: latex
+
+   \part{QGIS Tutorials}
+
+.. toctree::
+   :caption: QGIS Tutorials
+   :hidden:
+   
+   IntroductionTo_QGIS
+   OpenForisXubuntuLiveUSB_QGIS
+   GeoreferenceScannedMap_QGIS
+   AddingBelowGroundBiomass_QGIS
+   ComparingCarbonDatasets_QGIS
+   ProcessingIUCNRedList_QGIS
+   ImportanceForestsSoilStabilization_QGIS
+   LandslideMitigation_QGIS
+   Wind_Erosion_Tutorial_QGIS
+   PotentialPressuresFires_QGIS
+   BuildingSpatialWorkflows_QGIS
+   MatrixLegend_QGIS
+   MultipleBenefits_QGISx
+
+.. raw:: latex
+
+   \part{Other open-source tutorials}
+
+.. toctree::
+   :caption: Other open-source tutorials
+   :hidden:
+   
+   WaterWorld_Other
+   
+.. raw:: latex
+
+   \part{ArcGIS tutorials}
+
+.. toctree::
+   :caption: ArcGIS tutorials
+   :hidden:
+   
+   ProcessingIUCNRedList_ArcGIS
+   ImportanceForestsSoilStabilization_ArcGIS
+   BuildingSpatialWorkflows_ArcGIS
+   MatrixLegend_ArcGIS
 
 
 .. toctree::
@@ -17,7 +71,6 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :caption: QGIS tutorials
    :maxdepth: 1
    
-   QGIS TUTORIALS <IntroductionTo_QGIS>
    IntroductionTo_QGIS
    OpenForisXubuntuLiveUSB_QGIS
    GeoreferenceScannedMap_QGIS
