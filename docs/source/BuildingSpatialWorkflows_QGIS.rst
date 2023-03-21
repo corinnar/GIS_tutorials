@@ -1,5 +1,5 @@
 ==================================================================================================================================
-**Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler (QGIS)**
+**Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler**
 ==================================================================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
