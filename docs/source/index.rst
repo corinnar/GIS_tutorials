@@ -6,7 +6,8 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    \part{Introduction}
 
 .. toctree::
-   :caption: Introduction
+   :caption: INTRODUCTION
+   :maxdepth: 1
    :hidden:
    
    GIS_TOOLS_PAGE
@@ -17,7 +18,8 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    \part{QGIS Tutorials}
 
 .. toctree::
-   :caption: QGIS Tutorials
+   :caption: QGIS TUTORIALS
+   :maxdepth: 1
    :hidden:
    
    IntroductionTo_QGIS
@@ -39,7 +41,8 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    \part{Other open-source tutorials}
 
 .. toctree::
-   :caption: Other open-source tutorials
+   :caption: OTHER OPEN-SOURCE TUTORIALS
+   :maxdepth: 1
    :hidden:
    
    WaterWorld_Other
@@ -49,7 +52,8 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    \part{ArcGIS tutorials}
 
 .. toctree::
-   :caption: ArcGIS tutorials
+   :caption: ArcGIS TUTORIALS
+   :maxdepth: 1
    :hidden:
    
    ProcessingIUCNRedList_ArcGIS
