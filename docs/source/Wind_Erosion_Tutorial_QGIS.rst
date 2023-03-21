@@ -1219,9 +1219,9 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image36| image:: media/media_Wind_Erosion/image36.png
    :width: 900
 .. |image37| image:: media/media_Wind_Erosion/image37.png
-   :width: 400
+   :width: 300
 .. |image38| image:: media/media_Wind_Erosion/image38.png
-   :width: 350
+   :width: 300
 .. |image39| image:: media/media_Wind_Erosion/image39.png
    :width: 400
 .. |image40| image:: media/media_Wind_Erosion/image40.png
@@ -1271,31 +1271,31 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image62| image:: media/media_Wind_Erosion/image62.png
    :width: 900
 .. |image63| image:: media/media_Wind_Erosion/image63.png
-   :width: 900
+   :width: 700
 .. |image64| image:: media/media_Wind_Erosion/image64.png
-   :width: 400
+   :width: 300
 .. |image65| image:: media/media_Wind_Erosion/image65.png
    :width: 250
 .. |image66| image:: media/media_Wind_Erosion/image66.png
-   :width: 400
+   :width: 300
 .. |image67| image:: media/media_Wind_Erosion/image67.png
    :width: 900
 .. |image68| image:: media/media_Wind_Erosion/image68.png
-   :width: 900
+   :width: 700
 .. |image69| image:: media/media_Wind_Erosion/image69.png
-   :width: 900
+   :width: 700
 .. |image70| image:: media/media_Wind_Erosion/image70.png
-   :width: 900
+   :width: 700
 .. |image71| image:: media/media_Wind_Erosion/image71.PNG
-   :width: 900
+   :width: 700
 .. |image72| image:: media/media_Wind_Erosion/image72.png
    :width: 900
 .. |image73| image:: media/media_Wind_Erosion/image73.png
    :width: 900
 .. |image74| image:: media/media_Wind_Erosion/image74.png
-   :width: 900
+   :width: 700
 .. |image75| image:: media/media_Wind_Erosion/image75.png
-   :width: 900
+   :width: 700
 .. |image75b| image:: media/media_Wind_Erosion/image75b.png
    :width: 900
 .. |image76| image:: media/media_Wind_Erosion/image76.png
@@ -1321,7 +1321,7 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image85| image:: media/media_Wind_Erosion/image85.png
    :width: 500
 .. |image86| image:: media/media_Wind_Erosion/image86.png
-   :width: 400
+   :width: 300
 .. |image87| image:: media/media_Wind_Erosion/image87.png
    :width: 900
 .. |image88| image:: media/media_Wind_Erosion/image88.png
