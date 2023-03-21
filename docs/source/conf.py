@@ -3,8 +3,8 @@
 # -- Project information
 
 project =  'MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS'
-author = 'Author: UNEP-WCMC                      © UNEP, 2023'
-copyright = '©UNEP, 2023'
+author = '© UNEP, 2023 ....................................................... Author: UNEP-WCMC'
+copyright = '© UNEP, 2023'
 
 release = 'Beta 0.1'
 version = '0.1.0'
@@ -31,6 +31,8 @@ templates_path = ['_templates']
 
 #html_theme = 'sphinx_rtd_theme'
 
+#where your_cover.tex is your LaTeX file you want to be the cover.
+#"maketitle": "\\input{your_cover.tex}"
 
 
 
