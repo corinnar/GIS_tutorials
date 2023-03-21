@@ -1,17 +1,19 @@
 --------------------------------------------------------------------------------------
-Mappinf to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
+Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
-Section 1
+Contents
+Section 1: Overview
 
 .. toctree::
    :numbered:
-   :caption: CONTENTS
+   :caption: Overview
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
  
-Section 2
+Section 2: QGIS tutorials
+
 .. toctree::
    :numbered:
    :caption: QGIS tutorials
