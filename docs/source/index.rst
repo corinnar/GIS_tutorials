@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------------
-MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS
+Mappinf to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
+Section 1
 
 .. toctree::
    :numbered:
@@ -9,7 +10,8 @@ MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTO
 
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
-   
+ 
+Section 2
 .. toctree::
    :numbered:
    :caption: QGIS tutorials
@@ -28,14 +30,18 @@ MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTO
    BuildingSpatialWorkflows_QGIS
    MatrixLegend_QGIS
    MultipleBenefits_QGIS
-   
+
+Section 3
+
 .. toctree::
    :numbered:
    :caption: Other open-source tutorials
    :maxdepth: 1
    
    WaterWorld_Other
-   
+
+Section 4
+
 .. toctree::
    :numbered:
    :caption: ArcGIS tutorials
