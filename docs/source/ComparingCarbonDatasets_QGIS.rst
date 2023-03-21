@@ -1,6 +1,6 @@
-===========================================================================================
-**Understanding and comparing carbon datasets (QGIS)**
-===========================================================================================
+================================================
+**Understanding and comparing carbon datasets**
+================================================
 
 This resource is not currently maintained. Link to static pdf only
 
