@@ -1,5 +1,5 @@
 ===========================================================================================
-**Extracting and processing IUCN Red List species data(QGIS)**
+**Extracting and processing IUCN Red List species data**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
