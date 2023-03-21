@@ -21,8 +21,12 @@ latex_elements = {
     'pointsize': '11pt',
 
 
+    
 # Additional stuff for the LaTeX preamble.
     'preamble': r'''
+        \enwffont{Roboto-LF}{Roboto}
+        \enwffont{RobotoCondensed-LF}{Roboto Condensed}
+        \enwffont{RobotoSlab-LF}{Roboto Slab}
         \usepackage{roboto}
         \usepackage[defaultsans]{Roboto Condensed}
         \usepackage{Roboto Slab}
