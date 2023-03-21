@@ -3,10 +3,10 @@
 # -- Project information
 
 project =  'MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS'
-author = 'UNEP-WCMC'
+author = 'author: UNEP-WCMC'
+copyright = u'2023, UNEP'
 
-
-release = '0.1'
+release = 'Beta 0.1'
 version = '0.1.0'
 
 today_fmt = '%B %d, %Y' 
