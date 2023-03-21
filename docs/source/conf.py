@@ -58,10 +58,11 @@ latex_elements = {
         \usepackage{inconsolata}
         \usepackage[english]{babel}
         \usepackage{tocloft}
+        \setlength{\cftbeforesecskip}{0pt}
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
         \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
         \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
-        \vspace{-1.5in}
+       
 
     ''',
 }
