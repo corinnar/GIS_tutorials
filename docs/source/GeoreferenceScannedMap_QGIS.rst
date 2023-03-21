@@ -1,5 +1,5 @@
 ===========================================================================================
-**How to georeference a scanned map or image (QGIS)**
+**How to georeference a scanned map or image**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdf only
