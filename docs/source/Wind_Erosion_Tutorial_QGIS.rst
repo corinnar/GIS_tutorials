@@ -4,8 +4,11 @@
 **Last updated**: |today|
 
 **Last tested with QGIS Version:** 2.18 
+|
   
 |image0|
+
+| 
 
 |image3|
 
