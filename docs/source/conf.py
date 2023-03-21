@@ -52,8 +52,8 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
     'preamble': r'''
-        \usepackage[bold]{roboto}
-        \usepackage[sfdefault, light]{roboto}
-        \usepackage[medium]{roboto}
+        \usepackage{charter}
+        \usepackage[sfdefault]{roboto}
+        \usepackage{inconsolata}
     ''',
 }
