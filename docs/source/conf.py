@@ -47,7 +47,6 @@ latex_elements = {
 
 # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '12t',
-    .. role:: navy
 
     
 # Additional stuff for the LaTeX preamble.
