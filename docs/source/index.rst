@@ -1,10 +1,5 @@
-=============================================================================================================
-**MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS** 
-=============================================================================================================
-
 .. toctree::
    :numbered:
-   :caption: TABLE OF CONTENTS:
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
@@ -12,7 +7,7 @@
    
 .. toctree::
    :numbered:
-   :caption: QGIS tutorials:
+   :caption: QGIS tutorials
    :maxdepth: 1
    
    IntroductionTo_QGIS
@@ -31,14 +26,14 @@
    
 .. toctree::
    :numbered:
-   :caption: Other open-source tutorials:
+   :caption: Other open-source tutorials
    :maxdepth: 1
    
    WaterWorld_Other
    
 .. toctree::
    :numbered:
-   :caption: ArcGIS tutorials:
+   :caption: ArcGIS tutorials
    :maxdepth: 1
    
    ProcessingIUCNRedList_ArcGIS
