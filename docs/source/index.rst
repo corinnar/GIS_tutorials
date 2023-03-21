@@ -1,10 +1,10 @@
 MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS
 ==========================================================================================================
-Step-by-step tutorials: Using spatial information to support decisions on safeguards and multiple benefits for REDD+
 
 .. toctree::
    :numbered:
    :caption: TABLE OF CONTENTS:
+   :capton: Step-by-step tutorials: Using spatial information to support decisions on safeguards and multiple benefits for REDD+
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
