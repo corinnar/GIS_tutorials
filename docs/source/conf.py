@@ -46,7 +46,7 @@ latex_elements = {
     'papersize': 'a4paper', 
 
 # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '10pt',
+    'pointsize': '11t',
 
     
 # Additional stuff for the LaTeX preamble.
@@ -54,9 +54,10 @@ latex_elements = {
         \usepackage{charter}
         \usepackage[sfdefault]{roboto}
         \usepackage{inconsolata}
+        \usepackage[english]{babel}
         \usepackage{tocloft}
-        \addto\captionsbritish{\renewcommand\contentsname{Table of Contents}}
-        \renewcommand{\cfttoctitlefont}{\hfill\normalsize}
-        \renewcommand{\cftaftertoctitle}{\hfill}
+        \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
+        \renewcommand{\cfttoctitlefont}{\hfill}
+        \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
     ''',
 }
