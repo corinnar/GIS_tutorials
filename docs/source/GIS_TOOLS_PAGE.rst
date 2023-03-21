@@ -49,7 +49,7 @@ Open-source software is released under a license that allows software to be free
 
 -  *Processing and visualising fire data to identify potential pressures from fires on forest using QGIS 2.18* (`English  <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/Wind_Erosion_Tutorial.pdf>`__)
 
--  *Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_190207.pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_180110%20(481747).pdf>`__. `*Supporting files* <hhttps://github.com/corinnar/GIS_tutorials/tree/main/docs/source/media/materials/tools/SpatialWorkflowsQGIS>`__)
+-  *Building spatial workflows to identify potential areas for undertaking a REDD+ intervention using the Graphical Modeler* (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_190207.pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/BuildingSpatialWorkflowsToIdentifyPotReddIntervQGIS_180110%20(481747).pdf>`__. `Supporting files <https://github.com/corinnar/GIS_tutorials/tree/main/docs/source/media/materials/tools/SpatialWorkflowsQGIS>`__)
 
 -  *How to produce a matrix style legend using both vectors and rasters* (\ `English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/9_MatrixStyleLegendProductionUsingQGIS_v1_1_190206.pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/9_MatrixStyleLegendProductionUsingQGIS_v1_0-FR_160705.pdf>`__, \ `Mongolian <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/9_MatrixStyleLegendProductionUsingQGIS_150324_mn_MB%20(130209).pdf>`__, \ `*Supporting files* <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/tools/Matrix_legend_symbology_for_QGIS.zip>`__)
 
@@ -57,7 +57,7 @@ Open-source software is released under a license that allows software to be free
 
 Other open-source tool tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
--   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <hhttps://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_170306%20(336966).pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
+-   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_170306%20(336966).pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
 
 
