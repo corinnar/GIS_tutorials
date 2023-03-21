@@ -1,16 +1,12 @@
 --------------------------------------------------------------------------------------
 Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
-.. _reference-name:
 
-testsection
-------------
 
 
 .. toctree::
    :numbered:
    :caption: Contents
-   :ref:`reference-name`
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
@@ -21,6 +17,7 @@ testsection
    :caption: QGIS tutorials
    :maxdepth: 1
    
+   QGIS TUTORIALS <IntroductionTo_QGIS>
    IntroductionTo_QGIS
    OpenForisXubuntuLiveUSB_QGIS
    GeoreferenceScannedMap_QGIS
