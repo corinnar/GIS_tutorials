@@ -59,7 +59,7 @@ latex_elements = {
         \usepackage[english]{babel}
         \usepackage{tocloft}
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
-        \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+        \renewcommand{\cfttoctitlefont}{\hfill\Medium\bfseries}
         \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
 
     ''',
