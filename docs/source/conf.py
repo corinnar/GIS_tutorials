@@ -3,7 +3,7 @@
 # -- Project information
 
 project =  'MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS'
-author = '© UNEP, 2023 ....................................................... Author: UNEP-WCMC'
+author = '© UNEP, 2023 ................. Author: UNEP-WCMC'
 copyright = '© UNEP, 2023'
 
 release = 'Beta 0.1'
