@@ -1,5 +1,5 @@
 ====================================
-**Safeguards country resources hub**
+**Safeguards Country Resources Hub**
 ====================================
 
 *Document created by: \ *Corinna Ravilious* on 11 March 2023*
@@ -30,13 +30,13 @@ Global
 PROGRESS ON SAFEGUARD INFORMATION SYSTEMS (SIS) AS AT THE END OF DEC
 2020.
 
-|image0|
+|image1|
 
  
 
 PROGRESS ON SUMMARIES OF INFORMATION AS AT THE END OF DEC 2020
 
-|image1|
+|image2|
 
 AFRICA
 ~~~~~~~~~
@@ -531,7 +531,7 @@ SURINAME
 
  
 
-.. |image0| image:: media/image1.jpeg
+.. |image0| image:: media/media_sg_heb/image1.jpeg
    :width: 7.50000in
    :height: 4.21944in
 .. |image1| image:: media/image2.jpeg
