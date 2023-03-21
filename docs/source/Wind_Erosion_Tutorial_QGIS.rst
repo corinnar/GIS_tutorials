@@ -72,8 +72,6 @@ and safeguards policies using open source GIS software.
 
 |
 
-|
-
 |image1|
 
 ------------
