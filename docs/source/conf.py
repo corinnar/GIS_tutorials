@@ -9,6 +9,8 @@ author = 'Corinna Ravilious'
 release = '0.1'
 version = '0.1.0'
 
+today_fmt of '%B %d, %Y' 
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -50,8 +52,8 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
     'preamble': r'''
-        \usepackage{roboto, bold}
-        \usepackage[sfdefault]{roboto}
-        \usepackage{roboto,light}
+        \usepackage[bold]{roboto}
+        \usepackage[sfdefault, light]{roboto}
+        \usepackage[medium]{roboto}
     ''',
 }
