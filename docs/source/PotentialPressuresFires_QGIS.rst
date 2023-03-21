@@ -1,6 +1,6 @@
-===========================================================================================
-**Processing and visualising fire data to identify potential pressures from fires on forest (QGIS)**
-===========================================================================================
+=============================================================================================
+**Processing and visualising fire data to identify potential pressures from fires on forest**
+=============================================================================================
 
 This resource is not currently maintained. Link to static pdf only
 
