@@ -17,8 +17,8 @@ latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'letterpaper',
 
-# The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11pt',
+# The font size ('12pt', '13pt' or '14pt').
+    'pointsize': '13pt',
 
 
     
@@ -27,9 +27,6 @@ latex_elements = {
         \enwffont{Roboto-LF}{Roboto}
         \enwffont{RobotoCondensed-LF}{Roboto Condensed}
         \enwffont{RobotoSlab-LF}{Roboto Slab}
-        \usepackage{roboto}
-        \usepackage[defaultsans]{Roboto Condensed}
-        \usepackage{Roboto Slab}
     ''',
 }
 
