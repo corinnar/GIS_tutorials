@@ -46,7 +46,7 @@ latex_elements = {
     'papersize': 'a4paper', 
 
 # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11t',
+    'pointsize': '12t',
 
     
 # Additional stuff for the LaTeX preamble.
@@ -57,7 +57,7 @@ latex_elements = {
         \usepackage[english]{babel}
         \usepackage{tocloft}
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
-        \renewcommand{\cfttoctitlefont}{\hfill}
+        \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
         \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
     ''',
 }
