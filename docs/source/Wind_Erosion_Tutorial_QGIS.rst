@@ -1181,7 +1181,7 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image17| image:: media/media_Wind_Erosion/image17.PNG
    :width: 900
 .. |image18| image:: media/media_Wind_Erosion/image18.png
-   :width: 400
+   :width: 350
 .. |image19| image:: media/media_Wind_Erosion/image19.png
    :width: 900
 .. |image20| image:: media/media_Wind_Erosion/image20.PNG
@@ -1189,15 +1189,15 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image21| image:: media/media_Wind_Erosion/image21.png
    :width: 900
 .. |image22| image:: media/media_Wind_Erosion/image22.png
-   :width: 900
+   :width: 700
 .. |image23| image:: media/media_Wind_Erosion/image23.png
     :width: 400
 .. |image24| image:: media/media_Wind_Erosion/image24.png
-   :width: 900
+   :width: 700
 .. |image25| image:: media/media_Wind_Erosion/image25.png
    :width: 900
 .. |image26| image:: media/media_Wind_Erosion/image26.png
-   :width: 400
+   :width: 350
 .. |image27| image:: media/media_Wind_Erosion/image27.png
    :width: 900
 .. |image28| image:: media/media_Wind_Erosion/image28.png
