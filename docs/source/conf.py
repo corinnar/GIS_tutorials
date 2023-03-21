@@ -11,6 +11,8 @@ version = '0.1.0'
 
 today_fmt = '%d %m %y'
 
+date = |Today|
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
