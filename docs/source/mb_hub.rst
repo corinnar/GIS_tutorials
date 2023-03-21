@@ -1,17 +1,19 @@
-----------------------------------------
+========================================
 Multiple Benefits Country Resources Hub
-----------------------------------------
+========================================
 
 *Document created by: \ *Corinna Ravilious* on 11 March 2023*
 
 To help share the latest information on country progress, this page
 includes links to workshop reports
 
+--------
 Africa
-~~~~~~~~
+--------
 
+~~~~~~~~
 REGIONAL
-^^^^^^^^^
+~~~~~~~~
 
 -  Synergies between REDD+ and the Aichi Biodiversity Targets in Central
        Africa, 2014.
