@@ -1,5 +1,5 @@
 ===========================================================================================
-**How to produce a matrix style legend using both vectors and rasters(QGIS)**
+**How to produce a matrix style legend using both vectors and rasters**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
