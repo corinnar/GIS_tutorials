@@ -7,8 +7,6 @@
   
 |image0|
 
-|
-
 |image3|
 
 **Suggested Citation:** UNEP [year] Step-by-step tutorial: Calculating the relative importance of
@@ -1150,7 +1148,7 @@ http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20e
 .. |image1| image:: media/media_Wind_Erosion/combined.png
    :width: 900
 .. |image3| image:: media/media_Wind_Erosion/image3.png
-   :width: 200
+   :width: 175
 .. |image4| image:: media/media_Wind_Erosion/image4.png
    :width: 900
 .. |image5| image:: media/media_Wind_Erosion/image5.jpeg
