@@ -531,9 +531,9 @@ SURINAME
 
  
 
-.. |image0| image:: media/media_sg_hub/image1.jpeg
+.. |image1| image:: media/media_sg_hub/image1.jpeg
    :width: 7.50000in
    :height: 4.21944in
-.. |image1| image:: media/media_sg_hub/image2.jpeg
+.. |image2| image:: media/media_sg_hub/image2.jpeg
    :width: 7.50000in
    :height: 4.21944in
