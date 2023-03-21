@@ -187,10 +187,13 @@ Sidoway, 1965):
 
 Where:
 
-|*u* = monthly average wind speed (m/s)
-|*PETi* = monthly potential evaporation (mm)
-|*Pi* = monthly average precipitation (mm)
-|*d* = the number of days in a month.
+*u* = monthly average wind speed (m/s)
+
+*PETi* = monthly potential evaporation (mm)
+
+*Pi* = monthly average precipitation (mm)
+
+*d* = the number of days in a month.
 
 Spatial layers will be developed for each parameter included in the
 equation above, and will then be used as input layers in Raster
