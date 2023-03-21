@@ -1,5 +1,5 @@
 =================================================================================================
-**Evaluating the importance of forests for soil stabilization and limiting soil erosion (QGIS)**
+**Evaluating the importance of forests for soil stabilization and limiting soil erosion**
 =================================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
