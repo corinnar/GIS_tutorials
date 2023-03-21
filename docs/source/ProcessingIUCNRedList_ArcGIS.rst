@@ -1,5 +1,5 @@
 ===========================================================================================
-**Extracting and processing IUCN Red List species data (ArcGIS)**
+**Extracting and processing IUCN Red List species data**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
