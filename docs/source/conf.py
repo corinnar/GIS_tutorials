@@ -62,6 +62,7 @@ latex_elements = {
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
         \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
         \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
+        \titlespacing*{\chapter}{0pt}{-3em}{1.1\parskip}
        
 
     ''',
