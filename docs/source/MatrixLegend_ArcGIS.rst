@@ -1,5 +1,5 @@
 ===========================================================================================
-**How to produce a matrix style legend with raster data (ArcGIS)**
+**How to produce a matrix style legend with raster data**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdfs only
