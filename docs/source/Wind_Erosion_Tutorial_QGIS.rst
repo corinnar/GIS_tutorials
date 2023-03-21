@@ -1150,7 +1150,7 @@ Woodruff, N.P. and Siddoway, F.H. (1965) A Wind Erosion Equation. *Soil
 Science Society Proceedings,* 29, 602–608. Available from:
 http://www.ars.usda.gov/SP2UserFiles/Place/30200525/897%20A%20wind%20erosion%20equation.pdf
    
-.. |image0| image:: media/media_Wind_Erosion/image00.png
+.. |image0| image:: media/media_Wind_Erosion/image0.png
    :width: 900
 .. |image1| image:: media/media_Wind_Erosion/combined.png
    :width: 900
