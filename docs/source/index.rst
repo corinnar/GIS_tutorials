@@ -1,10 +1,16 @@
 --------------------------------------------------------------------------------------
 Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
+.. _reference-name:
+
+testsection
+------------
+
 
 .. toctree::
    :numbered:
    :caption: Contents
+   :ref:`reference-name`
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
@@ -12,7 +18,6 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
  
 .. toctree::
    :numbered:
-   :name: test
    :caption: QGIS tutorials
    :maxdepth: 1
    
