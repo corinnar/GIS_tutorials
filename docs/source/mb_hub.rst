@@ -24,9 +24,7 @@ REGIONAL
        (`English <https://resources.unep-wcmc.org/products/WCMC_RT097>`__, \ `French <https://resources.unep-wcmc.org/products/WCMC_RT097>`__) [Produced
        without direct UN-REDD support]
 
--  Modelling land use changes in Central Africa. \ `Reports of the
-       REDD-PAC
-       project <https://resources.unep-wcmc.org/products/WCMC_RT100>`__,
+-  Modelling land use changes in Central Africa. \ `Reports of the REDD-PAC project `<https://resources.unep-wcmc.org/products/WCMC_RT100>`__,
        2015. [Produced without direct UN-REDD support]
 
 -  Carbon, biodiversity and land-use in the Central Congo Basin
@@ -37,7 +35,7 @@ CAMEROON
 ^^^^^^^^^
 
 -  Modelling land use changes in Cameroon. \ `A report by the REDD-PAC
-       project <https://pure.iiasa.ac.at/id/eprint/13771/>`__,
+       project `<https://pure.iiasa.ac.at/id/eprint/13771/>`__,
        2016. [Produced without direct UN-REDD support]
 
 CÔTE D'IVOIRE
@@ -629,12 +627,7 @@ PERU
        Peru, May 2015. (Workshop report and
        material: \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-09/Beneficios%20sociales%20y%20ambientales%20170405-1.pdf>`__)
 
--  `*Geodecisión:* <http://bit.ly/geodecision_minam>`__ A flexible
-       mapping tool to support environmental decision-making
-       (Geodecisión: Una herramienta espacial flexible para orientar la
-       toma de decisiones ambientales), 2016.
-       (Tool: `*Spanish* <http://bit.ly/geodecision_minam>`__ *- not
-       currently available online*)
+-  `*Geodecisión:* <http://bit.ly/geodecision_minam>`__ A flexible mapping tool to support environmental decision-making (Geodecisión: Una herramienta espacial flexible para orientar la toma de decisiones ambientales), 2016. (Tool: `*Spanish* <http://bit.ly/geodecision_minam>`__ *- not currently available online*)
 
 -  Geodecisión: A flexible mapping tool to support environmental
        decision-making (Geodecisión: Una herramienta espacial flexible
