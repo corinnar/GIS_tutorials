@@ -40,8 +40,10 @@ epub_show_urls = 'footnote'
 # -- General configuration
 
 latex_elements = {
+     'classoptions': ',oneside',
+    
 # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'a4paper', 'extraclassoptions': 'openany,oneside'
+    'papersize': 'a4paper', 
 
 # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '11pt',
