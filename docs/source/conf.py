@@ -49,9 +49,9 @@ latex_elements = {
     'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-    'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}', r'''
+    'preamble':  r'''
         \usepackage{charter}
         \usepackage[sfdefault]{roboto}
         \usepackage{inconsolata}
-    ''',
+    ''','\addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}',
 }
