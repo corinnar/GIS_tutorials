@@ -3,14 +3,14 @@
 # -- Project information
 
 project =  'MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS'
-
+author = 'UNEP-WCMC'
 
 
 release = '0.1'
 version = '0.1.0'
 
 today_fmt = '%B %d, %Y' 
-author = 'UNEP-WCMC'
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
