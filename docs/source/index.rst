@@ -3,7 +3,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
 --------------------------------------------------------------------------------------
 .. raw:: latex
 
-   \part{Introduction}
+   \part{INTRODUCTION}
 
 .. toctree::
    :caption: INTRODUCTION
@@ -15,7 +15,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
 
 .. raw:: latex
 
-   \part{QGIS Tutorials}
+   \part{QGIS TUTORIALS}
 
 .. toctree::
    :caption: QGIS TUTORIALS
@@ -38,7 +38,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
 
 .. raw:: latex
 
-   \part{Other open-source tutorials}
+   \part{OTHER OPEN-SOURCE TUTORIALS}
 
 .. toctree::
    :caption: OTHER OPEN-SOURCE TUTORIALS
@@ -49,7 +49,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    
 .. raw:: latex
 
-   \part{ArcGIS tutorials}
+   \part{ArcGIS TUTORIALS}
 
 .. toctree::
    :caption: ArcGIS TUTORIALS
