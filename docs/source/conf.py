@@ -11,25 +11,6 @@ version = '0.1.0'
 
 today_fmt = '%d %m %y'
 
-# -- General configuration
-
-latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'letterpaper',
-
-# The font size ('12pt', '13pt' or '14pt').
-    'pointsize': '13pt',
-
-
-    
-# Additional stuff for the LaTeX preamble.
-    'preamble': r'''
-        \enwffont{Roboto-LF}{Roboto}
-        \enwffont{RobotoCondensed-LF}{Roboto Condensed}
-        \enwffont{RobotoSlab-LF}{Roboto Slab}
-    ''',
-}
-
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -58,4 +39,21 @@ epub_show_urls = 'footnote'
 
 latex_elements = {
   'extraclassoptions': 'openany,oneside'
+}
+
+# -- General configuration
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+
+# The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '14pt',
+
+# Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+        \usepackage{charter}
+        \usepackage[defaultsans]{lato}
+        \usepackage{inconsolata}
+    ''',
 }
