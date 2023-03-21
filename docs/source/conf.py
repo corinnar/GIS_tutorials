@@ -54,6 +54,9 @@ latex_elements = {
         \usepackage{charter}
         \usepackage[sfdefault]{roboto}
         \usepackage{inconsolata}
+        \usepackage{tocloft}
         \addto\captionsbritish{\renewcommand\contentsname{Table of Contents}}
+        \renewcommand{\cfttoctitlefont}{\hfill\normalsize}
+        \renewcommand{\cftaftertoctitle}{\hfill}
     ''',
 }
