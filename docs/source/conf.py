@@ -4,6 +4,7 @@
 
 
 project = 'GIS tutorials'
+description: 'MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS FOR QGIS AND ARCGIS'
 author = 'Corinna Ravilious'
 
 release = '0.1'
