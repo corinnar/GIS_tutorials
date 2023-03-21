@@ -1,13 +1,17 @@
-MULTIPLE BENEFITS COUNTRY RESOURCES HUB
+============================================
+**Multiple Benefits Country Resources Hub**
+============================================
 
-*Document created by: \ *Corinna Ravilious* on 11 March 2023*
+*To help share the latest information on country progress, this page
+includes links to workshop reports*
 
-To help share the latest information on country progress, this page
-includes links to workshop reports
 
- Africa
+Africa
+~~~~~~~
+
 
 REGIONAL
+^^^^^^^^^
 
 -  Synergies between REDD+ and the Aichi Biodiversity Targets in Central
        Africa, 2014.
@@ -20,9 +24,7 @@ REGIONAL
        (`English <https://resources.unep-wcmc.org/products/WCMC_RT097>`__, \ `French <https://resources.unep-wcmc.org/products/WCMC_RT097>`__) [Produced
        without direct UN-REDD support]
 
--  Modelling land use changes in Central Africa. \ `Reports of the
-       REDD-PAC
-       project <https://resources.unep-wcmc.org/products/WCMC_RT100>`__,
+-  Modelling land use changes in Central Africa. \ `Reports of the REDD-PAC project `<https://resources.unep-wcmc.org/products/WCMC_RT100>`__,
        2015. [Produced without direct UN-REDD support]
 
 -  Carbon, biodiversity and land-use in the Central Congo Basin
@@ -30,12 +32,14 @@ REGIONAL
        (`English <https://resources.unep-wcmc.org/products/WCMC_RT116>`__, \ `French <https://resources.unep-wcmc.org/products/WCMC_RT116>`__) 
 
 CAMEROON
+^^^^^^^^^
 
 -  Modelling land use changes in Cameroon. \ `A report by the REDD-PAC
-       project <https://pure.iiasa.ac.at/id/eprint/13771/>`__,
+       project `<https://pure.iiasa.ac.at/id/eprint/13771/>`__,
        2016. [Produced without direct UN-REDD support]
 
 CÔTE D'IVOIRE
+^^^^^^^^^^^^^^^^^^
 
 -  Inception workshop: Étude cartographique des bénéfices multiples pour
        la planification spatiale de la REDD+, 2015. (Workshop
@@ -62,6 +66,7 @@ CÔTE D'IVOIRE
        not currently available online*)
 
 DEMOCRATIC REPUBLIC OF THE CONGO
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Mapping potential biodiversity benefits from REDD+. The Democratic
        Republic of the Congo,
@@ -76,6 +81,7 @@ DEMOCRATIC REPUBLIC OF THE CONGO
        (`*English* <https://www.un-redd.org/document-library/multiple-benefits-democratic-republic-congo-valuation-and-mapping-feasibility>`__, \ `*French* <https://www.un-redd.org/sites/default/files/2021-10/Cartographie%20des%20b%C3%A9n%C3%A9fices%20multiples%20de%20la%20REDD%2B%20en%20R%C3%A9publique%20du%20Congo_lores.pdf>`__)
 
 ETHIOPIA
+^^^^^^^^^^^^^^^^^^
 
 -  The contribution of forests to national income in Ethiopia and
        linkages with REDD+,
@@ -83,6 +89,7 @@ ETHIOPIA
        not currently available online*)
 
 KENYA
+^^^^^^^^^
 
 -  Mapping to support land-use planning for REDD+ in Kenya: securing
        additional benefits, 2016. (English: \ `*v. high
@@ -93,6 +100,7 @@ KENYA
        not currently available online*)
 
 LIBERIA
+^^^^^^^^^
 
 -  Training to build capacity for REDD+ planning in Liberia, February
        2018. (Workshop
@@ -108,6 +116,7 @@ LIBERIA
        res* <https://www.un-redd.org/document-library/using-spatial-analysis-support-redd-land-use-planning-liberia-low-resolution>`__)
 
 NIGERIA
+^^^^^^^^^
 
 -  Carbon, biodiversity and ecosystem services: Exploring co-benefits.
        Nigeria: Preliminary Results, 2010.
@@ -134,6 +143,7 @@ NIGERIA
        (Poster: `*English* <https://www.un-redd.org/document-library/poster-role-cross-river-states-forests-supporting-development-and-well-being>`__)
 
 REPUBLIC OF CONGO
+^^^^^^^^^^^^^^^^^^
 
 -  Multiple benefits mapping in Republic of Congo, 2014. (Workshop
        report and
@@ -164,6 +174,7 @@ REPUBLIC OF CONGO
        (`*French* <https://www.un-redd.org/document-library/analyse-couts-benefices-de-la-mise-en-oeuvre-de-la-strategie-nationale-redd-de-la>`__)
 
 TANZANIA
+^^^^^^^^^
 
 -  Carbon, biodiversity and ecosystem services: exploring co-benefits.
        Tanzania, 2009.
@@ -185,6 +196,7 @@ TANZANIA
        (`*English* <https://www.un-redd.org/document-library/objectives-workshop-report-tanzania>`__)
 
 UGANDA
+^^^^^^^^^
 
 -  Supporting planning for multiple benefits from REDD+ in Uganda:
        Exploring synergies with the Aichi Biodiversity Targets, 2014.
@@ -192,8 +204,10 @@ UGANDA
        without direct UN-REDD support]
 
 Asia-Pacific
+~~~~~~~~~~~~~
 
 KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Exercise on cost-benefit analysis for REDD+: using economic and other
        analyses to inform REDD+ planning. (Exercise
@@ -203,6 +217,7 @@ KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
        not currently available online*, Oct. 2017)
 
 BHUTAN
+^^^^^^^^^
 
 -  REDD+ Environmental Safeguards and Multiple Benefits Workshop, 2012.
        (Workshop report and
@@ -210,6 +225,7 @@ BHUTAN
        `English2 <https://www.un-redd.org/document-library/bhutan-environmental-safeguards-and-multiple-benefits-workshop-report>`__).
 
 CAMBODIA
+^^^^^^^^^
 
 -  Carbon, Biodiversity & Ecosystem Services: Exploring Co-benefits
        Cambodia, 2010.
@@ -238,6 +254,7 @@ CAMBODIA
        report* <https://www.un-redd.org/document-library/background-report-cambodia-redd-costs-and-benefits-spreadsheet-tool>`__.
 
 INDONESIA
+^^^^^^^^^
 
 -  Strengthening benefits from REDD+ for biodiversity, ecosystem
        services and livelihoods – A guide to tools and resources that
@@ -262,6 +279,7 @@ INDONESIA
        Indonesia* <https://resources.unep-wcmc.org/products/WCMC_RT195>`__)
 
 MONGOLIA
+^^^^^^^^^
 
 -  1st joint working session on spatial planning for REDD+. Mongolia,
        2015. (Workshop
@@ -300,6 +318,7 @@ MONGOLIA
        (Storymap: `*English* <http://stories.unep-wcmc.org/borealforestsmongolia/index.html>`__)
 
 PAPUA NEW GUINEA
+^^^^^^^^^^^^^^^^^^
 
 -  Spatial planning for REDD+ multiple benefits to support
        decision-making and land-use planning in Papua New Guinea, August
@@ -313,6 +332,7 @@ PAPUA NEW GUINEA
        res* <https://redd.unfccc.int/uploads/2234_43_using_spatial_analysis_to_support_redd_land-use_planning_papua_new_guinea.pdf>`__)
 
 PHILIPPINES
+^^^^^^^^^^^^^^^^^^
 
 -  Using spatial analysis to explore synergies between the Aichi
        Biodiversity Targets and REDD+ in the Philippines: A preliminary
@@ -321,6 +341,7 @@ PHILIPPINES
        without direct UN-REDD support]
 
 VIET NAM
+^^^^^^^^^^^^^^^^^^
 
 -  Ecosystem services from new and restored forests: tool development,
        2010. (Multiple Benefits
@@ -373,8 +394,10 @@ VIET NAM
  
 
 Latin America and the Caribbean
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ARGENTINA
+^^^^^^^^^^^^^^^^^^
 
 -  Course on climate change and forests toward the construction of the
        national REDD+ strategy, October 2016.
@@ -396,12 +419,14 @@ ARGENTINA
        not currently available online*)
 
 BOLIVIA
+^^^^^^^^^
 
 -  Registro de datos útiles para la toma de decisiones en relación a
        REDD+ y sus beneficios multiples, 2010. (Multiple Benefits
        Series\ * 7*: `*Spanish* <https://www.un-redd.org/document-library/registro-de-datos-utiles-para-la-toma-de-decisiones-en-relacion-redd-y-sus>`__)
 
 BRAZIL
+^^^^^^^^^
 
 -  Assessing the biodiversity impacts of policies related to REDD+. Key
        considerations in using spatial analysis and land use modeling,
@@ -420,6 +445,7 @@ BRAZIL
        without direct UN-REDD support]
 
 COLOMBIA
+^^^^^^^^^
 
 -  First national meeting about multiple benefits in the framework of
        the construction of the National REDD+ Strategy in Colombia,
@@ -433,6 +459,7 @@ COLOMBIA
        *- not currently available online*)
 
 COSTA RICA
+^^^^^^^^^^^^^^^^^^
 
 -  Multiple benefits and indicators. 2016. (Workshop
        material: \ `*Spanish* <https://www.unredd.net/documents/global-programme-191/multiple-benefits/workshops-and-events-1/multiple-benefits-and-indicators-costa-rica-2016.html>`__
@@ -448,6 +475,7 @@ COSTA RICA
        report: \ `*Spanish* <https://www.un-redd.org/document-library/beneficios-multiples-de-redd-en-costa-rica-analisis-espaciales-para-apoyar-la-toma>`__)
 
 ECUADOR
+^^^^^^^^^
 
 -  Carbon, Biodiversity & Ecosystem Services: Exploring Co-benefits
        Ecuador. 2010.
@@ -469,6 +497,7 @@ ECUADOR
        *- not currently available online*)
 
 HONDURAS
+^^^^^^^^^
 
 -  Taller de identificación y priorización de potenciales beneficios
        sociales y ambientales adicionales de REDD+ en Honduras, March
@@ -488,6 +517,7 @@ HONDURAS
        not currently available online*)
 
 PANAMA
+^^^^^^^^^
 
 -  The potential economic values of the multiple benefits from REDD+ in
        Panama: a synthesis of existing valuation studies, 2014.
@@ -513,6 +543,7 @@ PANAMA
        res* <https://www.un-redd.org/sites/default/files/2021-10/Panama%20flyer%20ESP_lowres.pdf>`__)
 
 PARAGUAY
+^^^^^^^^^
 
 -  Multiple benefits mapping working session and presentation of
        multiple benefits advances, April 2014. (Workshop
@@ -578,6 +609,7 @@ PARAGUAY
        (Poster: `*English* <https://www.un-redd.org/document-library/poster-making-ecosystem-restoration-meet-multiple-goals-people-biodiversity-and>`__)
 
 PERU
+^^^^^^^^^
 
 -  Promoting social and environmental benefits of REDD+ in Peru, 2014.
        (Flyer: `*English* <https://www.un-redd.org/sites/default/files/2021-10/Peruvian%20Flyer_Ingles.pdf>`__, (\ `*Spanish* <https://www.unredd.net/component/docman/?task=doc_download&gid=14005&Itemid=53>`__
@@ -595,12 +627,7 @@ PERU
        Peru, May 2015. (Workshop report and
        material: \ `*Spanish* <https://www.un-redd.org/sites/default/files/2021-09/Beneficios%20sociales%20y%20ambientales%20170405-1.pdf>`__)
 
--  `*Geodecisión:* <http://bit.ly/geodecision_minam>`__ A flexible
-       mapping tool to support environmental decision-making
-       (Geodecisión: Una herramienta espacial flexible para orientar la
-       toma de decisiones ambientales), 2016.
-       (Tool: `*Spanish* <http://bit.ly/geodecision_minam>`__ *- not
-       currently available online*)
+-  `*Geodecisión:* <http://bit.ly/geodecision_minam>`__ A flexible mapping tool to support environmental decision-making (Geodecisión: Una herramienta espacial flexible para orientar la toma de decisiones ambientales), 2016. (Tool: `*Spanish* <http://bit.ly/geodecision_minam>`__ *- not currently available online*)
 
 -  Geodecisión: A flexible mapping tool to support environmental
        decision-making (Geodecisión: Una herramienta espacial flexible

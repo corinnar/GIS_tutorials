@@ -12,6 +12,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
+   mb_hub
 
 .. raw:: latex
 
@@ -69,6 +70,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
 
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
+   mb_hub
  
 .. toctree::
    :numbered:
