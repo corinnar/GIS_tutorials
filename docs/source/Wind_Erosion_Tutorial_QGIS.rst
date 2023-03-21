@@ -8,6 +8,10 @@
 |image0|
 |image3|
 
+|
+
+|
+
 **Suggested Citation:** UNEP [year] Step-by-step tutorial: Calculating the relative importance of
 forest for wind erosion control using QGIS. UN Environment World Conservation Monitoring Centre,
 Cambridge, UK. Downloaded from unep-wcmc-gis-tutorials.readthedocs.io on |today|. 
