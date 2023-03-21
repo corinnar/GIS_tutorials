@@ -9,6 +9,7 @@ Step-by-step tutorials: Using spatial information to support decisions on safegu
 
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
+   mb_hub
    
 .. toctree::
    :numbered:
