@@ -37,15 +37,11 @@ templates_path = ['_templates']
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-latex_elements = {
-  'extraclassoptions': 'openany,oneside'
-}
-
 # -- General configuration
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'a4paper',
+    'papersize': 'a4paper', 'extraclassoptions': 'openany,oneside'
 
 # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '11pt',
