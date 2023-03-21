@@ -58,7 +58,7 @@ latex_elements = {
         \usepackage{inconsolata}
         \usepackage[english]{babel}
         \usepackage{tocloft}
-        \setlength{\cftbeforesecskip}{0pt}
+        \setlength{\cftbeforetoctitleskip}{-3em}
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
         \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
         \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
