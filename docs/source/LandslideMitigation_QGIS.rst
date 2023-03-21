@@ -1,5 +1,5 @@
 ===========================================================================================
-**Assessing the relative importance of forests for landslide mitigation (QGIS)**
+**Assessing the relative importance of forests for landslide mitigation**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdf only
