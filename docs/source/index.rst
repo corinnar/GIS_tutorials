@@ -1,5 +1,10 @@
+--------------------------------------------------------------------------------------
+MAPPING TO SUPPORT REDD+ PLANNING AND SECURE MULTIPLE BENEFITS: TOOLBOX AND TUTORIALS
+--------------------------------------------------------------------------------------
+
 .. toctree::
    :numbered:
+   :caption: CONTENTS
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
