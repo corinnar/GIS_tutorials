@@ -1,5 +1,5 @@
 ===========================================================================================
-**Mapping areas of importance for multiple benefits of REDD+ (QGIS)**
+**Mapping areas of importance for multiple benefits of REDD+**
 ===========================================================================================
 
 This resource is not currently maintained. Link to static pdf only
