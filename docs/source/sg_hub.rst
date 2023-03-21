@@ -1,4 +1,6 @@
-SAFEGUARDS COUNTRY RESOURCES HUB
+====================================
+**Safeguards country resources hub**
+====================================
 
 *Document created by: \ *Corinna Ravilious* on 11 March 2023*
 
@@ -16,13 +18,14 @@ more formally published outputs. Spatial analysis products whose goals
 include safeguard support are found on the \ `Multiple Benefits Country
 Resources Hub <http://bitly.com/mbs-redd>`__\ *.*
 
-Learn more
+*Learn more*
 
 A wealth of global knowledge products are also available on
 the \ `Safeguards Technical
 Knowledge <https://www.unredd.net/knowledge/redd-plus-technical-issues/safeguards.html>`__ page.  
 
 Global
+~~~~~~~
 
 PROGRESS ON SAFEGUARD INFORMATION SYSTEMS (SIS) AS AT THE END OF DEC
 2020.
@@ -36,10 +39,12 @@ PROGRESS ON SUMMARIES OF INFORMATION AS AT THE END OF DEC 2020
 |image1|
 
 AFRICA
+~~~~~~~~~
 
  
 
 KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Planning for REDD+: Incorporating multiple benefits and safeguards
        regional workshop, Africa, Kenya, June 2013. (Workshop report and
@@ -65,6 +70,7 @@ KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
        2018. <https://www.unredd.net/documents/un-redd-partner-countries-181/africa-335/2018-africa-regional-knowledge-exchange.html>`__
 
 CHAD
+^^^^^^^^^
 
 -  REDD+ Implementation in Chad: Roadmap for the development of a
        country approach to REDD+ safeguards and analysis of social and
@@ -72,6 +78,7 @@ CHAD
        (`French <https://www.unredd.net/documents/un-redd-partner-countries-181/africa-335/chad-3547/16279-feuille-de-route-pour-le-developpement-dune-approche-nationale-en-matiere-de-garanties-et-analyse-des-risques-et-benefices-lies-a-la-redd.html>`__)
 
 COTE D'IVOIRE
+^^^^^^^^^^^^^^^^^^
 
 -  Developpement d'un system d'information sur les sauvegardes
        environmentales et sociales pour la Cote d'Ivoire - Feuille de
@@ -83,6 +90,7 @@ COTE D'IVOIRE
        (`French <https://redd.unfccc.int/files/resume_d_informations_sur_le_sauvegardes_sis_cote_d_ivoire_juin_2019_3.pdf>`__)
 
 GHANA
+^^^^^^^^^
 
 -  Environmental and Safeguards Information Systems
        (`English <http://www.reddsis.fcghana.org/>`__) [Produced without
@@ -108,6 +116,7 @@ GHANA
        [Produced without direct UN-REDD support]
 
 ETHIOPIA
+^^^^^^^^^
 
 -  Strategic Environmental and Social Assessment (SESA) for the
        Implementation of REDD+ in Ethiopia including the Oromia Forested
@@ -116,12 +125,14 @@ ETHIOPIA
        [Produced without direct UN-REDD support]
 
 LIBERIA
+^^^^^^^^^
 
 -  Liberia REDD+ Safeguards Information System
        (`English <https://liberia-redd-sis.info/%20>`__) [Produced
        without direct UN-REDD support]
 
 MADAGASCAR
+^^^^^^^^^^^^^^^^^^
 
 -  Système d'information sur les sauvegardes (SIS)
        (`French <http://sis-redd-madagascar.webou.net/scripts/>`__) [Produced
@@ -133,6 +144,7 @@ MADAGASCAR
        [Produced without direct UN-REDD support]
 
 NIGERIA
+^^^^^^^^^
 
 -  Nigeria's REDD+ Readiness Programme - Beyond Carbon: safeguards and
        multiple benefits from REDD+ workshop, November 2013. (Workshop
@@ -149,12 +161,14 @@ NIGERIA
        (`English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/studies-reports-and-publications-1/16015-cross-river-state-redd-safeguards-principles-a-criteria-assisting-the-design-of-redd-policies-and-measures-1/file.html>`__)
 
 REPUBLIC OF CONGO
+^^^^^^^^^^^^^^^^^^
 
 -  Principles, Criteria and Indicators for the REDD+ Process in the
        Republic of Congo, March 2015. (PCI-REDD+)
        (`French <https://www.unredd.net/documents/un-redd-partner-countries-181/africa-335/republic-of-the-congo-510/studies-reports-and-other-publications-561/15789-les-principes-criteres-et-indicateurs-du-processus-redd-pci-redd-en-republique-du-congo.html>`__)
 
 ZAMBIA
+^^^^^^^^^
 
 -  Zambia’s First REDD+ Safeguards Summary of Information, May 2019.
        (`English <https://redd.unfccc.int/files/zambia_final_soi__march_version_1_.pdf>`__)
@@ -162,8 +176,10 @@ ZAMBIA
  
 
 Asia-Pacific
+~~~~~~~~~~~~~~
 
 KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Regional Information Exchange Meeting on Social and Environmental
        Safeguards,March 2013. (Workshop
@@ -183,17 +199,20 @@ KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
        brief: \ `English <https://www.unredd.net/documents/un-redd-partner-countries-181/asia-the-pacific-333/a-p-knowledge-management-a-resources/regional-reports/16797-redd-safeguards-and-safeguards-information-systems-in-the-asia-pacific-region/file.html>`__)
 
 BHUTAN
+^^^^^^^^^
 
 -  Roadmap to country approach to REDD+ safeguards, March 2016.
        (`English) <https://www.unredd.net/documents/un-redd-partner-countries-181/asia-the-pacific-333/a-p-partner-countries/bhutan-711/15703-bhutans-roadmap-to-country-approach-to-redd-safeguards.html>`__
 
-CAMBODIA 
+CAMBODIA
+^^^^^^^^^
 
 -   First Summary of information on Safeguards, October 2019
        (`English <https://redd.unfccc.int/files/6._cambodia_1st_summary_of_information_on_safeguards-final-oct-2019.pdf>`__)
        [Produced without direct UN-REDD support]
 
 INDONESIA
+^^^^^^^^^
 
 -  REDD+ Social and Environmental Safeguards Development and
        Implementation in Indonesia,August 2015.
@@ -216,6 +235,7 @@ INDONESIA
        [Produced without direct UN-REDD support]
 
 LAO PDR
+^^^^^^^^^
 
 -  First summary of information on how safeguards for REDD+ were
        addressed and respected by Lao People's Democratic Republic for
@@ -223,6 +243,7 @@ LAO PDR
        direct UN-REDD support]
 
 MALAYSIA
+^^^^^^^^^
 
 -  Report on Summary of Information on how REDD+ safeguards are
        addressed and respected, December 2016.
@@ -230,6 +251,7 @@ MALAYSIA
        [Produced without direct UN-REDD support]
 
 MONGOLIA
+^^^^^^^^^
 
 -  Mongolia REDD+ benefits and risks assessment, August 2017.
        (Background
@@ -254,6 +276,7 @@ MONGOLIA
        (`English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/studies-reports-and-publications-1/17059-mongolias-national-redd-safeguards-framework-english/file.html>`__, \ `Mongolian <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/studies-reports-and-publications-1/17067-mongolias-national-redd-safeguards-framework-mongolian/file.html>`__)
 
 MYANMAR
+^^^^^^^^^
 
 -  Myanmar REDD+ Safeguards Roadmap, September 2017. (`English
        version <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/studies-reports-and-publications-1/16544-myanmar-redd-safeguards-roadmap-english/file.html>`__; \ `Myanmar
@@ -273,19 +296,22 @@ MYANMAR
        report: \ `English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/studies-reports-and-publications-1/16661-workshop-report-national-workshop-for-assessing-benefits-and-risks-of-redd-in-myanmar/file.html>`__).
        Document uploaded in the workspace
 
-PAKISTAN 
+PAKISTAN
+^^^^^^^^^
 
 -  REDD+ Safeguards Information System \ `(English and
        Urdu <http://reddpakistansis.com/>`__) [Produced without direct
        UN-REDD support]
 
 PHILIPPINES
+^^^^^^^^^^^^^^^^^^
 
 -  REDD+ Safeguards Information System (Beta version).
        (`English <http://redd-sis.sysdb.site/Home/>`__) [Produced
        without direct UN-REDD support]
 
 SRI LANKA
+^^^^^^^^^^^^^^^^^^
 
 -  Sri Lanka's National Approach to REDD+ Safeguards, September 2016.
        (`English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/workshops-and-events-1316/17008-sri-lankas-national-approach-to-redd-safeguards-september-2016.html>`__)
@@ -299,6 +325,7 @@ SRI LANKA
        (`English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/workshops-and-events-1316/17010-report-on-benefits-risk-assessment-as-part-of-the-development-of-redd-safeguards-november-2016.html>`__) 
 
 VIET NAM
+^^^^^^^^^
 
 -  Safeguard Information System (SIS): Sharing progress on REDD+
        Safeguards in Viet Nam (Pilot version 1.0) (`English and
@@ -311,8 +338,10 @@ VIET NAM
  
 
 Latin America and the Caribbean
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Safeguards Information Systems Workshop, Peru, October 2013.
        (Workshop
@@ -345,6 +374,7 @@ KNOWLEDGE EXCHANGE BETWEEN COUNTRIES
  
 
 ARGENTINA
+^^^^^^^^^^^^^^^^^^
 
 -  Primer Resumen de Información de Salvaguardas de REDD+ de la
        República Argentina para el Periodo 2014-2019, October 2019
@@ -355,6 +385,7 @@ ARGENTINA
        (`Spanish <https://www.argentina.gob.ar/ambiente/sustentabilidad/planes-sectoriales/bosques/redd/sistema-informacion-salvaguardas>`__)
 
 BRAZIL
+^^^^^^^^^
 
 -  Summary of information on how the Cancun safeguards were addressed
        and respected by Brazil throughout the implementation of actions
@@ -375,6 +406,7 @@ BRAZIL
        [Produced without direct  UN-REDD support]
 
 CHILE
+^^^^^^^^^
 
 -  Primer Resumen de Información: Abordaje, Respeto y Cumplimiento de
        las Salvaguardas para la Formulación de la Estrategia Nacional de
@@ -386,6 +418,7 @@ CHILE
        (`Spanish <https://www.enccrv.cl/sis>`__)
 
 COLOMBIA
+^^^^^^^^^
 
 -  Tercera Comunicación Nacional de Colombia a la Convención Marco de
        las Naciones Unidas sobre Cambio Climático, ANEXO 3: Información
@@ -398,6 +431,7 @@ COLOMBIA
        (`Spanish <https://redd.unfccc.int/submissions.html?country=col>`__)
 
 COSTA RICA
+^^^^^^^^^^^^^^^^^^
 
 -  Insumo para el desarrollo de indicadores de seguimiento asociados a
        los beneficios múltiples de REDD+ en Costa Rica, 2017. (Technical
@@ -418,6 +452,7 @@ COSTA RICA
        (Presentation: `Spanish <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/workshops-and-events-1316/16010-costa-rica-workshop-presentation-salvaguardas-para-redd-redd-safeugards/file.html>`__)
 
 ECUADOR
+^^^^^^^^^
 
 -  Primer Resumen de Información del Abordaje y Respeto de Salvaguardas
        para REDD+ en Ecuador. March, 2017. (First summary of
@@ -439,6 +474,7 @@ ECUADOR
        Salvaguardas \ `Spanish <http://reddecuador.ambiente.gob.ec/redd/sistema-de-informacion-de-salvaguardas/>`__)
 
 MEXICO
+^^^^^^^^^
 
 -  Interpretación de las salvaguardas REDD+ de la Convención Marco de
        las Naciones Unidas para el cambio climático en México, 2016.
@@ -460,6 +496,7 @@ MEXICO
        (`English <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/workshops-and-events-1316/17005-first-summary-of-information-on-how-all-the-safeguards-referred-to-in-decision-1cp16-appendix-i-are-being-addressed-and-respected-in-mexico-december-2017-english.html>`__, \ `Spanish <https://www.unredd.net/documents/global-programme-191/safeguards-multiple-benefits-297/workshops-and-events-1316/17006-first-summary-of-information-on-how-all-the-safeguards-referred-to-in-decision-1cp16-appendix-i-are-being-addressed-and-respected-in-mexico-december-2017-spanish.html>`__)
 
 PARAGUAY
+^^^^^^^^^
 
 -  Towards a national interpretation of the Cancún Safeguards and a
        proposal for the design of the Safeguards Information System in
@@ -476,6 +513,7 @@ PARAGUAY
        (`Spanish <https://redd.unfccc.int/files/paraguay_resumen_de_informacio__n_salvaguardas.pdf>`__)
 
 PERU
+^^^^^^^^^
 
 -  Primer resumen de información sobre la forma en que están
        siendo abordadas y respetadas las salvaguardas REDD+ en el Perú.
@@ -483,6 +521,7 @@ PERU
        information: \ `Spanish <https://redd.unfccc.int/files/resumen_de_informacion_salvaguardas__1_.pdf>`__)
 
 SURINAME
+^^^^^^^^^
 
 -  REDD+ Safeguards Information System of Suriname (`English and
        Dutch <http://sis.surinameredd.org/>`__) [Produced without direct
