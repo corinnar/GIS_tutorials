@@ -1,21 +1,18 @@
 --------------------------------------------------------------------------------------
 Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tutorials
 --------------------------------------------------------------------------------------
-Contents
-Section 1: Overview
 
 .. toctree::
    :numbered:
-   :caption: Overview
+   :caption: Contents
    :maxdepth: 1
 
    GIS_TOOLS_PAGE
    MappingGuidanceEffectivePolicy
  
-Section 2: QGIS tutorials
-
 .. toctree::
    :numbered:
+   :name: test
    :caption: QGIS tutorials
    :maxdepth: 1
    
@@ -33,7 +30,6 @@ Section 2: QGIS tutorials
    MatrixLegend_QGIS
    MultipleBenefits_QGIS
 
-Section 3
 
 .. toctree::
    :numbered:
@@ -41,8 +37,6 @@ Section 3
    :maxdepth: 1
    
    WaterWorld_Other
-
-Section 4
 
 .. toctree::
    :numbered:
