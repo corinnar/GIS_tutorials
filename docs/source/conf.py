@@ -61,9 +61,7 @@ latex_elements = {
         \setlength{\cftbeforetoctitleskip}{-3em}
         \addto\captionsenglish{\renewcommand\contentsname{Table of Contents}}
         \renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
-        \renewcommand{\cftaftertoctitle}{\hfill\normalsize}
-        \setlength{\beforechapskip}{14pt}
-       
+        \renewcommand{\cftaftertoctitle}{\hfill\normalsize}    
 
     ''',
 }
