@@ -9,7 +9,7 @@ author = 'Corinna Ravilious'
 release = '0.1'
 version = '0.1.0'
 
-today_fmt of '%B %d, %Y' 
+today_fmt = '%B %d, %Y' 
 
 extensions = [
     'sphinx.ext.duration',
