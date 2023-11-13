@@ -16,6 +16,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
+    'sphinx.ext.autosectionlabel'
     'sphinx.ext.intersphinx',
 ]
 
@@ -26,13 +27,30 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+#html_theme_path = ['_themes']
+
+# Add this to the top of the conf.py file
+import os
+import sys
+sys.path.insert(0, os.path.abspath('C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3'))
+import sphinx_rtd_theme
+
 
 # -- Options for HTML output
+extensions = [
+    'sphinx_rtd_theme',
+]
 
-#html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 
-#where your_cover.tex is your LaTeX file you want to be the cover.
-#"maketitle": "\\input{your_cover.tex}"
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
 
 
 

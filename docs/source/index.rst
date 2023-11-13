@@ -35,7 +35,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    BuildingSpatialWorkflows_QGIS
    MatrixLegend_QGIS
    MultipleBenefits_QGISx
-
+   
 .. raw:: latex
 
    \part{OTHER OPEN-SOURCE TUTORIALS}
@@ -46,6 +46,9 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :hidden:
    
    WaterWorld_Other
+   MangroveDegradationMonitoring_training_I_other
+   MangroveDegradationMonitoring_training_II_other
+   MyanmarMangrovesCoastalVuln_InVEST_other
    
 .. raw:: latex
 
@@ -96,6 +99,9 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :maxdepth: 1
    
    WaterWorld_Other
+   MangroveDegradationMonitoring_training_I_other
+   MangroveDegradationMonitoring_training_II_other
+   MyanmarMangrovesCoastalVuln_InVEST_other
 
 .. toctree::
    :numbered:
