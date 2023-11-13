@@ -34,7 +34,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    PotentialPressuresFires_QGIS
    BuildingSpatialWorkflows_QGIS
    MatrixLegend_QGIS
-   MultipleBenefits_QGISx
+   MultipleBenefits_QGIS
    
 .. raw:: latex
 
