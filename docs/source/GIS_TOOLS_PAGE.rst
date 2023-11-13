@@ -25,6 +25,8 @@ Open-source: QGIS tutorials
 
 Open-source software is released under a license that allows software to be freely used, modified, and shared (http://opensource.org/licenses). Therefore, using open source software has great potential in building sustainable capacity and a critical mass of experts. Training materials to aid users of open-source GIS software have been produced under the UN-REDD Programme. Please check QGIS software version specified in tutorial before use:
 
+-  *Introduction to QGIS 3.16 (2023)* ( `English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS_3_16_JULY_final.pdf>`__).
+
 -  *Introduction to QGIS 2.8 - the basics* ( `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_8_FR_180109.pdf>`__)
 
 -  *Introduction to QGIS 2.18* (\ `English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/2_Intro_to_QGIS2_18_190208.pdf>`__)
