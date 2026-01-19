@@ -47,7 +47,10 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :hidden:
    
    WaterWorld_Other
-   
+   MangroveDegradationMonitoring_training_I_other
+   MangroveDegradationMonitoring_training_II_other
+   MyanmarMangrovesCoastalVuln_InVEST_other
+
 .. raw:: latex
 
    \part{ArcGIS TUTORIALS}
