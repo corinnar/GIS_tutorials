@@ -46,10 +46,11 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :hidden:
    
    WaterWorld_Other
+   WRI_restoration_2011_Other
    MangroveDegradationMonitoring_training_I_other
    MangroveDegradationMonitoring_training_II_other
    MyanmarMangrovesCoastalVuln_InVEST_other
-   WRI_restoration_2011_Other
+   
    
 .. raw:: latex
 
@@ -100,10 +101,10 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :maxdepth: 1
    
    WaterWorld_Other
+   WRI_restoration_2011_Other
    MangroveDegradationMonitoring_training_I_other
    MangroveDegradationMonitoring_training_II_other
    MyanmarMangrovesCoastalVuln_InVEST_other
-   WRI_restoration_2011_Other
 
 .. toctree::
    :numbered:
