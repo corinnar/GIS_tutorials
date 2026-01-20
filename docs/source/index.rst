@@ -103,6 +103,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    MangroveDegradationMonitoring_training_I_other
    MangroveDegradationMonitoring_training_II_other
    MyanmarMangrovesCoastalVuln_InVEST_other
+   WRI_restoration_2011_Other
 
 .. toctree::
    :numbered:
