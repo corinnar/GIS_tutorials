@@ -61,6 +61,8 @@ Other open-source tool tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 -   Evaluating the importance of forests for water provision and limiting soil erosion: A modelling approach using WaterWorld (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_170306%20(336966).pdf>`__, \ `French <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_FR_180109.pdf>`__, \ `Spanish <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/UN_REDD_WaterWorld_Tutorial_Spanish_170530.pdf>`__)
 
+-  Global Assessment of Opportunities for Restoration of Forests and Landscapes: Methodology (WRI, 2011)   (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/WRI%20Restoration%20method%20(2011)%20.pdf>`__).
+
 -   Mangrove degradation monitoring training (I) - The Continuous Change Detection and Classification (CCDC) algorithm. (2023) (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/CCDC_Training_I_SEPAL_exercises_with_background_.pdf>`__).
 
 -   Mangrove degradation monitoring training (II) - The Continuous Change Detection and Classification (CCDC) algorithm. (2023) (`English <https://github.com/corinnar/GIS_tutorials/blob/main/docs/source/media/materials/pdfs/CCDC_training_II_Exercises in SEPAL_breakpoint_bands.pdf>`__).
