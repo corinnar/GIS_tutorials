@@ -24,7 +24,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :hidden:
    
    IntroductionTo_QGIS
-   OpenForisXubuntuLiveUSB_QGIS
+   OpenForisXubuntuLiveUSB
    GeoreferenceScannedMap_QGIS
    AddingBelowGroundBiomass_QGIS
    ComparingCarbonDatasets_QGIS
@@ -81,7 +81,7 @@ Mapping to support REDD+ planning and secure multiple benefits: Toolbox and tuto
    :maxdepth: 1
    
    IntroductionTo_QGIS
-   OpenForisXubuntuLiveUSB_QGIS
+   OpenForisXubuntuLiveUSB
    GeoreferenceScannedMap_QGIS
    AddingBelowGroundBiomass_QGIS
    ComparingCarbonDatasets_QGIS
