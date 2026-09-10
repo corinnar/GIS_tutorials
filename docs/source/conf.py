@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-#html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 
 #where your_cover.tex is your LaTeX file you want to be the cover.
 #"maketitle": "\\input{your_cover.tex}"
